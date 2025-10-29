@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  
+  <siteMapNode title=""  >
+    <siteMapNode url="~/index.aspx" title="Home"  description="Home" />
+    <siteMapNode url="~/products.aspx" title="Shop"  description="Shop">
+      <siteMapNode title="Main"  >
+        <siteMapNode url="~/products/main=CINTA" title="CINTA"  description="CINTA" />
+        <siteMapNode url="~/products/main=MEN" title="MEN"  description="MEN" />
+        <siteMapNode url="~/products/main=THE ICON" title="THE ICON"  description="THE ICON" />
+        <siteMapNode url="~/products/main=WOMEN" title="WOMEN"  description="WOMEN" />
+      </siteMapNode>
+      <siteMapNode title="Category"  >
+        <siteMapNode url="~/products/category=EARRINGS" title="EARRINGS"  description="EARRINGS" />
+        <siteMapNode url="~/products/category=PENDANTS" title="PENDANTS"  description="PENDANTS" />
+        <siteMapNode url="~/products/category=Rings" title="Rings"  description="Rings" />
+        <siteMapNode url="~/products/category=CHAINS" title="CHAINS"  description="CHAINS" />
+        <siteMapNode url="~/products/category=NECKLACES" title="NECKLACES"  description="NECKLACES" />
+        <siteMapNode url="~/products/category=BRACELETS" title="BRACELETS"  description="BRACELETS" />
+      </siteMapNode>
+      <siteMapNode title="Collection"  >
+        <siteMapNode url="~/products/collection=Bamboo" title="Bamboo"  description="Bamboo" />
+        <siteMapNode url="~/products/collection=Cahaya" title="Cahaya"  description="Cahaya" />
+        <siteMapNode url="~/products/collection=Chain" title="Chain"  description="Chain" />
+        <siteMapNode url="~/products/collection=Cinta" title="Cinta"  description="Cinta" />
+        <siteMapNode url="~/products/collection=Dot" title="Dot"  description="Dot" />
+        <siteMapNode url="~/products/collection=Kali" title="Kali"  description="Kali" />
+        <siteMapNode url="~/products/collection=Lahar" title="Lahar"  description="Lahar" />
+        <siteMapNode url="~/products/collection=Legends" title="Legends"  description="Legends" />
+      </siteMapNode>
+      <siteMapNode title="Material"  >
+        <siteMapNode url="~/products/material=Gold" title="Gold"  description="Gold" />
+        <siteMapNode url="~/products/material=Silver" title="Silver"  description="Silver" />
+        <siteMapNode url="~/products/material=Silver And Bronze" title="Silver And Bronze"  description="Silver And Bronze" />
+        <siteMapNode url="~/products/material=Silver And Gold" title="Silver And Gold"  description="Silver And Gold" />
+      </siteMapNode>
+      <siteMapNode title="Gemstone"  >
+        <siteMapNode url="~/products/gemstone=Amethyst" title="Amethyst"  description="Amethyst" />
+        <siteMapNode url="~/products/gemstone=Aquamarine" title="Aquamarine"  description="Aquamarine" />
+        <siteMapNode url="~/products/gemstone=Black Chalcedony" title="Black Chalcedony"  description="Black Chalcedony" />
+        <siteMapNode url="~/products/gemstone=Black Jade" title="Black Jade"  description="Black Jade" />
+        <siteMapNode url="~/products/gemstone=Black Sapphire" title="Black Sapphire"  description="Black Sapphire" />
+        <siteMapNode url="~/products/gemstone=BlueTopaz" title="BlueTopaz"  description="BlueTopaz" />
+        <siteMapNode url="~/products/gemstone=Citrine" title="Citrine"  description="Citrine" />
+        <siteMapNode url="~/products/gemstone=Diamond" title="Diamond"  description="Diamond" />
+        <siteMapNode url="~/products/gemstone=Emerald" title="Emerald"  description="Emerald" />
+        <siteMapNode url="~/products/gemstone=Garnet" title="Garnet"  description="Garnet" />
+        <siteMapNode url="~/products/gemstone=Hematite" title="Hematite"  description="Hematite" />
+        <siteMapNode url="~/products/gemstone=Lapis" title="Lapis"  description="Lapis" />
+        <siteMapNode url="~/products/gemstone=Moonstone" title="Moonstone"  description="Moonstone" />
+        <siteMapNode url="~/products/gemstone=Peridot" title="Peridot"  description="Peridot" />
+        <siteMapNode url="~/products/gemstone=PinkTourmaline" title="PinkTourmaline"  description="PinkTourmaline" />
+        <siteMapNode url="~/products/gemstone=Ruby" title="Ruby"  description="Ruby" />
+        <siteMapNode url="~/products/gemstone=Sapphire" title="Sapphire"  description="Sapphire" />
+        <siteMapNode url="~/products/gemstone=Tsavorite" title="Tsavorite"  description="Tsavorite" />
+        <siteMapNode url="~/products/gemstone=Turquoise" title="Turquoise"  description="Turquoise" />
+      </siteMapNode>
+      <siteMapNode title="Gender"  >
+        <siteMapNode url="~/products/gender=Female" title="Female"  description="Female" />
+        <siteMapNode url="~/products/gender=Male" title="Male"  description="Male" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="~/blog.aspx" title="Blogs"  description="Blog" />
+    <siteMapNode url="~/delivery-information.aspx" title="Delivery Information"  description="Delivery Information" />
+    <siteMapNode url="~/terms-conditions.aspx" title="Terms Conditions"  description="Terms Conditions" />
+    <siteMapNode url="~/privacy-policy.aspx" title="Privacy Policy"  description="Privacy Policy" />
+    <siteMapNode url="~/aboutus.aspx" title="About Us"  description="About" />
+    <siteMapNode url="~/contactus.aspx" title="Contact Us"  description="Contact" />
+
+
+
+    <!--<siteMapNode url="~/aboutus.aspx" title="About Us"  description="About" />
+    <siteMapNode url="~/contactus.aspx" title="Contact Us"  description="Contact" />-->
+    <!--<siteMapNode url="~/aboutus.aspx" title="About Us"  description="About" />
+    <siteMapNode url="~/contactus.aspx" title="Contact Us"  description="Contact" />-->
+  </siteMapNode>
+
+
+</siteMap>
+

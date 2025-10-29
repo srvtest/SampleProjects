@@ -1,0 +1,96 @@
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\ApplicationInsights.config
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\csc.exe
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\System.Collections.Immutable.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\System.Reflection.Metadata.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\vbc.exe
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\VBCSCompiler.exe
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\VBCSCompiler.exe.config
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\EcommerceWebsite.dll.config
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\EcommerceWebsite.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\EcommerceWebsite.pdb
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\DataLayer.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\EntityLayer.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AI.Agent.Intercept.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AI.DependencyCollector.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AI.Web.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AI.WindowsServer.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.ApplicationInsights.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\ELHelper.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\ExceptionManager.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.Practices.ObjectBuilder2.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\DataLayer.pdb
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\EntityLayer.pdb
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AI.DependencyCollector.xml
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AI.Web.xml
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AI.WindowsServer.xml
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.ApplicationInsights.xml
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\ELHelper.pdb
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\bin\ExceptionManager.pdb
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\obj\Debug\EcommerceWebsite.csprojResolveAssemblyReference.cache
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\obj\Debug\EcommerceWebsite.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EcommerceWebsite\obj\Debug\EcommerceWebsite.pdb
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\ApplicationInsights.config
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\csc.exe
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\System.Collections.Immutable.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\System.Reflection.Metadata.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\vbc.exe
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\VBCSCompiler.exe
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\roslyn\VBCSCompiler.exe.config
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\EcommerceWebsite.dll.config
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\EcommerceWebsite.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\EcommerceWebsite.pdb
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\DataLayer.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\EntityLayer.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AI.Agent.Intercept.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AI.DependencyCollector.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AI.Web.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AI.WindowsServer.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.ApplicationInsights.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\ELHelper.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\ExceptionManager.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.Practices.ObjectBuilder2.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\DataLayer.pdb
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\EntityLayer.pdb
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AI.DependencyCollector.xml
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AI.Web.xml
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AI.WindowsServer.xml
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.ApplicationInsights.xml
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\ELHelper.pdb
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\bin\ExceptionManager.pdb
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\obj\Debug\EcommerceWebsite.csproj.AssemblyReference.cache
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\obj\Debug\EcommerceWebsite.csproj.CoreCompileInputs.cache
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\obj\Debug\Ecommerc.3B930C22.Up2Date
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\obj\Debug\EcommerceWebsite.dll
+E:\srv projects\Ecommerce\Ecommerce\EcommerceWebsite\obj\Debug\EcommerceWebsite.pdb

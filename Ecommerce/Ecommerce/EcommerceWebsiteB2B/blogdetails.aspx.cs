@@ -1,0 +1,130 @@
+﻿using DataLayer;
+using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace EcommerceWebsiteB2B
+{
+    public partial class blogdetails : System.Web.UI.Page
+    {
+        UserDL objUserCls = null;
+        static int pageSize = Convert.ToInt32(ConfigurationManager.AppSettings["BlogPageSize"]);
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!IsPostBack)
+            {
+                if (Request != null && Request.UrlReferrer != null)
+                {
+                    ViewState["PreviousPage"] = Request.UrlReferrer.ToString();
+                }
+                Request.Url.GetLeftPart(UriPartial.Authority);
+                string abc = Request.Url.LocalPath.ToString();
+                string[] username = abc.Split(new char[] { '/', ',', '(', ')', ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                if (username.Count() > 2)
+                {
+                    int year = 0;
+                    if (!string.IsNullOrEmpty(username[1]) && int.TryParse(username[2], out year))
+                    {
+                        string mon = username[1];
+                        int month = System.Globalization.DateTimeFormatInfo.CurrentInfo.MonthNames.ToList().IndexOf(mon) + 1;
+                        GetAllBlogsbyduration(1, pageSize, month, year);
+                    }
+                }
+                else
+
+                    GetAllBlogs(1, pageSize);
+            }
+            UCBlogsArchives.baseUrl = this.Master.baseUrl;
+            UCLatestPosts.baseUrl = this.Master.baseUrl;
+        }
+
+        private void GetAllBlogsbyduration(int pageNum, int pageSize, int month, int year)
+        {
+            int recordCount = 0;
+            if (objUserCls == null)
+                objUserCls = new UserDL();
+            DataSet ds = objUserCls.GetAllBlogsbyduration(pageNum, pageSize, month, year);
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+                {
+                    recordCount = Convert.ToInt32(ds.Tables[0].Rows[0]["RecordCount"]);
+                }
+                if (ds.Tables.Count > 1 && ds.Tables[1].Rows.Count > 0)
+                {
+                    rptList.DataSource = ds.Tables[1];
+                    rptList.DataBind();
+                    // rptGrid.DataSource = ds.Tables[1];
+                    // rptGrid.DataBind();
+                }
+            }
+
+            double dPageCount = (double)((decimal)recordCount / Convert.ToDecimal(pageSize));
+            int iPageCount = (int)Math.Ceiling(dPageCount);
+            ViewState["iPageCount"] = iPageCount;
+            List<ListItem> lPages = new List<ListItem>();
+            if (iPageCount > 0)
+            {
+                for (int i = 1; i <= iPageCount; i++)
+                    lPages.Add(new ListItem(i.ToString(), i.ToString(), i != pageNum));
+            }
+            rptPagination.DataSource = lPages;
+            rptPagination.DataBind();
+        }
+
+        private void GetAllBlogs(int pageNum, int pageSize)
+        {
+            int recordCount = 0;
+            if (objUserCls == null)
+                objUserCls = new UserDL();
+            DataSet ds = objUserCls.GetAllBlogs(pageNum, pageSize);
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+                {
+                    recordCount = Convert.ToInt32(ds.Tables[0].Rows[0]["RecordCount"]);
+                }
+                if (ds.Tables.Count > 1 && ds.Tables[1].Rows.Count > 0)
+                {
+                    rptList.DataSource = ds.Tables[1];
+                    rptList.DataBind();
+                    // rptGrid.DataSource = ds.Tables[1];
+                    // rptGrid.DataBind();
+                }
+            }
+
+            double dPageCount = (double)((decimal)recordCount / Convert.ToDecimal(pageSize));
+            int iPageCount = (int)Math.Ceiling(dPageCount);
+            ViewState["iPageCount"] = iPageCount;
+            List<ListItem> lPages = new List<ListItem>();
+            if (iPageCount > 0)
+            {
+                for (int i = 1; i <= iPageCount; i++)
+                    lPages.Add(new ListItem(i.ToString(), i.ToString(), i != pageNum));
+            }
+            rptPagination.DataSource = lPages;
+            rptPagination.DataBind();
+        }
+
+        protected void rptPagination_ItemCommand(object source, RepeaterCommandEventArgs e)
+        {
+            int pageNum = Convert.ToInt32(e.CommandArgument);
+            if (pageNum == -1)
+            {
+                pageNum = 1;
+            }
+            else if (pageNum == -2)
+            {
+                pageNum = (int)ViewState["iPageCount"];
+            }
+
+            hdPageNo.Value = pageNum.ToString();
+            GetAllBlogs(pageNum, pageSize);
+        }
+    }
+}

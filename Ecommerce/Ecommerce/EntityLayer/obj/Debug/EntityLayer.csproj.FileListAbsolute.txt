@@ -1,0 +1,16 @@
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\EntityLayer\bin\Debug\EntityLayer.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\EntityLayer\bin\Debug\EntityLayer.pdb
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\EntityLayer\obj\Debug\EntityLayer.csprojResolveAssemblyReference.cache
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\EntityLayer\obj\Debug\EntityLayer.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\EntityLayer\obj\Debug\EntityLayer.pdb
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EntityLayer\bin\Debug\EntityLayer.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EntityLayer\bin\Debug\EntityLayer.pdb
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EntityLayer\obj\Debug\EntityLayer.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EntityLayer\obj\Debug\EntityLayer.pdb
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\EntityLayer\obj\Debug\EntityLayer.csprojResolveAssemblyReference.cache
+E:\srv projects\Ecommerce\Ecommerce\EntityLayer\bin\Debug\EntityLayer.dll
+E:\srv projects\Ecommerce\Ecommerce\EntityLayer\bin\Debug\EntityLayer.pdb
+E:\srv projects\Ecommerce\Ecommerce\EntityLayer\obj\Debug\EntityLayer.csproj.AssemblyReference.cache
+E:\srv projects\Ecommerce\Ecommerce\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+E:\srv projects\Ecommerce\Ecommerce\EntityLayer\obj\Debug\EntityLayer.dll
+E:\srv projects\Ecommerce\Ecommerce\EntityLayer\obj\Debug\EntityLayer.pdb

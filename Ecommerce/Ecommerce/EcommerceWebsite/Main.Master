@@ -1,0 +1,890 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="EcommerceWebsite.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <!-- =====  BASIC PAGE NEEDS  ===== -->
+    <meta charset="utf-8" />
+    <title>Silver Rock Creations</title>
+    <!-- =====  SEO MATE  ===== -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="distribution" content="global" />
+    <meta name="revisit-after" content="2 Days" />
+    <meta name="robots" content="ALL" />
+    <meta name="rating" content="8 YEARS" />
+    <meta name="Language" content="en-us" />
+    <meta name="GOOGLEBOT" content="NOARCHIVE" />
+    <!-- =====  MOBILE SPECIFICATION  ===== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="viewport" content="width=device-width" />
+    <!-- =====  CSS  ===== -->
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/magnific-popup.css" />
+    <link rel="stylesheet" type="text/css" href="/css/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="/css/jquery-ui.css" />
+    <link rel="shortcut icon" href="/images/silver rock favicon.png" />
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.html" />
+
+    <link rel="stylesheet" type="text/css" href="/css/MyStyle.scss" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.html" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.html" />
+
+    <script src="../js/jquery.min.js"></script>
+
+    <!-- =====  CSS  ===== -->
+    <style>
+        .link {
+            color: white;
+        }
+
+        li.no-visible {
+            display: none;
+        }
+
+        .modal-title {
+            display: inline-block;
+        }
+
+        .fontcolour {
+            color: red;
+        }
+
+
+        .popup {
+            width: 100%;
+            margin: 0 auto;
+            display: none;
+            position: fixed;
+            z-index: 101;
+        }
+
+        .Count {
+            width: 100%;
+            margin: 0 auto;
+            display: none;
+            position: fixed;
+            z-index: 101;
+        }
+
+        .popupSubscribe {
+            width: 100%;
+            margin: 0 auto;
+            display: none;
+            position: fixed;
+            z-index: 101;
+        }
+
+        .popupGender {
+            width: 100%;
+            margin: 0 auto;
+            display: none;
+            position: fixed;
+            z-index: 101;
+        }
+
+        .borCount {
+            min-width: 500px;
+            width: 520px;
+            min-height: 290px;
+            margin: 100px auto;
+            background: white;
+            position: relative;
+            z-index: 103;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .borSubscribe {
+            min-width: 300px;
+            width: 460px;
+            min-height: 350px;
+            margin: 100px auto;
+            background: white;
+            position: relative;
+            z-index: 103;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .borGender {
+            min-width: 370px;
+            width: 500px;
+            min-height: 400px;
+            margin: 100px auto;
+            background: white;
+            position: relative;
+            z-index: 103;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .bor {
+            min-width: 500px;
+            width: 520px;
+            min-height: 350px;
+            margin: 100px auto;
+            background: white;
+            position: relative;
+            z-index: 103;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+            .bor .clo {
+                float: right;
+                height: 35px;
+                left: 22px;
+                position: relative;
+                top: -25px;
+                width: 34px;
+            }
+
+        #drizz {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-color: #FF9933;
+            display: none;
+        }
+
+        .ddlCount {
+            width: 400px;
+        }
+
+        .btnShowNow {
+            color: white;
+            width: 300px;
+            height: 50px;
+            background: black;
+        }
+
+        .btnShow {
+            color: white;
+            width: 400px;
+            height: 50px;
+            background: black;
+        }
+
+        .btnCountry {
+            height: 20px;
+            width: 100px;
+            border: 0;
+            background: none;
+        }
+
+        .lblCount {
+            text-transform: uppercase;
+        }
+
+        .EmailID {
+            width: 300px;
+        }
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:HiddenField ID="hdCountry" ClientIDMode="Static" runat="server" />
+        <asp:HiddenField ID="hdCurrency" ClientIDMode="Static" runat="server" />
+        <!-- =====  LODER  ===== -->
+        <%-- <div class="loder"></div>--%>
+        <!-- Modal Popup -->
+        <div class='popup'>
+            <div class='bor'>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div style="">
+                    <img style="background-color: black; margin-left: 100px; margin-top: 20px;" src="../images/silver rock log6.png" alt="Silver Rock Creations">
+                </div>
+                <br />
+                <div style="margin-left: 150px;">
+                    <h3>SHIPPING TO
+                        <asp:Label ID="lblCountry" CssClass="lblCount" runat="server"></asp:Label></h3>
+                </div>
+                <br />
+                <div style="margin-left: 100px;">
+                    <h5>- Free express shipping</h5>
+                </div>
+                <div style="margin-left: 100px;">
+                    <h5>- Easy returns</h5>
+                </div>
+                <div style="margin-left: 100px;">
+                    <h5>- Duties and taxes</h5>
+                </div>
+                <div style="margin-left: 115px;">
+                    <h5>calculated at checkout</h5>
+                </div>
+                <br />
+                <div class="show" style="margin-left: 100px;">
+                    <asp:Button ID="btnShowNow" CssClass="btnShowNow" runat="server" Text="Show Now" OnClick="btnShowNow_Click" />
+                </div>
+                <br />
+                <div style="margin-left: 120px;">
+                    <asp:LinkButton ID="lnkCountry" runat="server">CHANGE YOUR SHIPPING COUNTRY</asp:LinkButton>
+                </div>
+                <%-- <br />
+                    <a href="" class='close'>Hide</a>--%>
+            </div>
+        </div>
+        <div class="Count">
+            <div class='borCount'>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div style="margin-left: 50px; margin-top: 30px">
+                    <h5>SHIPPING TO</h5>
+                </div>
+                <br />
+                <div style="margin-left: 50px;">
+                    <%-- <asp:DropDownList ID="ddlcountry" CssClass="ddlCount" runat="server" OnSelectedIndexChanged="ddlcountry_SelectedIndexChanged" onChange='return ShowConfirm(this);'></asp:DropDownList>--%>
+                    <asp:DropDownList ID="ddlcountry" CssClass="ddlCount" runat="server" OnSelectedIndexChanged="ddlcountry_SelectedIndexChanged" onChange='return ShowConfirm(this);'></asp:DropDownList>
+                </div>
+                <br />
+                <div class="now" style="margin-left: 50px;">
+                    <asp:Button ID="btnShow" runat="server" CssClass="btnShow" Text="Show Now" OnClick="btnShow_Click" />
+                </div>
+            </div>
+        </div>
+        <div class='popupSubscribe'>
+            <div class='borSubscribe'>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div style="">
+                    <img style="background-color: black; margin-left: 70px; margin-top: 20px;" src="../images/silver rock log6.png" alt="OYEENok">
+                </div>
+                <br />
+                <div>
+                    <h4 style="text-align: center; text-transform: uppercase">From Bali to your inbox
+                        <br />
+                        enjoy 10% off</h4>
+                </div>
+                <br />
+                <div style="margin-left: 8px;">
+                    <h6>Receive 10% off your next online order with email sign up*</h6>
+                </div>
+                <br />
+                <div style="margin-left: 70px;">
+                    <asp:TextBox ID="txtEmailId" CssClass="EmailID" runat="server" placeholder="Enter Your Email"></asp:TextBox><br />
+                    <%--<asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" CssClass="fontcolour" ControlToValidate="txtEmailId" ErrorMessage="please enter your Email"></asp:RequiredFieldValidator>--%>
+                </div>
+                <br />
+                <div class="show" style="margin-left: 70px;">
+                    <asp:Button ID="btnSubmit" CssClass="btnShowNow" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
+                    <asp:HiddenField ID="hdMessage" runat="server" />
+                    <br />
+                    <asp:Label ID="lblMessage" CssClass="fontcolour" runat="server"></asp:Label>
+                </div>
+                <br />
+                <div style="margin-left: 30px;">
+                    <h6>*Unsubscribe at any time. To learn more,
+                        <asp:LinkButton ID="lnkClickhere" runat="server" OnClick="lnkClickhere_Click">Click here</asp:LinkButton></h6>
+                </div>
+            </div>
+        </div>
+        <div class='popupGender'>
+            <div class='borGender'>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div style="">
+                    <img style="background-color: black; margin-left: 85px; margin-top: 20px;" src="../images/silver rock log6.png" alt="OYEENok">
+                </div>
+                <br />
+                <div>
+                    <h4 style="text-align: center; text-transform: uppercase">you're part of the
+                        <br />
+                        Silver rock Creation community</h4>
+                </div>
+                <br />
+                <div style="margin-left: 8px;">
+                    <h6 style="text-align: center;">your offer will be automatically applied at checkout, as well as
+                        <br />
+                        emailed to you. While you wait...</h6>
+                </div>
+                <br />
+                <div class="show" style="margin-left: 85px;">
+                    <asp:Button ID="btnWomen" CssClass="btnShowNow" runat="server" Text="Shop Women's" OnClick="btnWomen_Click" />
+                </div>
+                <br />
+                <div class="show" style="margin-left: 85px;">
+                    <asp:Button ID="btnMen" CssClass="btnShowNow" runat="server" Text="Shop Men's" OnClick="btnMen_Click" />
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <!-- =====  HEADER START  ===== -->
+            <header id="header">
+                <div class="header-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-4">
+                                <div class="header-top-left">
+                                    <div class="contact"><a href="#">Call now !</a> <span class="hidden-xs hidden-sm hidden-md">+91 987-654-321</span></div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                                <ul class="header-top-right text-right" runat="server" id="myAccount">
+                                    <li class="account"><a href="../account">My Account</a></li>
+                                </ul>
+
+                            </div>
+                            <div class="col-xs-12 col-sm-2">
+                                <ul class="header-top-right text-right">
+                                    <li class="account">
+                                        <%-- <asp:Label ID="lblCountry" ClientIDMode="Static" runat="server"></asp:Label>--%>
+                                        <asp:Button ID="btn" CssClass="btnCountry" ClientIDMode="Static" runat="server" OnClick="btn_Click" />
+                                        <%--  <asp:DropDownList ID="ddlcountry" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlcountry_SelectedIndexChanged" onChange='return ShowConfirm(this);'></asp:DropDownList>--%>
+                                        <%--<asp:Label runat="server" ID="lblCountryName" ClientIDMode="Static" Text="AAAAA" Visible="false"></asp:Label>--%> 
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-4">
+                                <div class="main-search mt_40">
+                                    <asp:Panel runat="server" DefaultButton="btnSearch">
+                                        <asp:HiddenField ID="hdnIdCountry" runat="server" />
+                                        <asp:HiddenField ID="hdnItemInCart" runat="server" />
+                                        <asp:TextBox ID="txtSearch" runat="server" placeholder="Search" class="form-control input-lg" autocomplete="off"></asp:TextBox>
+                                        <span class="input-group-btn">
+                                            <asp:LinkButton ID="btnSearch" runat="server" CssClass="btn btn-default btn-lg" OnClick="btnSearch_Click"><i class="fa fa-search"></i></asp:LinkButton>
+                                        </span>
+                                    </asp:Panel>
+                                </div>
+                            </div>
+                            <div class="navbar-header col-xs-6 col-sm-4">
+                                <a class="navbar-brand" href="/">
+                                    <img alt="Silverrockcreations" src="../images/silver rock logo6.png">
+                                </a>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 shopcart">
+                                <div id="cart" class="btn-group btn-block mtb_40">
+
+                                    <button type="button" class="btn" data-target="#cart-dropdown" data-toggle="collapse" aria-expanded="true">
+                                        <%--<a href="#" style="color: white">--%><span>Shopping cart<br />
+                                            items <span id="nTotalItems" runat="server">(0)</span></span><%--</a>--%>
+                                    </button>
+                                </div>
+                                <div id="cart-dropdown" class="cart-menu collapse">
+                                    <asp:Panel ID="pnlEmpty" runat="server">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Cart Detail<i class="fa fa-caret-down"></i></a></h4>
+                                        </div>
+                                        <div class="panel-collapse collapse in">
+                                            <div class="panel-body">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <h3>Your Cart is empty.</h3>
+                                                        <p>Check your Saved for later items below or continue shopping.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </asp:Panel>
+                                    <asp:Repeater runat="server" ID="rptProductes" OnItemCommand="rptProductes_ItemCommand">
+                                        <HeaderTemplate>
+                                            <ul>
+                                                <li>
+                                                    <table class="table table-striped">
+                                                        <tbody>
+                                        </HeaderTemplate>
+                                        <ItemTemplate>
+                                            <tr>
+                                                <td class="text-center" style="width: 120px;"><a href="#">
+                                                    <asp:HiddenField ID="hdnidProduct" runat="server" Value='<%#Eval("idProduct")%>' />
+                                                    <asp:HiddenField ID="hdnidCustomerCart" runat="server" Value='<%#Eval("idCustomerCart")%>' />
+                                                    <img src="<%=DataLayer.CommonControl.GetAdminUrl() %>/ProductImage/<%#Eval("ImageURL")%>" alt="<%#Eval("sName")%>" title="<%#Eval("sName")%>"></a></td>
+                                                <td class="text-left product-name"><a href="#"><%#Eval("sName")%></a> <span class="text-left price"><%=this.CurrencySymbol %><%#Eval("Price")%></span>
+                                                    <asp:TextBox runat="server" ID="txtQty" Text='<%#Eval("Quantity")%>' min="1" type="number" class="form-control quantity"></asp:TextBox>
+                                                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Please enter quentity." ControlToValidate="txtQty"></asp:RequiredFieldValidator>
+                                                    <span class="input-group-btn">
+                                                        <asp:LinkButton ID="lnkEdit" runat="server" CommandName="qtyUpdate" CssClass="btn btn-success btn-circle btn-sm"><i class="fa fa-refresh"></i></asp:LinkButton>
+                                                        <asp:LinkButton ID="lnkDelete" runat="server" CommandName="qtyDelete" CssClass="btn btn-success btn-circle btn-sm"><i class="fa fa-times-circle"></i></asp:LinkButton>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                        </ItemTemplate>
+                                        <FooterTemplate>
+                                            </tbody>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table class="table">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-right"><strong>Sub-Total</strong></td>
+                                                        <td class="text-right"><%=this.CurrencySymbol %><%=SubtotalAmount %></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-right"><strong>Shipping</strong></td>
+                                                        <td class="text-right"><%=this.CurrencySymbol %><%=ShipmentCharges %></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-right"><strong>Total</strong></td>
+                                                        <td class="text-right"><%=this.CurrencySymbol %><%=totalAmount %></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </li>
+                                            <li>
+                                                <a href="../cartpage" class="btn pull-left mt_10" style="margin-right: 3px;">View cart</a>
+                                                <a href="../checkoutpage" class="btn pull-left mt_10">Checkout</a>
+                                            </li>
+                                            </ul>
+                                        </FooterTemplate>
+
+                                    </asp:Repeater>
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="navbar">
+                            <p>Menu</p>
+                            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse"><span class="i-bar"><i class="fa fa-bars"></i></span></button>
+                            <div class="collapse navbar-collapse js-navbar-collapse">
+                                <ul id="menu" class="nav navbar-nav">
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="../Products.aspx">Shop</a></li>
+                                    <li>
+                                        <%--<a href="../categorypage.aspx">Shop</a>--%>
+                                        <asp:Repeater ID="rptCategory1" runat="server">
+                                            <ItemTemplate>
+                                                <li><a href='../Products/<%#Eval("sName")%>'><%#Eval("sName")%></a></li>
+                                            </ItemTemplate>
+                                        </asp:Repeater>
+                                        <%-- <asp:Repeater ID="rptCategory2" runat="server">
+                                                        <ItemTemplate>
+                                                            <li><a href='../Category/<%#Eval("sName")%>'><%#Eval("sName")%></a></li>
+                                                        </ItemTemplate>
+                                                    </asp:Repeater>--%>
+                                        <%--<asp:Repeater ID="rptCategory3" runat="server">
+                                                        <ItemTemplate>
+                                                            <li><a href='../Category/<%#Eval("sName")%>'><%#Eval("sName")%></a></li>
+                                                        </ItemTemplate>
+                                                    </asp:Repeater>--%>
+                                    </li>
+                                    <%-- <li><a href="../blogpage.aspx">Blog</a></li>--%>
+                                    <%-- <li class="dropdown mega-dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Collection </a>
+                                        <ul class="dropdown-menu mega-dropdown-menu row">
+                                            <li class="col-md-3">
+                                                <ul>
+                                                    <asp:Repeater ID="rptCategory1" runat="server">
+                                                        <ItemTemplate>
+                                                            <li><a href='../Category/<%#Eval("sName")%>'><%#Eval("sName")%></a></li>
+                                                        </ItemTemplate>
+                                                    </asp:Repeater>
+                                                </ul>
+                                            </li>
+                                            <li class="col-md-3">
+                                                <ul>
+                                                    <asp:Repeater ID="rptCategory2" runat="server">
+                                                        <ItemTemplate>
+                                                            <li><a href='../Category/<%#Eval("sName")%>'><%#Eval("sName")%></a></li>
+                                                        </ItemTemplate>
+                                                    </asp:Repeater>
+                                                </ul>
+                                            </li>
+                                            <li class="col-md-3">
+                                                <ul>
+                                                    <asp:Repeater ID="rptCategory3" runat="server">
+                                                        <ItemTemplate>
+                                                            <li><a href='../Category/<%#Eval("sName")%>'><%#Eval("sName")%></a></li>
+                                                        </ItemTemplate>
+                                                    </asp:Repeater>
+                                                </ul>
+                                            </li>
+                                            <li class="col-md-3">
+                                                <ul>
+                                                    <li id="myCarousel" class="carousel slide" data-ride="carousel">
+                                                        <div class="carousel-inner">
+                                                            <div class="item active">
+                                                                <a href="#">
+                                                                    <img src="../images/menu-banner1.jpg" class="img-responsive" alt="Banner1"></a>
+                                                            </div>
+                                                            <!-- End Item -->
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <img src="../images/menu-banner2.jpg" class="img-responsive" alt="Banner1"></a>
+                                                            </div>
+                                                            <!-- End Item -->
+                                                            <div class="item">
+                                                                <a href="#">
+                                                                    <img src="../images/menu-banner3.jpg" class="img-responsive" alt="Banner1"></a>
+                                                            </div>
+                                                            <!-- End Item -->
+                                                        </div>
+                                                        <!-- End Carousel Inner -->
+                                                    </li>
+                                                    <!-- /.carousel -->
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>--%>
+                                    <%--<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="contactus.aspx">Contact us</a></li>
+                                            <li><a href="cartpage.aspx">Cart</a></li>
+                                            <li><a href="checkoutpage.aspx">Checkout</a></li>
+                                            <li><a href="ProductDetail.aspx">Product Detail Page</a></li>
+                                            <li><a href="blogpage.aspx">Single Post</a></li>
+                                        </ul>
+                                    </li>--%>
+                                    <li>
+                                        <%--   <a href="../AboutUs">About us</a>--%>
+                                    </li>
+                                    <li>
+                                        <%-- <a href="../contactus">Contact us</a>--%>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /.nav-collapse -->
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <!-- =====  HEADER END  ===== -->
+            <!-- =====  CONTAINER START  ===== -->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div>
+        <!-- Single Blog  -->
+        <!-- End Blog   -->
+        <!-- =====  CONTAINER END  ===== -->
+        <!-- =====  FOOTER START  ===== -->
+        <div class="footer pt_60">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-top pb_60 mb_30">
+                        <div class="col-xs-12 col-sm-6">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div class="footer-logo">
+                                            <a href="/">
+                                                <img src="../images/silver rock logo footer.png" alt="OYEENok">
+                                            </a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="footer-desc">Jewelry made from our hearts to your soul.</div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!-- =====  testimonial  ===== -->
+                        <div class="col-xs-12 col-sm-6">
+                            <div class="Testimonial">
+                                <div class="client owl-carousel">
+                                    <div class="item client-detail">
+                                        <div class="client-avatar">
+                                            <img alt="" src="../images/user1.jpg">
+                                        </div>
+                                        <div class="client-title"><strong>Rashmi S.</strong></div>
+                                        <p><i class="fa fa-quote-left" aria-hidden="true"></i>My mother loved the Shaze earring and necklace set, the delivery was before time, and will totally recommend to friends and relatives. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+                                    </div>
+                                    <div class="item client-detail">
+                                        <div class="client-avatar">
+                                            <img alt="" src="../images/user2.jpg">
+                                        </div>
+                                        <div class="client-title"><strong>Keshav K.</strong></div>
+                                        <p><i class="fa fa-quote-left" aria-hidden="true"></i>Thank you so much It’s really great experience We ere loving your product. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+                                    </div>
+                                    <div class="item client-detail">
+                                        <div class="client-avatar">
+                                            <img alt="" src="../images/user3.jpg">
+                                        </div>
+                                        <div class="client-title"><strong>Meenakshi S.</strong></div>
+                                        <p><i class="fa fa-quote-left" aria-hidden="true"></i>Being a regular customer I didn't want to got to store hence bought online. Amazing shopping experience. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- =====  testimonial end ===== -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <h6 class="footer-title ptb_20">Additions Link</h6>
+                        <asp:Repeater ID="lstAdditionalLink" runat="server" OnItemDataBound="lstAdditionalLink_ItemDataBound">
+                            <HeaderTemplate>
+                            </HeaderTemplate>
+                            <ItemTemplate>
+                                <a href="../AdditionalLink/<%#Eval("Link")%>">
+                                    <asp:Label ID="lblName" runat="server" Text='<%#Eval("Name")%>'></asp:Label>
+                                </a>|
+                            </ItemTemplate>
+                            <FooterTemplate>
+                            </FooterTemplate>
+                        </asp:Repeater>
+                    </div>
+                    <br />
+                    <br />
+                    <%-- <br />
+                    <br />
+                    <br />--%>
+                    <div class="col-md-3 footer-block">
+                        <h6 class="footer-title ptb_20">Information</h6>
+                        <ul>
+                            <li><a href="../blogpage.aspx">Blog</a></li>
+                            <li><a href="../Aboutus.aspx">About Us</a></li>
+                            <li><a href="../DeliveryInformation.aspx">Delivery Information</a></li>
+                            <li><a href="../PrivacyPolicy.aspx">Privacy Policy</a></li>
+                            <li><a href="../TermsConditions.aspx">Terms & Conditions</a></li>
+                            <li><a href="../contactus.aspx">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 footer-block">
+                        <h6 class="footer-title ptb_20">Services</h6>
+                        <ul>
+                            <li><a href="../PrivacyPolicy">Returns</a></li>
+                            <%--<li><a href="#">Site Map</a></li>--%>
+                            <li><a href="../account/WishList">Wish List</a></li>
+                            <li><a href="../account">My Account</a></li>
+                            <li><a href="../account/Order">Order History</a></li>
+                        </ul>
+                    </div>
+                    <%--<div class="col-md-3 footer-block">
+                        <h6 class="footer-title ptb_20">Extras</h6>
+                        <ul>
+                            <li><a href="#">Brands</a></li>
+                            <li><a href="#">Gift Certificates</a></li>
+                            <li><a href="#">Affiliates</a></li>
+                            <li><a href="#">Specials</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                        </ul>
+                    </div>--%>
+                    <div class="col-md-3 footer-block">
+
+                        <asp:HiddenField ID="hdnContactUsId" runat="server" Value="1" />
+                        <asp:Repeater ID="lstContactUs" runat="server">
+                            <HeaderTemplate>
+                            </HeaderTemplate>
+                            <ItemTemplate>
+                                <h6 class="footer-title ptb_20">
+                                    <asp:Label ID="lblAboutUs" runat="server" Text='<%#Eval("sMasterPage")%>'></asp:Label>
+                                </h6>
+                                <div class="about-text" style="margin-left: 20px; color: white;">
+                                    <%-- <div class="about-heading-wrap">
+                                    <h2 class="about-heading mb_20 ">
+                                        <asp:Label ID="lblAboutUs" runat="server" Text='<%#Eval("sMasterPage")%>'></asp:Label>
+                                    </h2>
+                                </div>--%>
+                                    <p>
+                                        <%#Eval("sContent")%>
+                                    </p>
+                                </div>
+                            </ItemTemplate>
+                            <FooterTemplate></FooterTemplate>
+                        </asp:Repeater>
+                        <%--<ul>
+                            <li>
+                                <asp:Label ID="lblAddress" runat="server"></asp:Label></li>
+                            <li>
+                                <asp:Label ID="lblMobile" runat="server"></asp:Label></li>
+                            <br />
+                            <li>
+                                <asp:Label ID="lblPhone" runat="server"></asp:Label></li>
+                            <li>
+                                <asp:Label ID="lblEmail" runat="server"></asp:Label></li>--%>
+                        <%--<li>Warehouse & Offices, 12345 Street name, California USA</li>
+                            <li>(+123) 456 789
+              <br>
+                                (+024) 666 888</li>
+                            <li>Contact@yourcompany.com</li>--%>
+                        <%--</ul>--%>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom mt_60 ptb_20">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="social_icon">
+                                <ul>
+                                    <asp:Repeater runat="server" ID="rptSocialLink">
+                                        <ItemTemplate>
+                                            <li class='<%# string.IsNullOrEmpty(Convert.ToString(Eval("sFBURL"))) ? "no-visible" : "" %>'><a href='<%# Eval("sFBURL") %>' target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                            <li class='<%# string.IsNullOrEmpty(Convert.ToString(Eval("sGURL"))) ? "no-visible" : "" %>'><a href='<%# Eval("sGURL") %>' target="_blank"><i class="fa fa-google"></i></a></li>
+                                            <li class='<%# string.IsNullOrEmpty(Convert.ToString(Eval("sLinkdinURL"))) ? "no-visible" : "" %>'><a href='<%# Eval("sLinkdinURL") %>' target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                            <li class='<%# string.IsNullOrEmpty(Convert.ToString(Eval("sTwitterURL"))) ? "no-visible" : "" %>'><a href='<%# Eval("sTwitterURL") %>' target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                        </ItemTemplate>
+                                    </asp:Repeater>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="copyright-part text-center">@ 2020 All Rights Reserved Silver Rock Creation</div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="payment-icon text-right">
+                                <ul>
+                                    <li><i class="fa fa-cc-paypal "></i></li>
+                                    <li><i class="fa fa-cc-visa"></i></li>
+                                    <li><i class="fa fa-cc-discover"></i></li>
+                                    <li><i class="fa fa-cc-mastercard"></i></li>
+                                    <li><i class="fa fa-cc-amex"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- =====  FOOTER END  ===== -->
+        <a id="scrollup"></a>
+
+        <script src="../js/owl.carousel.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/jquery.magnific-popup.js"></script>
+        <script src="../js/custom.js"></script>
+        <script src="../js/jquery-ui.js"></script>
+        <script src="../js/jquery.firstVisitPopup.js"></script>
+        <script type="text/javascript">
+            function showshoppopup() {
+                var overlay = $('<div id="drizz"></div>');
+                overlay.show();
+                overlay.appendTo(document.body);
+                $('.popup').show();
+                //  $('.popupSubscribe').show();
+                $('.Count').hide();
+                $('.close').click(function () {
+                    $('.popup').hide();
+                    overlay.appendTo(document.body).remove();
+                    return false;
+                });
+                $('.clo').click(function () {
+                    $('.popup').hide();
+                    overlay.appendTo(document.body).remove();
+                    return false;
+                });
+                $('#lnkCountry').click(function () {
+                    $('.popup').hide();
+                    $('.Count').show();
+                    overlay.appendTo(document.body).remove();
+                    return false;
+                });
+                $('.show').click(function () {
+                    $('.popup').hide();
+                    $('.Count').hide();
+                    window.location.href = 'Products.aspx';
+                    overlay.appendTo(document.body).remove();
+                    return false;
+                });
+            }
+            function showSubscribepopup() {
+                var overlay = $('<div id="drizz"></div>');
+                overlay.show();
+                overlay.appendTo(document.body);
+                $('.popupSubscribe').show();
+                $('.popupGender').hide();
+                $('.close').click(function () {
+                    $('.popupSubscribe').hide();
+                    overlay.appendTo(document.body).remove();
+                    return false;
+                });
+                $('.clo').click(function () {
+                    $('.popupSubscribe').hide();
+                    overlay.appendTo(document.body).remove();
+                    return false;
+                });
+                $('#btnSubmit').click(function () {
+                    $('.popupSubscribe').hide();
+                    $('.popupGender').show();
+                    overlay.appendTo(document.body).remove();
+                    return false;
+                });
+            }
+            function showGenderpopup() {
+                var overlay = $('<div id="drizz"></div>');
+                overlay.show();
+                overlay.appendTo(document.body);
+                $('.popupGender').hide();
+                $('.close').click(function () {
+                    $('.popupGender').hide();
+                    overlay.appendTo(document.body).remove();
+                    return false;
+                });
+                $('.clo').click(function () {
+                    $('.popupGender').hide();
+                    overlay.appendTo(document.body).remove();
+                    return false;
+                });
+            }
+            function shownowpopup() {
+                var overlay = $('<div id="drizz"></div>');
+                overlay.show();
+                overlay.appendTo(document.body);
+                $('.Count').show();
+                // $('.popup').hide();
+                $('.close').click(function () {
+                    $('.Count').hide();
+                    overlay.appendTo(document.body).remove();
+                    return false;
+                });
+                $('.clo').click(function () {
+                    $('.Count').hide();
+                    overlay.appendTo(document.body).remove();
+                    return false;
+                });
+                $('.now').click(function () {
+                    $('.popup').hide();
+                    $('.Count').hide();
+                    window.location.href = 'Products.aspx';
+                    overlay.appendTo(document.body).remove();
+                    return false;
+                });
+                $('#btnShow').click(function () {
+                    $('.popup').hide();
+                    $('.Count').hide();
+                    window.location.href = 'Products.aspx';
+                    overlay.appendTo(document.body).remove();
+                    return false;
+                });
+            }
+
+            function ShowConfirm(yourDropDown) {
+                //If this is true - Perform your PostBack manually
+                $('.Count').show();
+                var hv = $('#hdnItemInCart').val();
+                if (hv === "0") {
+                    $('.Count').show();
+                    __doPostBack('ddlcountry', '');
+                    return false;
+
+                }
+                if (confirm("Changing country will discard your existing cart items.\nDo you want to discard the cart items?")) {
+                    __doPostBack('ddlcountry', '');
+                    return false;
+                }
+                    //Otherwise the user selected "Cancel" - revert the selection and don't PostBack
+                else {
+                    var hv = $('#hdnIdCountry').val();
+                    yourDropDown.selectedIndex = hv;
+                    return false;
+                }
+            }
+
+
+            $(function () {
+                $("#slider-range").slider({
+                    range: true,
+                    min: 0,
+                    max: 500,
+                    values: [75, 300],
+                    slide: function (event, ui) {
+                        $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
+                    }
+                });
+                $("#amount").val("$" + $("#slider-range").slider("values", 0) +
+                  " - $" + $("#slider-range").slider("values", 1));
+            });
+        </script>
+    </form>
+</body>
+</html>

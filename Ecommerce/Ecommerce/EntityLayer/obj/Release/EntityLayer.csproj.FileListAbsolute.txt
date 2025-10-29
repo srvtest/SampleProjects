@@ -1,0 +1,15 @@
+D:\Ecommerce\Ecommerce\Ecommerce\EntityLayer\bin\Release\EntityLayer.dll
+D:\Ecommerce\Ecommerce\Ecommerce\EntityLayer\bin\Release\EntityLayer.pdb
+D:\Ecommerce\Ecommerce\Ecommerce\EntityLayer\obj\Release\EntityLayer.csprojResolveAssemblyReference.cache
+D:\Ecommerce\Ecommerce\Ecommerce\EntityLayer\obj\Release\EntityLayer.dll
+D:\Ecommerce\Ecommerce\Ecommerce\EntityLayer\obj\Release\EntityLayer.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\EntityLayer\bin\Release\EntityLayer.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\EntityLayer\bin\Release\EntityLayer.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\EntityLayer\obj\Release\EntityLayer.csprojResolveAssemblyReference.cache
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\EntityLayer\obj\Release\EntityLayer.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\EntityLayer\obj\Release\EntityLayer.pdb
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\EntityLayer\bin\Release\EntityLayer.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\EntityLayer\bin\Release\EntityLayer.pdb
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\EntityLayer\obj\Release\EntityLayer.csprojResolveAssemblyReference.cache
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\EntityLayer\obj\Release\EntityLayer.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\EntityLayer\obj\Release\EntityLayer.pdb

@@ -1,0 +1,32 @@
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\DataLayer.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\DataLayer.pdb
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\ELHelper.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\EntityLayer.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\ExceptionManager.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\ELHelper.pdb
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\EntityLayer.pdb
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\ExceptionManager.pdb
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.pdb
+E:\srv projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\DataLayer.dll
+E:\srv projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\DataLayer.pdb
+E:\srv projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\ELHelper.dll
+E:\srv projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\EntityLayer.dll
+E:\srv projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\srv projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\ExceptionManager.dll
+E:\srv projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\srv projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\srv projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+E:\srv projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\ELHelper.pdb
+E:\srv projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\EntityLayer.pdb
+E:\srv projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\ExceptionManager.pdb
+E:\srv projects\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+E:\srv projects\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+E:\srv projects\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.csproj.Up2Date
+E:\srv projects\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.dll
+E:\srv projects\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.pdb

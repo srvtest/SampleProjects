@@ -1,0 +1,65 @@
+﻿using DataLayer;
+using EntityLayer;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace Ecommerce
+{
+    public partial class ReportCustomer : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!IsPostBack)
+            {
+                GetAllReport();
+            }
+                
+           // resetControl();
+        }
+
+        private void resetControl()
+        {
+            txtStartDate.Text = "";
+            txtEndDate.Text = "";
+            lstCountry.Text = "";
+            lstCountry.SelectedValue = "";
+        }
+
+        private void GetAllReport()
+        {
+            AdminDL objAdminCls = new AdminDL();
+            hdMessage.Value = "Report |";
+            DataSet ds = objAdminCls.GetAllReportCustomer();
+            lstReport.DataSource = ds.Tables[0];
+            lstReport.DataBind();           
+        }
+
+        protected void btnSearch_Click(object sender, EventArgs e)
+        {
+            AdminDL objAdminCls = new AdminDL();
+            ReportCustomerCls objReport = new ReportCustomerCls();
+            objReport.StartDate = txtStartDate.Text;
+            objReport.EndDate = txtEndDate.Text;
+            objReport.lstCountry = new List<CountryCls>();
+            foreach (ListItem li in lstCountry.Items)
+            {
+                if (li.Selected == true)
+                {
+                    objReport.lstCountry.Add(new CountryCls
+                    {
+                        idCountry = Convert.ToInt32(li.Value)
+                    });
+                }
+            }           
+            DataSet ds = objAdminCls.GetAllReportCustomersByFilters(objReport);
+            lstReport.DataSource = ds.Tables[0];
+            lstReport.DataBind();
+
+        }
+    }
+}

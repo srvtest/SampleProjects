@@ -1,0 +1,376 @@
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\ApplicationInsights.config
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\csc.exe
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\System.Collections.Immutable.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\System.Reflection.Metadata.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\vbc.exe
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\VBCSCompiler.exe
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\VBCSCompiler.exe.config
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\Ecommerce.dll.config
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\Ecommerce.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\Ecommerce.pdb
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\DataLayer.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Data.v17.1.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Office.v17.1.Core.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Printing.v17.1.Core.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.RichEdit.v17.1.Core.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.SpellChecker.v17.1.Core.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Web.ASPxHtmlEditor.v17.1.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Web.ASPxSpellChecker.v17.1.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Web.ASPxThemes.v17.1.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Web.Resources.v17.1.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Web.v17.1.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\EntityLayer.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\FreeTextBox.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\HtmlAgilityPack.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.DependencyCollector.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.Web.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.WindowsServer.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.ApplicationInsights.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\ELHelper.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Pdf.v17.1.Core.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\ExceptionManager.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\DataLayer.pdb
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\EntityLayer.pdb
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Data.v17.1.xml
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Office.v17.1.Core.xml
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Printing.v17.1.Core.xml
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.RichEdit.v17.1.Core.xml
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.SpellChecker.v17.1.Core.xml
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Web.ASPxHtmlEditor.v17.1.xml
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Web.ASPxSpellChecker.v17.1.xml
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Web.v17.1.xml
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\HtmlAgilityPack.pdb
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\HtmlAgilityPack.xml
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.DependencyCollector.xml
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.Web.xml
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.WindowsServer.xml
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.ApplicationInsights.xml
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\ELHelper.pdb
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Pdf.v17.1.Core.xml
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\ExceptionManager.pdb
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Data.v17.1.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Data.v17.1.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Data.v17.1.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Data.v17.1.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Office.v17.1.Core.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Office.v17.1.Core.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Office.v17.1.Core.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Office.v17.1.Core.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Web.ASPxHtmlEditor.v17.1.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Web.ASPxHtmlEditor.v17.1.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Web.ASPxHtmlEditor.v17.1.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Web.ASPxHtmlEditor.v17.1.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Web.ASPxSpellChecker.v17.1.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Web.ASPxSpellChecker.v17.1.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Web.ASPxSpellChecker.v17.1.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Web.ASPxSpellChecker.v17.1.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Web.v17.1.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Web.v17.1.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Web.v17.1.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Web.v17.1.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\obj\Release\EcommerceAdmin.csprojResolveAssemblyReference.cache
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\obj\Release\Ecommerce.dll.licenses
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\obj\Release\Ecommerce.dll
+D:\Ecommerce\Ecommerce\Ecommerce\Ecommerce\obj\Release\Ecommerce.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ApplicationInsights.config
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\csc.exe
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\System.Collections.Immutable.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\System.Reflection.Metadata.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\vbc.exe
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\VBCSCompiler.exe
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\VBCSCompiler.exe.config
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Ecommerce.dll.config
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Ecommerce.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Ecommerce.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DataLayer.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Data.v17.1.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Office.v17.1.Core.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Printing.v17.1.Core.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.RichEdit.v17.1.Core.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.SpellChecker.v17.1.Core.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Web.ASPxHtmlEditor.v17.1.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Web.ASPxSpellChecker.v17.1.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Web.ASPxThemes.v17.1.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Web.Resources.v17.1.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Web.v17.1.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\EntityLayer.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\FreeTextBox.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\HtmlAgilityPack.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.Agent.Intercept.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.DependencyCollector.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.Web.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.WindowsServer.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.ApplicationInsights.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ELHelper.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Pdf.v17.1.Core.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ExceptionManager.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DataLayer.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\EntityLayer.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Data.v17.1.xml
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Office.v17.1.Core.xml
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Printing.v17.1.Core.xml
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.RichEdit.v17.1.Core.xml
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.SpellChecker.v17.1.Core.xml
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Web.ASPxHtmlEditor.v17.1.xml
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Web.ASPxSpellChecker.v17.1.xml
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Web.v17.1.xml
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\HtmlAgilityPack.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\HtmlAgilityPack.xml
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.DependencyCollector.xml
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.Web.xml
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.WindowsServer.xml
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.ApplicationInsights.xml
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ELHelper.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Pdf.v17.1.Core.xml
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ExceptionManager.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Data.v17.1.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Data.v17.1.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Data.v17.1.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Data.v17.1.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Office.v17.1.Core.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Office.v17.1.Core.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Office.v17.1.Core.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Office.v17.1.Core.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Printing.v17.1.Core.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Printing.v17.1.Core.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Printing.v17.1.Core.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Printing.v17.1.Core.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Web.ASPxHtmlEditor.v17.1.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Web.ASPxHtmlEditor.v17.1.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Web.ASPxHtmlEditor.v17.1.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Web.ASPxHtmlEditor.v17.1.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Web.ASPxSpellChecker.v17.1.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Web.ASPxSpellChecker.v17.1.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Web.ASPxSpellChecker.v17.1.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Web.ASPxSpellChecker.v17.1.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Web.v17.1.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Web.v17.1.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Web.v17.1.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Web.v17.1.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\obj\Release\EcommerceAdmin.csprojResolveAssemblyReference.cache
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\obj\Release\Ecommerce.dll.licenses
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\obj\Release\Ecommerce.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\obj\Release\Ecommerce.pdb
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ApplicationInsights.config
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\csc.exe
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\System.Collections.Immutable.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\System.Reflection.Metadata.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\vbc.exe
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\VBCSCompiler.exe
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\VBCSCompiler.exe.config
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Ecommerce.dll.config
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Ecommerce.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Ecommerce.pdb
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DataLayer.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\EntityLayer.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\HtmlAgilityPack.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.Agent.Intercept.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.DependencyCollector.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.Web.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.WindowsServer.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.ApplicationInsights.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ELHelper.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ExceptionManager.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.Practices.ObjectBuilder2.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DataLayer.pdb
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\EntityLayer.pdb
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\HtmlAgilityPack.pdb
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\HtmlAgilityPack.xml
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.DependencyCollector.xml
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.Web.xml
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.WindowsServer.xml
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.ApplicationInsights.xml
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ELHelper.pdb
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ExceptionManager.pdb
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\obj\Release\EcommerceAdmin.csprojResolveAssemblyReference.cache
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\obj\Release\Ecommerce.dll.licenses
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\obj\Release\Ecommerce.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\obj\Release\Ecommerce.pdb
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Web.v18.2.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Data.v18.2.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Printing.v18.2.Core.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Office.v18.2.Core.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.RichEdit.v18.2.Core.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Pdf.v18.2.Core.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Images.v18.2.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Web.v18.2.xml
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Data.v18.2.xml
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Printing.v18.2.Core.xml
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Office.v18.2.Core.xml
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.RichEdit.v18.2.Core.xml
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Pdf.v18.2.Core.xml
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Web.v18.2.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Web.v18.2.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Web.v18.2.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Web.v18.2.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Data.v18.2.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Data.v18.2.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Data.v18.2.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Data.v18.2.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Printing.v18.2.Core.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Printing.v18.2.Core.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Printing.v18.2.Core.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Printing.v18.2.Core.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Office.v18.2.Core.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Office.v18.2.Core.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Office.v18.2.Core.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Office.v18.2.Core.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.RichEdit.v18.2.Core.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.RichEdit.v18.2.Core.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.RichEdit.v18.2.Core.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.RichEdit.v18.2.Core.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Pdf.v18.2.Core.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Pdf.v18.2.Core.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Pdf.v18.2.Core.resources.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Pdf.v18.2.Core.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ApplicationInsights.config
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\csc.exe
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\System.Collections.Immutable.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\System.Reflection.Metadata.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\vbc.exe
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\VBCSCompiler.exe
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\roslyn\VBCSCompiler.exe.config
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Ecommerce.dll.config
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Ecommerce.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Ecommerce.pdb
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DataLayer.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Web.v18.2.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\EntityLayer.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\HtmlAgilityPack.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.Agent.Intercept.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.DependencyCollector.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.Web.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.WindowsServer.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.ApplicationInsights.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ELHelper.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Data.v18.2.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Printing.v18.2.Core.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Office.v18.2.Core.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.RichEdit.v18.2.Core.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ExceptionManager.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Pdf.v18.2.Core.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Images.v18.2.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.Practices.ObjectBuilder2.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DataLayer.pdb
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\EntityLayer.pdb
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Web.v18.2.xml
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\HtmlAgilityPack.pdb
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\HtmlAgilityPack.xml
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.DependencyCollector.xml
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.Web.xml
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.AI.WindowsServer.xml
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.ApplicationInsights.xml
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ELHelper.pdb
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Data.v18.2.xml
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Printing.v18.2.Core.xml
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Office.v18.2.Core.xml
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.RichEdit.v18.2.Core.xml
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ExceptionManager.pdb
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\DevExpress.Pdf.v18.2.Core.xml
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Web.v18.2.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Web.v18.2.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Web.v18.2.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Web.v18.2.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Data.v18.2.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Data.v18.2.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Data.v18.2.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Data.v18.2.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Printing.v18.2.Core.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Printing.v18.2.Core.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Printing.v18.2.Core.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Printing.v18.2.Core.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Office.v18.2.Core.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Office.v18.2.Core.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Office.v18.2.Core.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Office.v18.2.Core.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.RichEdit.v18.2.Core.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.RichEdit.v18.2.Core.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.RichEdit.v18.2.Core.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.RichEdit.v18.2.Core.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\de\DevExpress.Pdf.v18.2.Core.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\es\DevExpress.Pdf.v18.2.Core.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ja\DevExpress.Pdf.v18.2.Core.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\bin\ru\DevExpress.Pdf.v18.2.Core.resources.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\obj\Release\EcommerceAdmin.csprojResolveAssemblyReference.cache
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\obj\Release\Ecommerce.dll.licenses
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\obj\Release\Ecommerce.dll
+E:\SVNRepo\trunk\Ecommerce\Ecommerce\Ecommerce\obj\Release\Ecommerce.pdb

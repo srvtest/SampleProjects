@@ -1,0 +1,16 @@
+E:\SVNRepo\trunk\Ecommerce\Common\ELHelper\bin\Debug\ELHelper.dll
+E:\SVNRepo\trunk\Ecommerce\Common\ELHelper\bin\Debug\ELHelper.pdb
+E:\SVNRepo\trunk\Ecommerce\Common\ELHelper\bin\Debug\ExceptionManager.dll
+E:\SVNRepo\trunk\Ecommerce\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+E:\SVNRepo\trunk\Ecommerce\Common\ELHelper\obj\Debug\ELHelper.csprojResolveAssemblyReference.cache
+E:\SVNRepo\trunk\Ecommerce\Common\ELHelper\obj\Debug\ELHelper.dll
+E:\SVNRepo\trunk\Ecommerce\Common\ELHelper\obj\Debug\ELHelper.pdb
+E:\srv projects\Ecommerce\Common\ELHelper\bin\Debug\ELHelper.dll
+E:\srv projects\Ecommerce\Common\ELHelper\bin\Debug\ELHelper.pdb
+E:\srv projects\Ecommerce\Common\ELHelper\bin\Debug\ExceptionManager.dll
+E:\srv projects\Ecommerce\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+E:\srv projects\Ecommerce\Common\ELHelper\obj\Debug\ELHelper.csproj.AssemblyReference.cache
+E:\srv projects\Ecommerce\Common\ELHelper\obj\Debug\ELHelper.csproj.CoreCompileInputs.cache
+E:\srv projects\Ecommerce\Common\ELHelper\obj\Debug\ELHelper.csproj.Up2Date
+E:\srv projects\Ecommerce\Common\ELHelper\obj\Debug\ELHelper.dll
+E:\srv projects\Ecommerce\Common\ELHelper\obj\Debug\ELHelper.pdb
