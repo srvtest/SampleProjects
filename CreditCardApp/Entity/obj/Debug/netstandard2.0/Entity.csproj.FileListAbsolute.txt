@@ -1,0 +1,16 @@
+D:\Project\CreditCrd\CreditCardApp\Entity\bin\Debug\netstandard2.0\Entity.deps.json
+D:\Project\CreditCrd\CreditCardApp\Entity\bin\Debug\netstandard2.0\Entity.dll
+D:\Project\CreditCrd\CreditCardApp\Entity\bin\Debug\netstandard2.0\Entity.pdb
+D:\Project\CreditCrd\CreditCardApp\Entity\obj\Debug\netstandard2.0\Entity.AssemblyInfoInputs.cache
+D:\Project\CreditCrd\CreditCardApp\Entity\obj\Debug\netstandard2.0\Entity.AssemblyInfo.cs
+D:\Project\CreditCrd\CreditCardApp\Entity\obj\Debug\netstandard2.0\Entity.dll
+D:\Project\CreditCrd\CreditCardApp\Entity\obj\Debug\netstandard2.0\Entity.pdb
+D:\Project\CreditCrd\CreditCardApp\Entity\obj\Debug\netstandard2.0\Entity.csprojAssemblyReference.cache
+D:\NV\CreditCardApp\Entity\bin\Debug\netstandard2.0\Entity.deps.json
+D:\NV\CreditCardApp\Entity\bin\Debug\netstandard2.0\Entity.dll
+D:\NV\CreditCardApp\Entity\bin\Debug\netstandard2.0\Entity.pdb
+D:\NV\CreditCardApp\Entity\obj\Debug\netstandard2.0\Entity.csprojAssemblyReference.cache
+D:\NV\CreditCardApp\Entity\obj\Debug\netstandard2.0\Entity.AssemblyInfoInputs.cache
+D:\NV\CreditCardApp\Entity\obj\Debug\netstandard2.0\Entity.AssemblyInfo.cs
+D:\NV\CreditCardApp\Entity\obj\Debug\netstandard2.0\Entity.dll
+D:\NV\CreditCardApp\Entity\obj\Debug\netstandard2.0\Entity.pdb

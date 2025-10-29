@@ -1,0 +1,5 @@
+D:\Project\HotalManagment\HotalManagment\HotalManagment\EntityLayer\bin\Release\EntityLayer.dll
+D:\Project\HotalManagment\HotalManagment\HotalManagment\EntityLayer\bin\Release\EntityLayer.pdb
+D:\Project\HotalManagment\HotalManagment\HotalManagment\EntityLayer\obj\Release\EntityLayer.csprojResolveAssemblyReference.cache
+D:\Project\HotalManagment\HotalManagment\HotalManagment\EntityLayer\obj\Release\EntityLayer.dll
+D:\Project\HotalManagment\HotalManagment\HotalManagment\EntityLayer\obj\Release\EntityLayer.pdb

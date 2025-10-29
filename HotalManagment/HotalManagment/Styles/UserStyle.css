@@ -1,0 +1,121 @@
+﻿body
+{
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+}
+.navbar
+{
+    margin-bottom: -9px;
+    border: 0;
+}
+.nav-tabs.nav-stacked > li.active > a, .nav-tabs.nav-stacked > li > ul > li.active > a
+{
+    border: 0;
+    color: #fff;
+}
+.nav-tabs.nav-stacked > li > a, .nav-tabs.nav-stacked > li > ul > li > a
+{
+    border: 0;
+    color: #fff;
+    border-bottom: 1px solid #666;
+}
+.nav-tabs.nav-stacked > li, .nav-tabs.nav-stacked > li > ul > li
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+.nav-tabs.nav-stacked > li > a, .nav-tabs.nav-stacked > li > ul > li > a
+{
+    margin-right: 0;
+}
+.nav-tabs.nav-stacked > li > a:hover, .nav-tabs.nav-stacked > li > ul > li > a:hover
+{
+    height: 50px;
+    width: 195px;
+    margin-right: 0;
+    border: 0;
+}
+.nav-tabs.nav-stacked > li.active > a:hover
+{
+    height: 49px;
+}
+.navbar .nav .dropdown-toggle .caret
+{
+    margin-top: -2px;
+}
+.dropdown-menu
+{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 5px;
+}
+.dropdown-menu li a:hover
+{
+    background: #2D89EF;
+    color: #fff;
+}
+.box-header h2
+{
+    font-size: 16px;
+    line-height: 16px;
+}
+.box-header
+{
+    height: 39px;
+}
+.form-group label
+{
+    font-weight: 300;
+    text-align: right;
+    margin-top: 7px;
+}
+
+.form-control
+{
+    height: 32px !important;
+    margin-bottom: 10px !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    padding: 4px;
+}
+.form-control:focus
+{
+    box-shadow: none !important;
+}
+.form-actions
+{
+    margin: 20px -12px -12px -12px;
+}
+.box-icon a
+{
+    color: #646464;
+}
+.modal
+{
+    margin: auto;
+    bottom: auto;
+}
+.modal-dialog
+{
+    width: auto;
+    margin: 0;
+}
+label
+{
+    font-weight: normal;
+    margin-bottom: 7px;
+}
+.dataTables_filter input
+{
+    padding: 14px;
+}
+
+.dataTables_paginate.paging_bootstrap.pagination .prev, .dataTables_paginate.paging_bootstrap.pagination .next
+{
+    padding: 0;
+    border: 0;
+}
+
+

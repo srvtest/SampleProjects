@@ -1,0 +1,8 @@
+D:\NV\CreditCardApp\LoggerService\bin\Debug\netcoreapp3.1\nlog.config
+D:\NV\CreditCardApp\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.deps.json
+D:\NV\CreditCardApp\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.dll
+D:\NV\CreditCardApp\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.pdb
+D:\NV\CreditCardApp\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.AssemblyInfoInputs.cache
+D:\NV\CreditCardApp\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.AssemblyInfo.cs
+D:\NV\CreditCardApp\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.dll
+D:\NV\CreditCardApp\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.pdb

@@ -1,0 +1,117 @@
+C:\Users\HP\Downloads\test\MVCApp\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.dll
+C:\Users\HP\Downloads\test\MVCApp\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.pdb
+C:\Users\HP\Downloads\test\MVCApp\ExceptionManager\ExceptionManager\bin\Debug\System.Net.Http.dll
+C:\Users\HP\Downloads\test\MVCApp\ExceptionManager\ExceptionManager\bin\Debug\System.Net.Http.xml
+C:\Users\HP\Downloads\test\MVCApp\ExceptionManager\ExceptionManager\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\HP\Downloads\test\MVCApp\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.dll
+C:\Users\HP\Downloads\test\MVCApp\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.pdb
+C:\Users\gbhatia\Downloads\MVCApp-9Jan2016\MVCApp\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.dll
+C:\Users\gbhatia\Downloads\MVCApp-9Jan2016\MVCApp\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.pdb
+C:\Users\gbhatia\Downloads\MVCApp-9Jan2016\MVCApp\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.dll
+C:\Users\gbhatia\Downloads\MVCApp-9Jan2016\MVCApp\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.pdb
+C:\Users\HP\Downloads\MVCApp (2)\MVCApp\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.dll
+C:\Users\HP\Downloads\MVCApp (2)\MVCApp\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.pdb
+C:\Users\HP\Downloads\MVCApp (2)\MVCApp\ExceptionManager\ExceptionManager\bin\Debug\log4net.dll
+C:\Users\HP\Downloads\MVCApp (2)\MVCApp\ExceptionManager\ExceptionManager\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\HP\Downloads\MVCApp (2)\MVCApp\ExceptionManager\ExceptionManager\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\HP\Downloads\MVCApp (2)\MVCApp\ExceptionManager\ExceptionManager\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\HP\Downloads\MVCApp (2)\MVCApp\ExceptionManager\ExceptionManager\bin\Debug\System.Web.Http.dll
+C:\Users\HP\Downloads\MVCApp (2)\MVCApp\ExceptionManager\ExceptionManager\bin\Debug\System.Net.Http.dll
+C:\Users\HP\Downloads\MVCApp (2)\MVCApp\ExceptionManager\ExceptionManager\bin\Debug\System.Net.Http.xml
+C:\Users\HP\Downloads\MVCApp (2)\MVCApp\ExceptionManager\ExceptionManager\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\HP\Downloads\MVCApp (2)\MVCApp\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.dll
+C:\Users\HP\Downloads\MVCApp (2)\MVCApp\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.pdb
+D:\workbench\MVCApp\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.dll
+D:\workbench\MVCApp\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.pdb
+D:\workbench\MVCApp\ExceptionManager\ExceptionManager\bin\Debug\System.Net.Http.dll
+D:\workbench\MVCApp\ExceptionManager\ExceptionManager\bin\Debug\System.Net.Http.xml
+D:\workbench\MVCApp\ExceptionManager\ExceptionManager\obj\Debug\ResolveAssemblyReference.cache
+D:\workbench\MVCApp\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.dll
+D:\workbench\MVCApp\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.pdb
+D:\workbench\InventoryManagement\InventoryManagementSystem\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.dll
+D:\workbench\InventoryManagement\InventoryManagementSystem\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.pdb
+D:\workbench\InventoryManagement\InventoryManagementSystem\ExceptionManager\ExceptionManager\bin\Debug\System.Net.Http.dll
+D:\workbench\InventoryManagement\InventoryManagementSystem\ExceptionManager\ExceptionManager\bin\Debug\System.Net.Http.xml
+D:\workbench\InventoryManagement\InventoryManagementSystem\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.csprojResolveAssemblyReference.cache
+D:\workbench\InventoryManagement\InventoryManagementSystem\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.dll
+D:\workbench\InventoryManagement\InventoryManagementSystem\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.pdb
+E:\SandeepData\InventoryManagement\InventoryManagementSystem\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.dll
+E:\SandeepData\InventoryManagement\InventoryManagementSystem\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.pdb
+E:\SandeepData\InventoryManagement\InventoryManagementSystem\ExceptionManager\ExceptionManager\bin\Debug\System.Net.Http.dll
+E:\SandeepData\InventoryManagement\InventoryManagementSystem\ExceptionManager\ExceptionManager\bin\Debug\System.Net.Http.xml
+E:\SandeepData\InventoryManagement\InventoryManagementSystem\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.csprojResolveAssemblyReference.cache
+E:\SandeepData\InventoryManagement\InventoryManagementSystem\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.dll
+E:\SandeepData\InventoryManagement\InventoryManagementSystem\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.pdb
+D:\workbench\AdminPanel\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.dll
+D:\workbench\AdminPanel\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.pdb
+D:\workbench\AdminPanel\ExceptionManager\ExceptionManager\bin\Debug\System.Net.Http.dll
+D:\workbench\AdminPanel\ExceptionManager\ExceptionManager\bin\Debug\System.Net.Http.xml
+D:\workbench\AdminPanel\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.csprojResolveAssemblyReference.cache
+D:\workbench\AdminPanel\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.dll
+D:\workbench\AdminPanel\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.pdb
+D:\workbench\Learning\ECommAdminPanel\ECommAdminPanel\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.dll
+D:\workbench\Learning\ECommAdminPanel\ECommAdminPanel\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.pdb
+D:\workbench\Learning\ECommAdminPanel\ECommAdminPanel\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.csprojResolveAssemblyReference.cache
+D:\workbench\Learning\ECommAdminPanel\ECommAdminPanel\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.dll
+D:\workbench\Learning\ECommAdminPanel\ECommAdminPanel\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.pdb
+D:\workbench\Learning\GST\WinGST\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.dll
+D:\workbench\Learning\GST\WinGST\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.pdb
+D:\workbench\Learning\GST\WinGST\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.dll
+D:\workbench\Learning\GST\WinGST\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.pdb
+D:\workbench\Learning\GST\WinGST\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.csprojResolveAssemblyReference.cache
+D:\WorkBench\GST\WinGST\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.dll
+D:\WorkBench\GST\WinGST\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.pdb
+D:\WorkBench\GST\WinGST\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.csprojResolveAssemblyReference.cache
+D:\WorkBench\GST\WinGST\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.dll
+D:\WorkBench\GST\WinGST\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.pdb
+D:\workbench\GSTSoftware\WinGST\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.dll
+D:\workbench\GSTSoftware\WinGST\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.pdb
+D:\workbench\GSTSoftware\WinGST\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.dll
+D:\workbench\GSTSoftware\WinGST\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.pdb
+D:\workbench\GSTSoftware\WinGST\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.csprojResolveAssemblyReference.cache
+D:\SVN Workbench\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.dll
+D:\SVN Workbench\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.pdb
+D:\SVN Workbench\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.dll
+D:\SVN Workbench\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.pdb
+D:\SVNWorkSpace\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.dll
+D:\SVNWorkSpace\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.pdb
+D:\SVNWorkSpace\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.dll
+D:\SVNWorkSpace\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.pdb
+E:\SVNWorkSpace\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.dll
+E:\SVNWorkSpace\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.pdb
+E:\SVNWorkSpace\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.dll
+E:\SVNWorkSpace\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.pdb
+E:\SVNWorkSpace\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.csprojResolveAssemblyReference.cache
+D:\SVN Repo\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.dll
+D:\SVN Repo\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.pdb
+D:\SVN Repo\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.dll
+D:\SVN Repo\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.pdb
+D:\SVN Workbench\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.csprojResolveAssemblyReference.cache
+\\srv1-pc\Share\vipul\Final Hotel\Vipul\HotalManagment\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.dll
+\\srv1-pc\Share\vipul\Final Hotel\Vipul\HotalManagment\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.pdb
+\\srv1-pc\Share\vipul\Final Hotel\Vipul\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.csprojResolveAssemblyReference.cache
+\\srv1-pc\Share\vipul\Final Hotel\Vipul\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.dll
+\\srv1-pc\Share\vipul\Final Hotel\Vipul\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.pdb
+E:\SVN Workbench\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.dll
+E:\SVN Workbench\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.pdb
+E:\SVN Workbench\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.csprojResolveAssemblyReference.cache
+E:\SVN Workbench\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.dll
+E:\SVN Workbench\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.pdb
+D:\Project\HotalManagment\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.dll
+D:\Project\HotalManagment\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.pdb
+D:\Project\HotalManagment\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.dll
+D:\Project\HotalManagment\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.pdb
+E:\SVN Workbench\HotalManagment\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.dll
+E:\SVN Workbench\HotalManagment\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.pdb
+E:\SVN Workbench\HotalManagment\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.csprojResolveAssemblyReference.cache
+E:\SVN Workbench\HotalManagment\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.dll
+E:\SVN Workbench\HotalManagment\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.pdb
+E:\SVN Old\HotalManagment\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.dll
+E:\SVN Old\HotalManagment\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.pdb
+E:\SVN Old\HotalManagment\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.csprojResolveAssemblyReference.cache
+E:\SVN Old\HotalManagment\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.dll
+E:\SVN Old\HotalManagment\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.pdb
+E:\SVN Workspace\trunk\HotalManagment\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.dll
+E:\SVN Workspace\trunk\HotalManagment\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\bin\Debug\ExceptionManager.pdb
+E:\SVN Workspace\trunk\HotalManagment\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.dll
+E:\SVN Workspace\trunk\HotalManagment\HotalManagment\HotalManagment\ExceptionManager\ExceptionManager\obj\Debug\ExceptionManager.pdb

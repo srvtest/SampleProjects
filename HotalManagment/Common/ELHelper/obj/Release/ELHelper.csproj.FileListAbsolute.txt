@@ -1,0 +1,11 @@
+D:\Project\HotalManagment\HotalManagment\HotalManagment\Common\ELHelper\bin\Release\ELHelper.dll
+D:\Project\HotalManagment\HotalManagment\HotalManagment\Common\ELHelper\bin\Release\ELHelper.pdb
+D:\Project\HotalManagment\HotalManagment\HotalManagment\Common\ELHelper\bin\Release\ExceptionManager.dll
+D:\Project\HotalManagment\HotalManagment\HotalManagment\Common\ELHelper\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Project\HotalManagment\HotalManagment\HotalManagment\Common\ELHelper\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Project\HotalManagment\HotalManagment\HotalManagment\Common\ELHelper\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Project\HotalManagment\HotalManagment\HotalManagment\Common\ELHelper\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\Project\HotalManagment\HotalManagment\HotalManagment\Common\ELHelper\bin\Release\ExceptionManager.pdb
+D:\Project\HotalManagment\HotalManagment\HotalManagment\Common\ELHelper\obj\Release\ELHelper.csprojResolveAssemblyReference.cache
+D:\Project\HotalManagment\HotalManagment\HotalManagment\Common\ELHelper\obj\Release\ELHelper.dll
+D:\Project\HotalManagment\HotalManagment\HotalManagment\Common\ELHelper\obj\Release\ELHelper.pdb

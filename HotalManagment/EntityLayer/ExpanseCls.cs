@@ -1,0 +1,55 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Data;
+
+namespace EntityLayer
+{
+   public  class ExpanseCls
+    {
+        public int Id { get; set; }
+        public int ExpanseHeadId { get; set; }
+        public double Amount { get; set; }
+        public DateTime ExpanseDate { get; set; }
+        public bool IsActive { get; set; }
+        public int CreatedBy { get; set; }
+        public DateTime Creationdate { get; set; }
+        public int ModifyBy { get; set; }
+        public DateTime ModificationDate { get; set; }
+
+        public ExpanseCls()
+        { }
+
+        public ExpanseCls(DataRow dr)
+        {
+            if (dr.Table.Columns.Contains("Id") && !Convert.IsDBNull(dr["Id"]))
+                this.Id = Convert.ToInt32(dr["Id"]);
+
+
+            if (dr.Table.Columns.Contains("ExpanseHeadId") && !Convert.IsDBNull(dr["ExpanseHeadId"]))
+                this.ExpanseHeadId = Convert.ToInt32(dr["ExpanseHeadId"]);
+
+            if (dr.Table.Columns.Contains("Amount") && !Convert.IsDBNull(dr["Amount"]))
+                this.Amount = Convert.ToDouble(dr["Amount"]);
+
+            if (dr.Table.Columns.Contains("ExpanseDate") && !Convert.IsDBNull(dr["ExpanseDate"]))
+                this.ExpanseDate = Convert.ToDateTime(dr["ExpanseDate"]);
+
+            if (dr.Table.Columns.Contains("IsActive") && !Convert.IsDBNull(dr["IsActive"]))
+                this.IsActive = Convert.ToBoolean(dr["IsActive"]);
+
+            if (dr.Table.Columns.Contains("CreatedBy") && !Convert.IsDBNull(dr["CreatedBy"]))
+                this.CreatedBy = Convert.ToInt32(dr["CreatedBy"]);
+
+            if (dr.Table.Columns.Contains("Creationdate") && !Convert.IsDBNull(dr["Creationdate"]))
+                this.Creationdate = Convert.ToDateTime(dr["Creationdate"]);
+
+            if (dr.Table.Columns.Contains("ModifyBy") && !Convert.IsDBNull(dr["ModifyBy"]))
+                this.ModifyBy = Convert.ToInt32(dr["ModifyBy"]);
+
+            if (dr.Table.Columns.Contains("ModificationDate") && !Convert.IsDBNull(dr["ModificationDate"]))
+                this.ModificationDate = Convert.ToDateTime(dr["ModificationDate"]);
+        }
+    }
+}

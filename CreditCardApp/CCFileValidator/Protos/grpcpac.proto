@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "CCGrpcService";
+
+package grpcpac;
+
+// The greeting service definition.
+service grpcServicce {
+  // Sends a greeting
+  rpc processData (processDataRequest) returns (processDataReply);
+
+}
+
+// The request message containing the user's name.
+message processDataRequest {
+  string JsonData = 1;
+  string FileId = 2;
+}
+
+
+
+// The response message containing the greetings.
+message processDataReply {
+  string message = 1;
+}

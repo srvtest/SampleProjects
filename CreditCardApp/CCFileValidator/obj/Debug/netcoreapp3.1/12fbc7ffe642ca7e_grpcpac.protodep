@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1\Protos/Grpcpac.cs \
+obj\Debug\netcoreapp3.1\Protos/GrpcpacGrpc.cs: Protos/grpcpac.proto

@@ -1,0 +1,210 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="HotalManagment.Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <!-- start: Meta -->
+    <meta charset="utf-8" />
+    <meta name="description" content="Bootstrap Metro Dashboard" />
+    <meta name="author" content="Dennis Ji" />
+    <meta name="keyword" content="Metro, Metro UI, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina" />
+    <!-- end: Meta -->
+    <!-- start: Mobile Specific -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- end: Mobile Specific -->
+    <!-- start: CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/style-responsive.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet"
+        type="text/css" />
+    <link href="https://cdn.datatables.net/rowreorder/1.2.3/css/rowReorder.dataTables.min.css"
+        rel="stylesheet" type="text/css" />
+    <link href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css"
+        rel="stylesheet" type="text/css" />
+    <link href="Styles/bootstrap3.3.7.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/UserStyle.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/timepicki.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,latin-ext'
+        rel='stylesheet' type='text/css' />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <%--<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>--%>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/rowreorder/1.2.3/js/dataTables.rowReorder.min.js"></script>
+    <script type="text/javascript" src=" https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+    <script src="Scripts/timepicki.js" type="text/javascript"></script>
+    <link href="js/calendar/fullcalendar.min.css" rel="stylesheet" type="text/css" />
+    <script src="js/calendar/moment.min.js" type="text/javascript"></script>
+    <script src="js/calendar/fullcalendar.min.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <!-- start: Header -->
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".top-nav.nav-collapse,.sidebar-nav.nav-collapse">
+                        <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar">
+                        </span></a><a class="brand" href="MainDashBoard.aspx">
+                            <asp:Image ID="imageLogo" runat="server" Visible="false" Height="15px" />
+                            <i id="idLogo" runat="server" visible="false"></i><span id="hotelName" runat="server">
+                            </span></a>
+                    <!-- start: Header Menu -->
+                    <div class="nav-no-collapse header-nav">
+                        <ul class="nav pull-right">
+                            <li><a class="btn" href="#"><i class="icon-bar"></i></a></li>
+                            <li><a class="btn" href="#"><i class="icon-bell"></i></a></li>
+                            <li><a class="btn" href="#"><i class="icon-bookmark"></i></a></li>
+                            <li><a class="btn" href="#"><i class="icon-candle"></i></a></li>
+                            <!-- start: User Dropdown -->
+                            <li class="dropdown"><a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                                <i class="icon-white user"></i>
+                                <asp:Label ID="lblUsername" runat="server" Text="Label"></asp:Label>
+                                <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-menu-title"><span>Account Settings</span> </li>
+                                    <li><a href="Profile.aspx"><i class="icon-user"></i>Profile</a></li>
+                                    <li><a href="ChangePassword.aspx"><i class="icon-exchange"></i>Change Password</a></li>
+                                    <li><a href="login.aspx"><i class="icon-off"></i>Logout</a></li>
+                                </ul>
+                            </li>
+                            <!-- end: User Dropdown -->
+                        </ul>
+                    </div>
+                    <!-- end: Header Menu -->
+                </div>
+            </div>
+        </div>
+        <!-- start: Header -->
+        <div class="container-fluid-full">
+            <div class="row-fluid">
+                <!-- start: Main Menu -->
+                <div id="sidebar-left" class="span2">
+                    <div class="nav-collapse sidebar-nav">
+                        <ul class="nav nav-tabs nav-stacked main-menu">
+                            <li id="idDashboard" runat="server"><a href="MainDashBoard.aspx"><i class="icon-dashboard">
+                            </i><span class="hidden-tablet">Dashboard</span></a></li>
+                            <li id="idCategory" runat="server" visible="false"><a href="Category.aspx"><i class="icon-tasks">
+                            </i><span class="hidden-tablet">Category</span></a></li>
+                             <li id="idRateType" runat="server" visible="false"><a href="RateTypeMaster.aspx"><i class="icon-tasks">
+                            </i><span class="hidden-tablet">RateType</span></a></li>
+                            <li id="idRooms" runat="server" visible="false"><a href="RoomMaster.aspx"><i class="icon-tasks">
+                            </i><span class="hidden-tablet">Rooms</span></a></li>
+                            <li id="idHotel" runat="server" visible="false"><a href="Hotel.aspx"><i class="icon-tasks">
+                            </i><span class="hidden-tablet">Hotel</span></a></li>
+                            <%--<li><a href="Booking.aspx"><i class="icon-eye-open"></i><span class="hidden-tablet">Booking</span></a></li>--%>
+                            <li id="idItem" runat="server" visible="false"><a href="Items.aspx"><i class="icon-tasks">
+                            </i><span class="hidden-tablet">Item</span></a></li>
+                            <li id="idGSTSlab" runat="server" visible="false"><a href="GSTSlab.aspx"><i class="icon-tasks">
+                            </i><span class="hidden-tablet">GSTSlab</span></a></li>
+                            <li id="idUser" runat="server" visible="false"><a href="UserDetails.aspx"><i class="icon-tasks">
+                            </i><span class="hidden-tablet">User</span></a></li>
+                            <li id="idHouseKeeping" runat="server" visible="false"><a href="HouseKeeping.aspx"><i
+                                class="icon-tasks"></i><span class="hidden-tablet">House Keeping</span></a></li>
+                            <li id="idBookingSourceType" runat="server" visible="false"><a href="BookingSourceType.aspx">
+                                <i class="icon-tasks"></i><span class="hidden-tablet">BookingSourceType</span></a></li>
+                            <li id="idBookingSource" runat="server" visible="false"><a href="BookingSource.aspx">
+                                <i class="icon-tasks"></i><span class="hidden-tablet">BookingSource</span></a></li>
+                            <li id="idBusinessSource" runat="server" visible="false"><a href="BusinessSource.aspx">
+                                <i class="icon-tasks"></i><span class="hidden-tablet">BusinessSource</span></a></li>
+                            <li id="idBookingType" runat="server" visible="false"><a href="BookingType.aspx"><i
+                                class="icon-tasks"></i><span class="hidden-tablet">BookingType</span></a></li>
+                            <li id="idBooking" runat="server" visible="false"><a href="Booking.aspx"><i class="icon-tasks">
+                            </i><span class="hidden-tablet">Booking</span></a></li>
+                            <li id="idBookingItem" runat="server" visible="false"><a href="BookingItem.aspx"><i
+                                class="icon-tasks"></i><span class="hidden-tablet">Booking Item</span></a></li>
+                            <li id="idEnquiry" runat="server" visible="false"><a href="enquiry.aspx"><i class="icon-tasks">
+                            </i><span class="hidden-tablet">Enquiry</span></a></li>
+                            <li id="idExpressCheckout" runat="server" visible="true"><a href="ExpressCheckout.aspx">
+                                <i class="icon-tasks"></i><span class="hidden-tablet">Express Checkin</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- end: Main Menu -->
+                <noscript>
+                    <div class="alert alert-block span10">
+                        <h4 class="alert-heading">
+                            Warning!</h4>
+                        <p>
+                            You need to have <a href="http://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a>
+                            enabled to use this site.</p>
+                    </div>
+                </noscript>
+                <!-- start: Content -->
+                <div id="content" class="span10">
+                    <!--/row-->
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <!--/.fluid-container-->
+                <!-- end: Content -->
+            </div>
+            <!--/#content.span10-->
+        </div>
+        <!--/fluid-row-->
+        <div class="modal hide fade" id="myModal">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    ×</button>
+                <h3>
+                    Settings</h3>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Here settings can be configured...</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn" data-dismiss="modal">Close</a> <a href="#" class="btn btn-primary">
+                    Save changes</a>
+            </div>
+        </div>
+        <div class="clearfix">
+        </div>
+        <footer>
+
+		<p>
+			<span style="text-align:left;float:left">&copy; 2013 <a href="#" alt="Hotal_Managment">Hotal Managment</a></span>
+		</p>
+
+	</footer>
+        <!-- start: JavaScript-->
+        <%--<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>--%>
+        <script src="js/jquery-migrate-1.0.0.min.js" type="text/javascript"></script>
+        <script src="js/jquery-ui-1.10.0.custom.min.js" type="text/javascript"></script>
+        <script src="js/jquery.ui.touch-punch.js" type="text/javascript"></script>
+        <script src="js/modernizr.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/jquery.cookie.js" type="text/javascript"></script>
+        <%-- <script src='js/fullcalendar.min.js' type="text/javascript"></script>--%>
+        <script src='js/jquery.dataTables.min.js' type="text/javascript"></script>
+        <script src="js/excanvas.js" type="text/javascript"></script>
+        <script src="js/jquery.flot.js" type="text/javascript"></script>
+        <script src="js/jquery.flot.pie.js" type="text/javascript"></script>
+        <script src="js/jquery.flot.stack.js" type="text/javascript"></script>
+        <script src="js/jquery.flot.resize.min.js" type="text/javascript"></script>
+        <script src="js/jquery.chosen.min.js" type="text/javascript"></script>
+        <script src="js/jquery.uniform.min.js" type="text/javascript"></script>
+        <script src="js/jquery.cleditor.min.js" type="text/javascript"></script>
+        <script src="js/jquery.noty.js" type="text/javascript"></script>
+        <script src="js/jquery.elfinder.min.js" type="text/javascript"></script>
+        <script src="js/jquery.raty.min.js" type="text/javascript"></script>
+        <script src="js/jquery.iphone.toggle.js" type="text/javascript"></script>
+        <script src="js/jquery.uploadify-3.1.min.js" type="text/javascript"></script>
+        <script src="js/jquery.gritter.min.js" type="text/javascript"></script>
+        <script src="js/jquery.imagesloaded.js" type="text/javascript"></script>
+        <script src="js/jquery.masonry.min.js" type="text/javascript"></script>
+        <script src="js/jquery.knob.modified.js" type="text/javascript"></script>
+        <script src="js/jquery.sparkline.min.js" type="text/javascript"></script>
+        <script src="js/counter.js" type="text/javascript"></script>
+        <script src="js/retina.js" type="text/javascript"></script>
+        <script src="js/custom.js" type="text/javascript"></script>
+        <!-- end: JavaScript-->
+    </div>
+    </form>
+</body>
+</html>
