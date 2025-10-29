@@ -1,0 +1,121 @@
+﻿@model EntityLayer.FoodCategory
+
+@{
+//Layout = null;
+}
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="top: 94px;">
+    <img src="/images/banner/Add Food Category.JPG" alt="">
+    <div class="title">
+        <h1>Food Category</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">Add Food Category</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+<!-- Contact Section Start Here -->
+<div class="contact-page-area spc-equal">
+    <div class="container">
+        <p>
+            @Html.ActionLink("Back to list", "FoodCategory")
+        </p>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="contact-area">
+                    @using (Html.BeginForm("AddFoodCategory", "FoodCategory", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+
+                        @Html.AntiForgeryToken()
+
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="CategoryTitle">Category Title<span class="req-st"> *</span></label>
+                                        @Html.TextBoxFor(m => m.CategoryTitle, new { @class = "form-control", id = "txtCategoryTitle" })
+                                        @Html.ValidationMessageFor(m => m.CategoryTitle, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="Description">Description</label>
+                                        @Html.TextBoxFor(m => m.Description, new { @class = "form-control", id = "txtDescription" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="CuisineID">Cuisine<span class="req-st"> *</span></label>
+                                        @Html.DropDownListFor(m => m.CuisineID, ViewBag.Cuisines as SelectList, "Select Cuisine", new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.CuisineID, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-8">
+                                    <div class="form-group">
+                                        <label for="Images">Images</label>
+                                        @Html.TextBox("ImagesFile", "", new { @class = "form-control", @type = "file", @onchange = "readURL(this)" })
+                                        @Html.HiddenFor(m => m.Images)
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-2 col-xs-4" style="margin-top: 10px;">
+                                    <div style='width:69px;height:69px;border:1px solid #42aee1;float: right;'><img width='100%' height='100%' id='img-logo' src='~/Image/FoodCategory/@Model.Images' alt='' /></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                @Html.HiddenFor(m => m.RestaurantID)
+                                @*<div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="RestaurantID" style="margin-right:20px">Apply to All</label>
+                                        @Html.CheckBoxFor(m => m.ApplyToAll)
+                                    </div>
+                                </div>*@
+                                @if (Model.FoodCategoryID > 0)
+                                {
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <label for="IsActive" style="margin-right: 20px">Status</label>
+                                            @Html.CheckBoxFor(m => m.IsActive, new { @class = "" })
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group bottom-btn">
+                                        <input type="submit" class="btn-send" id="buttonsubmit" value="Submit">
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                        @section Scripts {
+                            @Scripts.Render("~/bundles/jqueryval")
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function readURL(input) {
+        //var logoId = $(input).attr('id');
+        //alert(statusId);
+        $('#img-logo').attr('src', '')
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                $('#img-logo').attr('src', e.target.result)
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+</script>
+<script type="text/javascript">
+    $(function () {
+        var message = '@TempData["NotifyMessage"]';
+        var type = '@TempData["NotifyType"]';
+        if (message != "")
+            ShowNotify("", message, type);
+    });
+</script>

@@ -1,0 +1,92 @@
+﻿@model IEnumerable<EntityLayer.Access>
+
+@{
+    ViewBag.Title = "Access";
+    //Layout = null;
+}
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="top: 94px;">
+    <img src="/images/banner/Access.JPG" alt="">
+    <div class="title">
+        <h1>Access</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">Access</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+<!-- Contact Section Start Here -->
+<div class="contact-page-area spc-equal">
+    <div class="container">
+        <p>
+            @Html.ActionLink("Create New", "AddAccess")
+        </p>
+        @using (Html.BeginForm("AddAccess", "Access", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+        {
+            
+            <table class="table">
+                <tr>
+                    @*<th>
+                        Access ID
+                    </th>*@
+                    <th>
+                        Access Name
+                    </th>
+                    <th>
+                        Access Desc
+                    </th>
+                    <th></th>
+
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        @*<td>
+                            @Html.DisplayFor(modelItem => item.AccessID)
+                        </td>*@
+                        <td>
+                            @Html.DisplayFor(modelItem => item.AccessName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.AccessDesc)
+                        </td>
+                        <td>
+                            <div>
+                                <div style="float:left" title="Edit">
+                                    <a href="@Url.Action("addaccess", "access", new { id = item.AccessID })" class="btn btn-xs btn-info">
+                                        <span class="glyphicon glyphicon-edit" aria-hidden="true">Edit</span>
+                                    </a>
+                                </div>
+                                <div style="float:left;margin-left:5px" title="Delete">
+                                    @using (Html.BeginForm("access", "access", new { id = item.AccessID }, FormMethod.Post))
+                                    {
+                                        @Html.HttpMethodOverride(HttpVerbs.Delete)
+                                        <button type="submit" id="buttonsubmit" value="Delete"
+                                                onclick="return confirm('Are you sure?');"
+                                                class="btn btn-xs btn-danger">
+                                            <span class="glyphicon glyphicon-trash">Delete</span>
+                                        </button>
+                                    }
+                                </div>
+                            </div>
+
+
+                            @*@Html.ActionLink("Edit", "Edit", new { id = item.AccessID }) |
+                                @Html.ActionLink("Details", "Details", new { id = item.AccessID }) |
+                                @Html.ActionLink("Delete", "Delete", new { id = item.AccessID })*@
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        }
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        var message = '@TempData["NotifyMessage"]';
+        var type = '@TempData["NotifyType"]';
+        if (message != "")
+            ShowNotify("", message, type);
+    });
+</script>

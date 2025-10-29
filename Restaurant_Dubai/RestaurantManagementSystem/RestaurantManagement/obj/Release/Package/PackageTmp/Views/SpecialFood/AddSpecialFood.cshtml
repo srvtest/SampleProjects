@@ -1,0 +1,45 @@
+﻿@model EntityLayer.SpecialFood
+
+@{
+    //Layout = null;
+}
+<h2>@ViewBag.Title</h2>
+<p>
+    @Html.ActionLink("Back to list", "SpecialFood")
+</p>
+@using (Html.BeginForm("AddSpecialFood", "SpecialFood", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+
+    @Html.AntiForgeryToken()
+
+    
+    <div>
+        <label for="Name">Name</label>
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control", id = "txtReview" })
+        @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+    </div>
+    <div>
+        <label for="Desc">Description</label>
+        @Html.TextBoxFor(m => m.Desc, new { @class = "form-control", id = "txtDesc" })
+        @Html.ValidationMessageFor(m => m.Desc, "", new { @class = "text-danger" })
+    </div>
+    <div>
+        <label for="RestaurantID">Restaurant<span class="req-st"> *</span></label>
+        @Html.DropDownListFor(m => m.RestaurantID, ViewBag.UserRestaurant as SelectList,"Select Restaurant", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.RestaurantID, "", new { @class = "text-danger" })
+    </div>
+    <div>
+        <input type="submit" id="buttonsubmit" value="Submit">
+    </div>
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }
+}
+<script type="text/javascript">
+    $(function () {
+        var message = '@TempData["NotifyMessage"]';
+        var type = '@TempData["NotifyType"]';
+        if (message != "")
+            ShowNotify("", message, type);
+    });
+</script>

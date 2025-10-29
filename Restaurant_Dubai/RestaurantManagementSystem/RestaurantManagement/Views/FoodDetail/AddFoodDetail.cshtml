@@ -1,0 +1,148 @@
+﻿@model EntityLayer.FoodDetail
+
+@{
+// Layout = null;
+}
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="top: 94px;">
+    <img src="/images/banner/Food Menu.JPG" alt="">
+    <div class="title">
+        <h1>Food Menu</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">Food Detail</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+<!-- Contact Section Start Here -->
+<div class="contact-page-area spc-equal">
+    <div class="container">
+        <p>
+            @Html.ActionLink("Back to list", "FoodDetail")
+        </p>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="contact-area">
+                    @using (Html.BeginForm("AddFoodDetail", "FoodDetail", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        @Html.HiddenFor(m => m.RestaurantID)
+
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="Title">Title<span class="req-st"> *</span></label>
+                                        @Html.TextBoxFor(m => m.Title, new { @class = "form-control", id = "txtTitle" })
+                                        @Html.ValidationMessageFor(m => m.Title, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="Description">Description</label>
+                                        @Html.TextBoxFor(m => m.Description, new { @class = "form-control", id = "txtDescription" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="Price">Price<span class="req-st"> *</span></label>
+                                        @Html.TextBoxFor(m => m.Price, new { @class = "form-control", id = "txtPrice" })
+                                        @Html.ValidationMessageFor(m => m.Price, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="DiscountPrice">Discount Price</label>
+                                        @Html.TextBoxFor(m => m.DiscountPrice, new { @class = "form-control", id = "txtDiscountPrice" })
+                                        @Html.ValidationMessageFor(m => m.DiscountPrice, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="FoodCategoryID">Food Category<span class="req-st"> *</span></label>
+                                        @Html.DropDownListFor(m => m.FoodCategoryID, ViewBag.UserFoodCategory as SelectList, "Select food category", new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.FoodCategoryID, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="Quantity">Quantity<span class="req-st"> *</span></label>
+                                        @Html.TextBoxFor(m => m.Quantity, new { @class = "form-control", id = "txtQuantity" })
+                                        @Html.ValidationMessageFor(m => m.Quantity, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="FoodType">Food Type<span class="req-st"> *</span></label>
+                                        @Html.TextBoxFor(m => m.FoodType, new { @class = "form-control", id = "txtFoodType" })
+                                        @Html.ValidationMessageFor(m => m.FoodType, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                @*<div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <label for="images">Images</label>
+                                            @Html.TextBoxFor(m => m.user_image_data, new { Type = "File" })
+                                                @Html.ValidationMessageFor(m => m.user_image_data)
+                                            <input id="user_image_data" title="Upload a product image" type="file" name="file" class="form-control" />
+                                            @Html.HiddenFor(m => m.images)
+                                        </div>
+                                    </div>*@
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="SearchTag">Search Tag</label>
+                                        @Html.TextBoxFor(m => m.SearchTag, new { @class = "form-control", id = "txtSearchTag" })
+                                    </div>
+                                </div>
+                            </div>
+                            @if (Model.FoodID > 0)
+                            {
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <label for="IsActive" style="margin-right: 25px;">Is Active</label>
+                                            @Html.EditorFor(m => m.IsActive, new { @checked = true, id = "chkIsActive" })
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group bottom-btn">
+                                        <input type="submit" class="btn-send" id="buttonsubmit" value="Submit">
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                        @section Scripts {
+                            @Scripts.Render("~/bundles/jqueryval")
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $('#buttonsubmit').click(function () {
+            var discount = $('#txtDiscountPrice').val();
+            var price = $('#txtPrice').val();
+            if (discount > price) {
+                alert("Discount price must be less than price");
+                return false;
+            }
+        });
+    });
+</script>
+<script type="text/javascript">
+    $(function () {
+        var message = '@TempData["NotifyMessage"]';
+        var type = '@TempData["NotifyType"]';
+        if (message != "")
+            ShowNotify("", message, type);
+    });
+</script>

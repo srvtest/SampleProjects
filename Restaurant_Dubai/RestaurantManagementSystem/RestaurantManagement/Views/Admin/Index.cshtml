@@ -1,0 +1,90 @@
+﻿@model EntityLayer.RestaurantUser
+@{
+    ViewBag.Title = "Log in";
+}
+<style type="text/css">
+    .home2 .header-area {
+        padding-bottom: 22px;
+    }
+</style>
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="top: 94px;">
+    <img src="/images/banner/Login.JPG" alt="">
+    <div class="title">
+        <h1>Login</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">Login</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+<!-- Contact Section Start Here -->
+<div class="contact-page-area spc-equal">
+    <div class="container">
+        <div class="col-md-6">
+            @using (Html.BeginForm("index", "Admin",  FormMethod.Post, new { @id = "contact-form", role = "form" }))
+            {
+                @*@Html.AntiForgeryToken()*@
+                <h4>Use a Admin account to log in.</h4>
+                <hr />
+                <fieldset>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label for="Firstname">Email<span class="req-st"> *</span></label>
+                                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label for="Firstname">Password<span class="req-st"> *</span></label>
+                                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label for="Firstname" style="margin-right: 20px;">Remember Me</label>
+                                @Html.CheckBoxFor(m => m.RememberMe, new { id = "txtFirstname" })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group bottom-btn" style="display:inline-block">
+                                <input type="submit" class="btn-send btn btn-primary" id="buttonsubmit" value="Submit">
+                            </div>
+                            <div class="pull-right">
+                                @Html.ActionLink("Forgot your password?", "ForgotPassword")
+                            </div>
+                            @*<div class="pull-right" style="color:red"></div>*@
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="row" style="margin-top:15px">
+                    @*<div class="col-md-6">
+                            @Html.ActionLink("Register as a new user", "AddRestaurantUser")
+                        </div>*@
+
+                </div>
+                @*<p>
+                        @Html.ActionLink("Forgot your password?", "ChangePassword")
+                    </p>*@
+            }
+        </div>
+
+
+        <div class="col-md-offset-2 col-md-4">
+            @*<section id="socialLoginForm">
+                    @Html.Partial("_ExternalLoginsListPartial", new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
+                </section>*@
+        </div>
+    </div>
+
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

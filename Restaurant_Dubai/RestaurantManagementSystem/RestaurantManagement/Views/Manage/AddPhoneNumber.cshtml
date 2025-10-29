@@ -1,0 +1,53 @@
+﻿@model RestaurantManagement.Models.AddPhoneNumberViewModel
+@{
+    ViewBag.Title = "Phone Number";
+}
+
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="height:110px;top: 94px;">
+    <img src="/images/banner/8.jpg" style="height:110px;" alt="">
+    <div class="title">
+        <h1>Phone Number</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">Add Phone Number</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+<!-- Contact Section Start Here -->
+<div class="contact-page-area spc-equal">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="contact-area">
+                    @using (Html.BeginForm("AddPhoneNumber", "Manage", FormMethod.Post, new { role = "form" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <h4>Add a phone number</h4>
+                        <hr />
+                        @Html.ValidationSummary("", new { @class = "text-danger" })
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        @Html.LabelFor(m => m.Number)
+                                        @Html.TextBoxFor(m => m.Number, new { @class = "form-control" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group bottom-btn">
+                                        <input type="submit" class="btn-send" id="buttonsubmit" value="Submit">
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    }
+
+                    @section Scripts {
+                        @Scripts.Render("~/bundles/jqueryval")
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

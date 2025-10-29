@@ -1,0 +1,207 @@
+﻿@model EntityLayer.OrderTrack
+
+@{
+
+//Layout = null;
+}
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="top: 94px;">
+    <img src="/images/banner/Add Order Track.JPG" alt="">
+    <div class="title">
+        <h1>Order Track</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">Add Order Track</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+<!-- Contact Section Start Here -->
+<div class="contact-page-area spc-equal">
+    <div class="container">
+        <p>
+            @Html.ActionLink("Back to list", "OrderTrack")
+        </p>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="contact-area">
+                    @using (Html.BeginForm("AddOrderTrack", "OrderTrack", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form", autocomplete = "off" }))
+                    {
+
+                        @Html.AntiForgeryToken()
+
+                       
+                        <fieldset>
+
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="OrderID">Order ID<span class="req-st"> *</span></label>
+                                        @Html.TextBoxFor(m => m.OrderID, new { @class = "form-control", id = "txtOrderID" })
+                                        @Html.ValidationMessageFor(m => m.OrderID, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="Packed">Packed</label>
+                                        @Html.TextBoxFor(m => m.Packed, new { @class = "form-control", id = "txtPacked" })
+                                        @Html.ValidationMessageFor(m => m.Packed, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="DineIn">Dine In</label>
+                                        @Html.TextBoxFor(m => m.DineIn, new { @class = "form-control", id = "txtDineIn" })
+                                        @Html.ValidationMessageFor(m => m.DineIn, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="DineInDate">Dine In Date</label>
+                                        @*@Html.TextBox("DineInDate", "", new { @class = "form-control " })*@
+                                        @Html.TextBoxFor(m => m.DineInDate, new { @class = "form-control", id = "txtDineInDate" })
+                                        @Html.ValidationMessageFor(m => m.DineInDate, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="DineOut">Dine Out</label>
+                                        @Html.TextBoxFor(m => m.DineOut, new { @class = "form-control", id = "txtDineOut" })
+                                        @Html.ValidationMessageFor(m => m.DineOut, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="DineOutDate">Dine Out Date</label>
+                                        @*@Html.TextBox("DineOutDate", "", new { @class = "form-control " })*@
+                                        @Html.TextBoxFor(m => m.DineOutDate, new { @class = "form-control", id = "txtDineOutDate" })
+                                        @Html.ValidationMessageFor(m => m.DineOutDate, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="Delivered">Delivered</label>
+                                        @Html.TextBoxFor(m => m.Delivered, new { @class = "form-control", id = "txtDelivered" })
+                                        @Html.ValidationMessageFor(m => m.Delivered, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="DeliveryDate">Delivery Date</label>
+                                        @*@Html.TextBox("DeliveryDate", "", new { @class = "form-control " })*@
+                                        @Html.TextBoxFor(m => m.DeliveryDate, new { @class = "form-control", id = "txtDeliveryDate" })
+                                        @Html.ValidationMessageFor(m => m.DeliveryDate, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="DeliveryDesc">Delivery Desc</label>
+                                        @Html.TextBoxFor(m => m.DeliveryDesc, new { @class = "form-control", id = "txtDeliveryDesc" })
+                                        @Html.ValidationMessageFor(m => m.DeliveryDesc, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="StaffID">Staff ID</label>
+                                        @Html.TextBoxFor(m => m.StaffID, new { @class = "form-control", id = "txtStaffID" })
+                                        @Html.ValidationMessageFor(m => m.StaffID, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="CustomerID ">Customer ID </label>
+                                        @Html.DropDownListFor(m => m.CustomerID, ViewBag.UserCustomer as SelectList, new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.CustomerID, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                @*<div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="RestaurantID">Restaurant ID</label>
+                                        @Html.DropDownListFor(m => m.RestaurantID, ViewBag.UserRestaurant as SelectList, new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.RestaurantID, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>*@
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="DeliveryCost">DeliveryCost</label>
+                                        @Html.TextBoxFor(m => m.DeliveryCost, new { @class = "form-control", id = "txtDeliveryCost" })
+                                        @Html.ValidationMessageFor(m => m.DeliveryCost, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="PaymentType">Payment Type</label>
+                                        @Html.TextBoxFor(m => m.PaymentType, new { @class = "form-control", id = "txtPaymentType" })
+                                        @Html.ValidationMessageFor(m => m.PaymentType, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="Amount">Amount</label>
+                                        @Html.TextBoxFor(m => m.Amount, new { @class = "form-control", id = "txtAmount" })
+                                        @Html.ValidationMessageFor(m => m.Amount, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="Address">Address</label>
+                                        @Html.TextBoxFor(m => m.Address, new { @class = "form-control", id = "txtAddress" })
+                                        @Html.ValidationMessageFor(m => m.Address, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group bottom-btn">
+                                        <input type="submit" class="btn-send" id="buttonsubmit" value="Submit">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </fieldset>
+                        @section Scripts {
+                            @Scripts.Render("~/bundles/jqueryval")
+                        }
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+       $(document).ready(function () {
+           $("#txtDineInDate").datetimepicker();
+           $("#txtDineOutDate").datetimepicker();
+           $("#txtDeliveryDate").datetimepicker();
+        });
+</script>
+<script type="text/javascript">
+    $(function () {
+        var message = '@TempData["NotifyMessage"]';
+        var type = '@TempData["NotifyType"]';
+        if (message != "")
+            ShowNotify("", message, type);
+    });
+</script>

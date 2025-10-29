@@ -1,0 +1,155 @@
+﻿@model EntityLayer.RestaurantUser
+
+@{
+//Layout = null;
+}
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="top: 94px;">
+    <img src="/images/banner/Add Restaurant User.JPG" alt="">
+    <div class="title">
+        <h1>Restaurant User</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">Restaurant User</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+<!-- Contact Section Start Here -->
+<div class="contact-page-area spc-equal">
+    <div class="container">
+        @*<p>
+                @Html.ActionLink("Back to list", "RestaurantUser")
+            </p>*@
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="contact-area">
+                    @using (Html.BeginForm("AddRestaurantUser", "RestaurantUser", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @id = "contact-form", role = "form" }))
+                    {
+
+                        @Html.AntiForgeryToken()
+
+                        @Html.HiddenFor(m => m.UserID)
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="Firstname">First name<span class="req-st"> *</span></label>
+                                        @Html.TextBoxFor(m => m.Firstname, new { @class = "form-control", id = "txtFirstname" })
+                                        @Html.ValidationMessageFor(m => m.Firstname, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="LastName">Last Name<span class="req-st"> *</span></label>
+                                        @Html.TextBoxFor(m => m.LastName, new { @class = "form-control", id = "txtLastName" })
+                                        @Html.ValidationMessageFor(m => m.LastName, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="Gender">Gender<span class="req-st"> *</span></label>
+                                        @Html.DropDownList("Gender", new List<SelectListItem>
+        {
+            new SelectListItem{ Text="Male", Value="1"},
+            new SelectListItem{ Text="Female", Value="2"},  new SelectListItem{ Text="Other", Value="3"}
+        }, "--- Select ---", new { @class = "form-control" })
+                                        @*@Html.RadioButton(m => m.Gender, new { @class = "form-control", id = "txtFirstname" })*@
+                                        @*@Html.ValidationMessageFor(m => m.Gender, "", new { @class = "text-danger" })*@
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="Email">Email<span class="req-st"> *</span></label>
+                                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control", id = "txtEmail" })
+                                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="Mobile">Mobile<span class="req-st"> *</span></label>
+                                        @Html.TextBoxFor(m => m.Mobile, new { @class = "form-control", id = "txtMobile", @maxlength = "11", @type = "number" })
+                                        @Html.ValidationMessageFor(m => m.Mobile, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="Address">Address<span class="req-st"> *</span></label>
+                                        @Html.TextBoxFor(m => m.Address, new { @class = "form-control", id = "txtAddress" })
+                                        @Html.ValidationMessageFor(m => m.Address, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="OfficeAddress">Office Address</label>
+                                        @Html.TextBoxFor(m => m.OfficeAddress, new { @class = "form-control", id = "txtOfficeAddress" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="RolesID">Role<span class="req-st"> *</span></label>
+                                        @Html.DropDownListFor(m => m.RolesID, ViewBag.UserRole as SelectList, "Select Role", new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.RolesID, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="RestaurantID">Restaurant<span class="req-st"> *</span></label>
+                                        @Html.DropDownListFor(m => m.RestaurantID, ViewBag.UserRestaurant as SelectList, "Select Restaurant", new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.RestaurantID, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="ModifiedBy">Password<span class="req-st"> *</span></label>
+                                        @Html.TextBoxFor(m => m.Password, new { @class = "form-control", id = "txtPassword" })
+                                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                @if (Model.UserID > 0)
+                                {
+                                    <div class="col-md-6 col-sm-6 col-xs-12" style="margin-top: 34px;">
+                                        <div class="form-group">
+                                            <label for="Status" style="margin-right: 20px;">Status</label>
+                                            @Html.CheckBoxFor(m => m.IsActive, new { @class = "" })
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group bottom-btn">
+                                        <input type="submit" class="btn-send" id="buttonsubmit" value="Submit">
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+
+
+                        @section Scripts {
+                            @Scripts.Render("~/bundles/jqueryval")
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script type="text/javascript">
+    $(function () {
+        var message = '@TempData["NotifyMessage"]';
+        var type = '@TempData["NotifyType"]';
+        if (message != "")
+            ShowNotify("", message, type);
+    });
+</script>

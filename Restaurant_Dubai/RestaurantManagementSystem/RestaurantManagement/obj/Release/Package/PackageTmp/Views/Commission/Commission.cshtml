@@ -1,0 +1,107 @@
+﻿@model IEnumerable<EntityLayer.Commission>
+
+@{
+    ViewBag.Title = "Commission";
+    //Layout = null;
+}
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="top: 94px;">
+    <img src="/images/banner/Commission.JPG" alt="">
+    <div class="title">
+        <h1>Commission</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">Commission</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+<!-- Contact Section Start Here -->
+<div class="contact-page-area spc-equal">
+    <div class="container">
+        <p>
+            @Html.ActionLink("Create New", "AddCommission")
+        </p>
+        @using (Html.BeginForm("AddCommission", "Commission", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+        {
+            
+            <table class="table">
+                <tr>
+                    @*<th>
+                        @Html.DisplayNameFor(model => model.CommissionID)
+                    </th>*@
+                    <th>
+                        @Html.DisplayNameFor(model => model.RoleID)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.UserID)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Percentage)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Desc)
+                    </th>
+                    <th>
+                        Restaurant Name
+                    </th>
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        @*<td>
+                            @Html.DisplayFor(modelItem => item.CommissionID)
+                        </td>*@
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RoleID)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.UserID)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Percentage)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Desc)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RestaurantName)
+                        </td>
+                        <td>
+                            <div>
+                                <div style="float:left" title="Edit">
+                                    <a href="@Url.Action("addCommission", "Commission", new { id = item.CommissionID })" class="btn btn-xs btn-info">
+                                        <span class="glyphicon glyphicon-edit" aria-hidden="true">Edit</span>
+                                    </a>
+                                </div>
+                                <div style="float:left;margin-left:5px" title="Delete">
+                                    @using (Html.BeginForm("Commission", "Commission", new { id = item.CommissionID }, FormMethod.Post))
+                                    {
+                                        @Html.HttpMethodOverride(HttpVerbs.Delete)
+                                        <button type="submit" id="buttonsubmit" value="Delete"
+                                                onclick="return confirm('Are you sure?');"
+                                                class="btn btn-xs btn-danger">
+                                            <span class="glyphicon glyphicon-trash">Delete</span>
+                                        </button>
+                                    }
+                                </div>
+                            </div>
+
+                            @*@Html.ActionLink("Edit", "Edit", new { id=item.CommissionID }) |
+                                @Html.ActionLink("Details", "Details", new { id=item.CommissionID }) |
+                                @Html.ActionLink("Delete", "Delete", new { id=item.CommissionID })*@
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        }
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        var message = '@TempData["NotifyMessage"]';
+        var type = '@TempData["NotifyType"]';
+        if (message != "")
+            ShowNotify("", message, type);
+    });
+</script>

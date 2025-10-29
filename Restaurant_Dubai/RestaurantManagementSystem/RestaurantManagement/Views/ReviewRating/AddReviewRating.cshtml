@@ -1,0 +1,98 @@
+﻿@model EntityLayer.ReviewRating
+
+@{
+//Layout = null;
+}
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="top: 94px;">
+    <img src="/images/banner/Add Review Rating.JPG" alt="">
+    <div class="title">
+        <h1>Review</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">Add Review Rating</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+<!-- Contact Section Start Here -->
+<div class="contact-page-area spc-equal">
+    <div class="container">
+        <p>
+            @Html.ActionLink("Back to list", "ReviewRating")
+        </p>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="contact-area">
+                    @using (Html.BeginForm("AddReviewRating", "ReviewRating", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+                    {
+
+                        @Html.AntiForgeryToken()
+
+
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="CustomerID">Customer<span class="req-st"> *</span></label>
+                                        @Html.DropDownListFor(m => m.CustomerID, ViewBag.UserCustomer as SelectList, "Select Customer", new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.CustomerID, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="Rating">Rating<span class="req-st"> *</span></label>
+                                        @Html.TextBoxFor(m => m.Rating, new { @class = "form-control", id = "txtRating" })
+                                        @Html.ValidationMessageFor(m => m.Rating, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="Review">Review<span class="req-st"> *</span></label>
+                                        @Html.TextAreaFor(m => m.Review, new { @class = "form-control", id = "txtReview" })
+                                        @Html.ValidationMessageFor(m => m.Review, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            @if (Model.ReviewRatingID > 0)
+                            {
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <label for="IsActive">Is Active</label>
+                                            @Html.EditorFor(m => m.IsActive, new { @class = "form-control", id = "txtIsActive" })
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group bottom-btn">
+                                        <input type="submit" class="btn-send" id="buttonsubmit" value="Submit">
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                        @section Scripts {
+                            @Scripts.Render("~/bundles/jqueryval")
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style type="text/css">
+    textarea
+    {
+        resize:none;
+    }
+</style>
+<script type="text/javascript">
+    $(function () {
+        var message = '@TempData["NotifyMessage"]';
+        var type = '@TempData["NotifyType"]';
+        if (message != "")
+            ShowNotify("", message, type);
+    });
+</script>

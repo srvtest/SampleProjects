@@ -1,0 +1,87 @@
+﻿@model EntityLayer.Access
+@{
+// ViewBag.Title = "Add Access";
+//Layout = null;
+}
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="top: 94px;">
+    <img src="/images/banner/Add Access.JPG" alt="">
+    <div class="title">
+        <h1>Access</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">Add Access</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+<!-- Contact Section Start Here -->
+<div class="contact-page-area spc-equal">
+    <div class="container">
+        <p>
+            @Html.ActionLink("Back to list", "Access")
+        </p>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="contact-area">
+                    @using (Html.BeginForm("AddAccess", "Access", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+                    {
+
+                        @Html.AntiForgeryToken()
+
+                      
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="AccessName">Access Name<span class="req-st"> *</span></label>
+                                        @Html.TextBoxFor(m => m.AccessName, new { @class = "form-control", id = "txtAccessName" })
+                                        @Html.ValidationMessageFor(m => m.AccessName, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="AccessDesc">Access Description</label>
+                                        @Html.TextBoxFor(m => m.AccessDesc, new { @class = "form-control", id = "txtAccessDesc" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="RestaurantID">Restaurant<span class="req-st"> *</span></label>
+                                        @Html.DropDownListFor(m => m.BaseAccessID, ViewBag.AccessList as SelectList, "Select Access", new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.BaseAccessID, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="AccessDesc">Access Page URL<span class="req-st"> *</span></label>
+                                        @Html.TextBoxFor(m => m.PageURL, new { @class = "form-control", id = "txtPageURL" })
+                                        @Html.ValidationMessageFor(m => m.PageURL, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group bottom-btn">
+                                        <input type="submit" class="btn-send" id="buttonsubmit" value="Submit">
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                        @section Scripts {
+                            @Scripts.Render("~/bundles/jqueryval")
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        var message = '@TempData["NotifyMessage"]';
+        var type = '@TempData["NotifyType"]';
+        if (message != "")
+            ShowNotify("", message, type);
+    });
+</script>

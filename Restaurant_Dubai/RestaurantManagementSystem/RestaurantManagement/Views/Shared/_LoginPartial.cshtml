@@ -1,0 +1,42 @@
+﻿ 
+@using EntityLayer;
+@if(Session["RSession"]!=null)
+//@if (Request.IsAuthenticated)
+{
+    RSession rs = new RSession();
+    rs= (RSession) Session["RSession"];
+    <div class="col-md-3 col-sm-3 col-xs-12">
+        <ul class="top-hour">
+            @using (Html.BeginForm("LogOff", "RestaurantUser", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+            {
+               // @Html.AntiForgeryToken()
+                <li class="menu-item-has-children">                                            
+                        @Html.ActionLink("Hello " + (!string.IsNullOrEmpty(rs.Email) ? (rs.Email.Length > 50) ? rs.Email.Substring(0, 50).ToString() + "... " : rs.Email : string.Empty) + "!","Index","",new { @style= "margin-left: 0" })
+                      
+                    <ul class="sub-menu" style="width:auto">
+                        <li>@Html.ActionLink("Change password", "ChangePassword", "RestaurantUser")</li>                                              
+                        <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+                    </ul>
+                </li>
+                @*<li class="cut-text">
+                        @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+                        {
+                        @Html.AntiForgeryToken()
+                        @Html.ActionLink("Hello " + (!string.IsNullOrEmpty(User.Identity.GetUserName()) ? (User.Identity.GetUserName().Length > 26) ? User.Identity.GetUserName().Substring(0, 26).ToString() + "... " : User.Identity.GetUserName() : string.Empty) + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+                        }
+
+                    </li>
+                    <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>*@
+            }
+        </ul>
+    </div>
+}
+else
+{
+    <div class="col-md-3 col-sm-3 col-xs-12">
+        <ul class="top-hour">
+            <li>@Html.ActionLink("Register", "AddRestaurantUser", "RestaurantUser", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+            <li>@Html.ActionLink("Log in", "Login", "RestaurantUser", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+        </ul>
+    </div>
+}

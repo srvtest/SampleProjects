@@ -1,0 +1,102 @@
+﻿@model EntityLayer.TableNo
+
+@{
+//Layout = null;
+}
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="top: 94px;">
+    <img src="/images/banner/Table No.JPG" alt="">
+    <div class="title">
+        <h1>Table No</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">Add TableNo</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+<!-- Contact Section Start Here -->
+<div class="contact-page-area spc-equal">
+    <div class="container">
+        <p>
+            @Html.ActionLink("Back to list", "TableNo")
+        </p>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="contact-area">
+                    @using (Html.BeginForm("AddTableNo", "TableNo", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+                    {
+
+                        @Html.AntiForgeryToken()
+
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="TableNumber">Table Number<span class="req-st"> *</span></label>
+                                        @Html.TextBoxFor(m => m.TableNumber, new { @class = "form-control", id = "txtTableNumber" })
+                                        @Html.ValidationMessageFor(m => m.TableNumber, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="TableCapacity">Table Capacity<span class="req-st"> *</span></label>
+                                        @Html.TextBoxFor(m => m.TableCapacity, new { @class = "form-control", id = "txtTableCapacity" })
+                                        @Html.ValidationMessageFor(m => m.TableCapacity, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            @if (Model.TableNumberID > 0)
+                            {
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <label for="IsActive">Is Active</label>
+                                            @Html.EditorFor(m => m.IsActive, new { @class = "form-control", id = "txtIsActive" })
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <label for="IsBusy">IsBusy</label>
+                                            @Html.CheckBoxFor(m => m.IsBusy, new { id = "chkIsBusy" })
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                            @*<div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="RestaurantID">Restaurant<span class="req-st"> *</span></label>
+                                        @Html.DropDownListFor(m => m.RestaurantID, ViewBag.UserRestaurant as SelectList, "Select Restaurant", new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.RestaurantID, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>*@
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group bottom-btn">
+                                        <input type="submit" class="btn-send" id="buttonsubmit" value="Submit">
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                        @section Scripts {
+                            @Scripts.Render("~/bundles/jqueryval")
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        var message = '@TempData["NotifyMessage"]';
+        var type = '@TempData["NotifyType"]';
+        if (message != "")
+            ShowNotify("", message, type);
+    });
+</script>

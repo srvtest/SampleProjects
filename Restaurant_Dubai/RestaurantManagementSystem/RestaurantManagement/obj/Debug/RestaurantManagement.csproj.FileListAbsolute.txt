@@ -1,0 +1,494 @@
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\ApplicationInsights.config
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\csc.exe
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\System.Collections.Immutable.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\System.Reflection.Metadata.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\vbc.exe
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\VBCSCompiler.exe
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\VBCSCompiler.exe.config
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\RestaurantManagement.dll.config
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\RestaurantManagement.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\RestaurantManagement.pdb
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Antlr3.Runtime.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityFramework.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityFramework.SqlServer.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.Agent.Intercept.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.DependencyCollector.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.Web.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.WindowsServer.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.ApplicationInsights.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.Core.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Cookies.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Facebook.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Google.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.OAuth.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Twitter.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Web.Infrastructure.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Newtonsoft.Json.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Owin.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Net.Http.Formatting.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Helpers.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Http.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Http.WebHost.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Mvc.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Optimization.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Razor.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.Deployment.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.Razor.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\WebGrease.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.DependencyCollector.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.Web.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.WindowsServer.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.ApplicationInsights.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Helpers.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Mvc.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Optimization.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Razor.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.Deployment.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.Razor.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Antlr3.Runtime.pdb
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Newtonsoft.Json.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Net.Http.Formatting.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Http.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Http.WebHost.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityFramework.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityFramework.SqlServer.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.Core.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Facebook.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Cookies.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.OAuth.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Google.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Twitter.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\obj\Debug\RestaurantManagement.csprojResolveAssemblyReference.cache
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\obj\Debug\RestaurantManagement.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\obj\Debug\RestaurantManagement.pdb
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\DataLayer.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityLayer.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\DataLayer.pdb
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityLayer.pdb
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\ApplicationInsights.config
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\csc.exe
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\System.Collections.Immutable.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\System.Reflection.Metadata.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\vbc.exe
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\VBCSCompiler.exe
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\VBCSCompiler.exe.config
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\RestaurantManagement.dll.config
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\RestaurantManagement.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\RestaurantManagement.pdb
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Antlr3.Runtime.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\DataLayer.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityFramework.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityFramework.SqlServer.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityLayer.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.Agent.Intercept.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.DependencyCollector.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.Web.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.WindowsServer.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.ApplicationInsights.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.Core.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Cookies.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Facebook.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Google.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.OAuth.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Twitter.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Web.Infrastructure.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Newtonsoft.Json.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Owin.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Net.Http.Formatting.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Helpers.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Http.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Http.WebHost.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Mvc.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Optimization.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Razor.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.Deployment.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.Razor.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\WebGrease.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\DataLayer.pdb
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityLayer.pdb
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.DependencyCollector.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.Web.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.WindowsServer.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.ApplicationInsights.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Helpers.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Mvc.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Optimization.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Razor.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.Deployment.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.Razor.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Antlr3.Runtime.pdb
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Newtonsoft.Json.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Net.Http.Formatting.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Http.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Http.WebHost.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityFramework.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityFramework.SqlServer.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.Core.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Facebook.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Cookies.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.OAuth.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Google.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Twitter.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\obj\Debug\RestaurantManagement.csprojResolveAssemblyReference.cache
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\obj\Debug\RestaurantManagement.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\obj\Debug\RestaurantManagement.pdb
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\ExceptionManager.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\ELHelper.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\ExceptionManager.pdb
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\ELHelper.pdb
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\ApplicationInsights.config
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\csc.exe
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\System.Collections.Immutable.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\System.Reflection.Metadata.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\vbc.exe
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\VBCSCompiler.exe
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\VBCSCompiler.exe.config
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\RestaurantManagement.dll.config
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\RestaurantManagement.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\RestaurantManagement.pdb
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Antlr3.Runtime.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\DataLayer.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityFramework.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityFramework.SqlServer.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityLayer.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\ExceptionManager.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.Agent.Intercept.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.DependencyCollector.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.Web.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.WindowsServer.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.ApplicationInsights.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.Core.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Cookies.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Facebook.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Google.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.OAuth.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Twitter.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Web.Infrastructure.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Newtonsoft.Json.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Owin.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Net.Http.Formatting.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Helpers.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Http.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Http.WebHost.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Mvc.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Optimization.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Razor.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.Deployment.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.Razor.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Utility.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\WebGrease.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\ELHelper.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\DataLayer.pdb
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityLayer.pdb
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\ExceptionManager.pdb
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Utility.pdb
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.DependencyCollector.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.Web.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.WindowsServer.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.ApplicationInsights.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Helpers.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Mvc.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Optimization.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Razor.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.Deployment.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.Razor.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Antlr3.Runtime.pdb
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Newtonsoft.Json.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Net.Http.Formatting.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Http.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Http.WebHost.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityFramework.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityFramework.SqlServer.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.Core.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Facebook.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Cookies.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.OAuth.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Google.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Twitter.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\ELHelper.pdb
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\obj\Debug\RestaurantManagement.csprojResolveAssemblyReference.cache
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\obj\Debug\RestaurantManagement.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\obj\Debug\RestaurantManagement.pdb
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\obj\Debug\RestaurantManagement.csprojResolveAssemblyReference.cache
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\obj\Debug\RestaurantManagement.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\obj\Debug\RestaurantManagement.pdb
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\ApplicationInsights.config
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\csc.exe
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\System.Collections.Immutable.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\System.Reflection.Metadata.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\vbc.exe
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\VBCSCompiler.exe
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\VBCSCompiler.exe.config
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\RestaurantManagement.dll.config
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\RestaurantManagement.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\RestaurantManagement.pdb
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Antlr3.Runtime.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\DataLayer.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\ELHelper.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityFramework.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityFramework.SqlServer.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityLayer.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\ExceptionManager.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.Agent.Intercept.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.DependencyCollector.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.Web.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.WindowsServer.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.ApplicationInsights.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.Core.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Cookies.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Facebook.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Google.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.OAuth.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Twitter.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Web.Infrastructure.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Newtonsoft.Json.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Owin.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Net.Http.Formatting.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Helpers.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Http.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Http.WebHost.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Mvc.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Optimization.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Razor.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.Deployment.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.Razor.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Utility.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\WebGrease.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\ELHelper.pdb
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\DataLayer.pdb
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityLayer.pdb
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\ExceptionManager.pdb
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Utility.pdb
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.DependencyCollector.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.Web.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.WindowsServer.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.ApplicationInsights.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Helpers.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Mvc.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Optimization.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Razor.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.Deployment.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.Razor.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Antlr3.Runtime.pdb
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Newtonsoft.Json.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Net.Http.Formatting.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Http.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Http.WebHost.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityFramework.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityFramework.SqlServer.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.Core.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Facebook.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Cookies.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.OAuth.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Google.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Twitter.xml
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\obj\Debug\RestaurantManagement.csprojResolveAssemblyReference.cache
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\obj\Debug\RestaurantManagement.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\obj\Debug\RestaurantManagement.pdb
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\ApplicationInsights.config
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\csc.exe
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\System.Collections.Immutable.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\System.Reflection.Metadata.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\vbc.exe
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\VBCSCompiler.exe
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\roslyn\VBCSCompiler.exe.config
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\RestaurantManagement.dll.config
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\RestaurantManagement.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\RestaurantManagement.pdb
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Antlr3.Runtime.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\DataLayer.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\ELHelper.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityFramework.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityFramework.SqlServer.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityLayer.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\ExceptionManager.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.Agent.Intercept.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.DependencyCollector.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.Web.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.WindowsServer.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.ApplicationInsights.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.Core.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Cookies.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Facebook.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Google.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.OAuth.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Twitter.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Web.Infrastructure.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Newtonsoft.Json.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Owin.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Net.Http.Formatting.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Helpers.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Http.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Http.WebHost.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Mvc.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Optimization.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Razor.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.Deployment.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.Razor.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Utility.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\WebGrease.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\ELHelper.pdb
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\DataLayer.pdb
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityLayer.pdb
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\ExceptionManager.pdb
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Utility.pdb
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.DependencyCollector.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.Web.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AI.WindowsServer.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.ApplicationInsights.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Helpers.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Mvc.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Optimization.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Razor.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.Deployment.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.WebPages.Razor.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Antlr3.Runtime.pdb
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Newtonsoft.Json.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Net.Http.Formatting.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Http.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\System.Web.Http.WebHost.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityFramework.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\EntityFramework.SqlServer.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.Core.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Facebook.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Cookies.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.OAuth.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Google.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.Twitter.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\RestaurantManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml

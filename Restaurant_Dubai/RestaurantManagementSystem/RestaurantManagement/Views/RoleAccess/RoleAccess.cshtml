@@ -1,0 +1,85 @@
+﻿@model IEnumerable<EntityLayer.RoleAccessMaster>
+
+@{
+// Layout = null;
+}
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="top: 94px;">
+    <img src="/images/banner/Role Access.JPG" alt="">
+    <div class="title">
+        <h1>@ViewBag.Title</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">@ViewBag.Title</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+
+<!-- Contact Section Start Here -->
+<div class="contact-page-area spc-equal">
+    <div class="container">
+        <p>
+            @Html.ActionLink("Create New", "AddRoleAccess")
+        </p>
+        @using (Html.BeginForm("AddRoleAccess", "RoleAccess", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+        {            
+            <table class="table">
+                <tr>
+                    <th>
+                        Restaurent
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                    <th>Role</th>
+                    <th>Menu Access</th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RestaurentName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Descp)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RoleName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.MenuAccess)
+                        </td>
+                        <td>
+                            <div>
+                                <div style="float:left" title="Edit">
+                                    <a href="@Url.Action("AddRoleAccess", "RoleAccess", new { id = item.RoleAccessMasterID })" class="btn btn-xs btn-info">
+                                        <span class="glyphicon glyphicon-edit" aria-hidden="true">Edit</span>
+                                    </a>
+                                </div>
+                                <div style="float:left;margin-left:5px" title="Delete">
+                                    @using (Html.BeginForm("RoleAccess", "RoleAccess", new { id = item.RoleAccessMasterID }, FormMethod.Post))
+                                    {
+                                        @Html.HttpMethodOverride(HttpVerbs.Delete)
+                                        <button type="submit" id="buttonsubmit" value="Delete"
+                                                onclick="return confirm('Are you sure?');"
+                                                class="btn btn-xs btn-danger">
+                                            <span class="glyphicon glyphicon-trash">Delete</span>
+                                        </button>
+                                    }
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        }
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        var message = '@TempData["NotifyMessage"]';
+        var type = '@TempData["NotifyType"]';
+        if (message != "")
+            ShowNotify("", message, type);
+    });
+</script>

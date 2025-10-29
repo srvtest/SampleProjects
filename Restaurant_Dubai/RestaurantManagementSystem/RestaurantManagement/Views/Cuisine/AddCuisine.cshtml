@@ -1,0 +1,75 @@
+﻿@model EntityLayer.Cuisine
+
+@{
+//Layout = null;
+}
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="top: 94px;">
+    <img src="/images/banner/Add Customers.JPG" alt="">
+    <div class="title">
+        <h1>Cuisine</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">Add Cuisine</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+<!-- Contact Section Start Here -->
+<div class="contact-page-area spc-equal">
+    <div class="container">
+        <p>
+            @Html.ActionLink("Back to list", "Cuisine")
+        </p>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="contact-area">
+                    @using (Html.BeginForm("AddCuisine", "Cuisine", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form", autocomplete = "off" }))
+                    {
+
+                        @Html.AntiForgeryToken()
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="CuisineType">Cuisine Type<span class="req-st"> *</span></label>
+                                        @Html.TextBoxFor(m => m.CuisineType, new { @class = "form-control", id = "txtCuisineType" })
+                                        @Html.ValidationMessageFor(m => m.CuisineType, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            @if (Model.CuisineId > 0)
+                            {
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <label for="IsActive" style="margin-right: 25px;">Is Active</label>
+                                            @Html.EditorFor(m => m.IsActive, new { @checked = true, @class = "form-control", id = "chkIsActive" })
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group bottom-btn">
+                                        <input type="submit" class="btn-send" id="buttonsubmit" value="Submit">
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                        @section Scripts {
+                            @Scripts.Render("~/bundles/jqueryval")
+                        }
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        var message = '@TempData["NotifyMessage"]';
+        var type = '@TempData["NotifyType"]';
+        if (message != "")
+            ShowNotify("", message, type);
+    });
+</script>

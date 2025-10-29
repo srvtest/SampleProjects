@@ -1,0 +1,124 @@
+﻿@model EntityLayer.City
+
+@{
+// Layout = null;
+}
+
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="top: 94px;">
+    <img src="/images/banner/Add City.JPG" alt="">
+    <div class="title">
+        <h1>City</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">Add City</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+<!-- Contact Section Start Here -->
+<div class="contact-page-area spc-equal">
+    <div class="container">
+
+        <p>
+            @Html.ActionLink("Back to list", "City")
+        </p>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="contact-area">
+                    @using (Html.BeginForm("AddCity", "City", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+                    {
+                        @Html.AntiForgeryToken()
+
+
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="CityName">City Name<span class="req-st"> *</span></label>
+                                        @Html.TextBoxFor(m => m.CityName, new { @class = "form-control", id = "txtCityName" })
+                                        @Html.ValidationMessageFor(m => m.CityName, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="CountryID">Country<span class="req-st"> *</span></label>
+                                        @Html.DropDownListFor(m => m.CountryID, ViewBag.UserCountry as SelectList, "Select Country", new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.CountryID, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="StateID">State<span class="req-st"> *</span></label>
+                                        @Html.DropDownListFor(m => m.StateID, ViewBag.UserState as SelectList, "Select State", new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.StateID, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            @if (Model.CityID > 0)
+                            {
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <label for="IsActive" style="margin-right:25px">Is Active</label>
+                                            @Html.EditorFor(m => m.IsActive, new { @class = "form-control", id = "txtIsActive" })
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                            @Html.HiddenFor(m => m.CityID, new { id = "hdnCityID" })
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group bottom-btn">
+                                        <input type="submit" class="btn-send" id="buttonsubmit" value="Submit">
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                        @section Scripts {
+                            @Scripts.Render("~/bundles/jqueryval")
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $('#CountryID').change(function () {
+            $('#StateID').empty();
+            if ($('#CountryID option:selected').val() > 0) {
+                $.ajax({
+                    type: "POST",
+                    url: "/City/GetStateByCountryID",
+                    data: "{CountryID:" + $('#CountryID option:selected').val() + "}",
+                    contentType: "application/json;charset=utf-8",
+                    dataType: "json",
+                    success: function (result) {
+                        //alert(JSON.stringify(result));
+                        $('#StateID').append($('<option/>', { value: "", html: "Select State" }));
+                        $.each(result, function () {
+                            $('#StateID').append($('<option/>', { value: this.StateID, html: this.StateName }));
+                        });
+                    },
+                    error: function (err) {
+                        alert(err);
+                    }
+                });
+            }
+            else {
+                $('#StateID').append($('<option/>', { value: "", html: "Select State" }));
+            }
+        });
+    });
+</script>
+<script type="text/javascript">
+    $(function () {
+        var message = '@TempData["NotifyMessage"]';
+        var type = '@TempData["NotifyType"]';
+        if (message != "")
+            ShowNotify("", message, type);
+    });
+</script>

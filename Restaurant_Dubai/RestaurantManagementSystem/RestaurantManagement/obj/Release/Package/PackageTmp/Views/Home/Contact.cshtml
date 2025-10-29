@@ -1,0 +1,105 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="height:110px;top: 94px;">
+    <img src="/images/banner/8.jpg" style="height:110px;" alt="">
+    <div class="title">
+        <h1>@ViewBag.Title</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">@ViewBag.Message</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+
+<!-- Contact Section Start Here -->
+<div class="google-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22569053.99236624!2d-5.337722996144012!3d46.329466435436565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25a3b1142c791a9%3A0xc4f8a0433288257a!2sUnited+Kingdom!5e0!3m2!1sen!2sbd!4v1505474067899" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+<div class="contact-page-area contact-page-area2 spc-equal">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="contact-middle contact-middle2">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="inner-add">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <h5>Address</h5>
+                                <address>
+                                    One Microsoft Way<br />
+                                    Redmond, WA 98052-6399<br />
+                                    <abbr title="Phone">P:</abbr>
+                                    425.555.0100
+                                </address>
+                            </div>
+                            <div class="inner-email">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                <h5>Email Address</h5>
+                                <address>
+                                    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
+                                    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+                                </address>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-8 col-xs-12">
+                            <div class="contact-middle2">
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <div class="contact-area">
+                                            <div id="form-messages"></div>
+                                            <form id="contact-form" method="post" action="mailer.php">
+                                                <fieldset>
+                                                    <div class="row">
+                                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                                            <div class="form-group">
+                                                                <label>First Name*</label>
+                                                                <input type="text" id="fname" name="fname" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                                            <div class="form-group">
+                                                                <label>Last Name*</label>
+                                                                <input type="text" id="lname" name="lname" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                                            <div class="form-group">
+                                                                <label>Email*</label>
+                                                                <input type="email" id="email" name="email" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                                            <div class="form-group">
+                                                                <label>Your Website</label>
+                                                                <input type="website" id="website" name="website" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                                            <div class="form-group">
+                                                                <label>Message*</label>
+                                                                <textarea cols="40" rows="10" id="message" name="message" class="textarea form-control"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                                            <div class="form-group bottom-btn">
+                                                                <button class="btn-send" type="submit">Submit Now</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

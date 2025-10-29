@@ -1,0 +1,169 @@
+﻿@model IEnumerable<EntityLayer.OrderTrack>
+
+@{
+    ViewBag.Title = "Order Track";
+    //Layout = null;
+}
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="top: 94px;">
+    <img src="/images/banner/Order Track.JPG" alt="">
+    <div class="title">
+        <h1>Order Track</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">Order Track</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+<!-- Contact Section Start Here -->
+<div class="contact-page-area spc-equal">
+    <div class="container">
+
+        <p>
+            @Html.ActionLink("Create New", "AddOrderTrack")
+        </p>
+        @using (Html.BeginForm("AddOrderTrack", "OrderTrack", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+        {
+            <div class="table-responsive">
+                <table class="table">
+                    <tr>
+                        @*<th>
+                            @Html.DisplayNameFor(model => model.DeliveryID)
+                        </th>*@
+                        <th>
+                            @Html.DisplayNameFor(model => model.OrderID)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Packed)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DineIn)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DineInDate)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DineOut)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DineOutDate)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Delivered)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DeliveryDate)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DeliveryDesc)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.StaffID)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CustomerName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.RestaurantName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DeliveryCost)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.PaymentType)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Amount)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Address)
+                        </th>
+                        <th></th>
+                    </tr>
+
+                    @foreach (var item in Model)
+                {
+                        <tr>
+                            @*<td>
+                                @Html.DisplayFor(modelItem => item.DeliveryID)
+                            </td>*@
+                            <td>
+                                @Html.DisplayFor(modelItem => item.OrderID)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Packed)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DineIn)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DineInDate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DineOut)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DineOutDate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Delivered)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DeliveryDate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DeliveryDesc)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.StaffID)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CustomerName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.RestaurantName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DeliveryCost)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.PaymentType)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Amount)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Address)
+                            </td>                           
+                            <td>
+                                <div>
+                                    <div style="float:left" title="Edit">
+                                        <a href="@Url.Action("addOrderTrack", "OrderTrack", new { id = item.CustomerID })" class="btn btn-xs btn-info">
+                                            <span class="glyphicon glyphicon-edit" aria-hidden="true">Edit</span>
+                                        </a>
+                                    </div>
+                                    <div style="float:left;margin-left:5px" title="Delete">
+                                        @using (Html.BeginForm("OrderTrack", "OrderTrack", new { id = item.CustomerID }, FormMethod.Post))
+                                        {
+                                            @Html.HttpMethodOverride(HttpVerbs.Delete)
+                                            <button type="submit" id="buttonsubmit" value="Delete"
+                                                    onclick="return confirm('Are you sure?');"
+                                                    class="btn btn-xs btn-danger">
+                                                <span class="glyphicon glyphicon-trash">Delete</span>
+                                            </button>
+                                        }
+                                    </div>
+                                </div>                            
+                            </td>
+                        </tr>
+                    }
+                </table></div>
+                }
+            </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        var message = '@TempData["NotifyMessage"]';
+        var type = '@TempData["NotifyType"]';
+        if (message != "")
+            ShowNotify("", message, type);
+    });
+</script>

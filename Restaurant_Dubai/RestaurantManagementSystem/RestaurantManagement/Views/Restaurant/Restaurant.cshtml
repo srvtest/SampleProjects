@@ -1,0 +1,146 @@
+﻿@model IEnumerable<EntityLayer.Restaurant>
+
+@{
+    ViewBag.Title = "Restaurant";
+    //Layout = null;
+}
+
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="top: 94px;">
+    <img src="/images/banner/restaurant.JPG" alt="">
+    <div class="title">
+        <h1>Restaurant</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">Restaurant</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+<!-- Contact Section Start Here -->
+<div class="contact-page-area spc-equal">
+    <div class="container">
+        <p>
+            @Html.ActionLink("Add Restaurant", "AddRestaurant")
+        </p>
+        @using (Html.BeginForm("AddRestaurant", "Restaurant", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { Restaurant = "form" }))
+        {
+            
+            <table class="table">
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Logo
+                    </th>
+                    <th>
+                        Address
+                    </th>
+                    <th>
+                        Contact
+                    </th>
+                    <th>
+                        Email
+                    </th>
+                    <th>
+                        Country Name
+                    </th>
+                    <th>
+                        State Name
+                    </th>
+                    <th>
+                        City Name
+                    </th>
+                    <th>
+                        Time From
+                    </th>
+                    <th>
+                        Time To
+                    </th>
+                    <th>
+                        Status
+                    </th>
+                    <th></th>
+
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                        <td >
+                            @*@Html.DisplayFor(modelItem => item.Logo)*@
+                            @if(item.Logo != null)
+                            {
+                                <text><img src="~/LogoImages/@item.Logo" /></text>
+                            }
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Address)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Contact)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Email)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CountryName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.StateName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CityName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TimeFrom)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TimeTo)
+                        </td>
+                        <td>
+                            @if (item.Status.Equals(true))
+                            {
+                                <text> Active</text>
+                            }
+                            else
+                            {
+                                <text> InActive</text>
+                            }
+                        </td>
+                        <td>
+                            <div>
+                                <div style="float:left" title="Edit">
+                                    <a href="@Url.Action("AddRestaurant", "Restaurant", new { id = item.RestaurantID })" class="btn btn-xs btn-info">
+                                        <span class="glyphicon glyphicon-edit" aria-hidden="true">Edit</span>
+                                    </a>
+                                </div>
+                                <div style="float:left;margin-left:5px" title="Delete">
+                                    @using (Html.BeginForm("Restaurant", "Restaurant", new { id = item.RestaurantID }, FormMethod.Post))
+                                    {
+                                        @Html.HttpMethodOverride(HttpVerbs.Delete)
+                                        <button type="submit" id="buttonsubmit" value="Delete"
+                                                onclick="return confirm('Are you sure?');"
+                                                class="btn btn-xs btn-danger">
+                                            <span class="glyphicon glyphicon-trash">Delete</span>
+                                        </button>
+                                    }
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        }
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        var message = '@TempData["NotifyMessage"]';
+        var type = '@TempData["NotifyType"]';
+        if (message != "")
+            ShowNotify("", message, type);
+    });
+</script>

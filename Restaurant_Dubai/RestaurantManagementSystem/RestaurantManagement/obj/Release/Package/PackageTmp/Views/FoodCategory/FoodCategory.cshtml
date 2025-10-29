@@ -1,0 +1,113 @@
+﻿@model IEnumerable<EntityLayer.FoodCategory>
+
+@{
+    ViewBag.Title = "Food Category";
+    //Layout = null;
+}
+
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="top: 94px;">
+    <img src="/images/banner/Food Category.JPG" alt="">
+    <div class="title">
+        <h1>Food Category</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">Food Category</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+<!-- Contact Section Start Here -->
+<div class="contact-page-area spc-equal">
+    <div class="container">
+
+        <p>
+            @Html.ActionLink("Create New", "AddFoodCategory")
+        </p>
+        @using (Html.BeginForm("AddFoodCategory", "FoodCategory", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+        {
+
+            <div class="table-responsive">
+                <table class="table">
+                    <tr>
+                        <th>
+                            CuisineType
+                        </th>
+                        <th>
+                            Category Title
+                        </th>
+                        <th>
+                            Description
+                        </th>
+                        <th>
+                            Images
+                        </th>                      
+                        <th>
+                            Status
+                        </th>
+                        <th></th>
+                    </tr>
+                    @if (Model != null)
+                {
+                    foreach (var item in Model)
+                    {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CuisineType)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CategoryTitle)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Description)
+                                </td>
+                                <td style="width:47px">                                   
+                                    @if (item.Images != null)
+                                    {
+                                        <text><img src="~/Image/FoodCategory/@item.Images" /></text>
+                                    }
+                                </td>                                
+                                <td>
+                                    @if (item.IsActive)
+                                    {
+                                        <text>Active</text>
+                                    }
+                                    else
+                                    {
+                                        <text>InActive</text>
+                                    }
+                                </td>
+                                <td>
+                                    <div>
+                                        <div style="float:left" title="Edit">
+                                            <a href="@Url.Action("addFoodCategory", "FoodCategory", new { id = item.FoodCategoryID })" class="btn btn-xs btn-info">
+                                                <span class="glyphicon glyphicon-edit" aria-hidden="true">Edit</span>
+                                            </a>
+                                        </div>
+                                        <div style="float:left;margin-left:5px" title="Delete">
+                                            @using (Html.BeginForm("FoodCategory", "FoodCategory", new { id = item.FoodCategoryID }, FormMethod.Post))
+                                            {
+                                                @Html.HttpMethodOverride(HttpVerbs.Delete)
+                                                <button type="submit" id="buttonsubmit" value="Delete"
+                                                        onclick="return confirm('Are you sure?');"
+                                                        class="btn btn-xs btn-danger">
+                                                    <span class="glyphicon glyphicon-trash">Delete</span>
+                                                </button>
+                                            }
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </table>
+            </div>
+        }
+
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        var message = '@TempData["NotifyMessage"]';
+        var type = '@TempData["NotifyType"]';
+        if (message != "")
+            ShowNotify("", message, type);
+    });
+</script>

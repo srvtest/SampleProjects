@@ -1,0 +1,150 @@
+C:\Users\HP\Downloads\test\MVCApp\Common\ELHelper\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\HP\Downloads\test\MVCApp\Common\ELHelper\bin\Debug\ELHelper.dll
+C:\Users\HP\Downloads\test\MVCApp\Common\ELHelper\bin\Debug\ELHelper.pdb
+C:\Users\HP\Downloads\test\MVCApp\Common\ELHelper\bin\Debug\ExceptionManager.dll
+C:\Users\HP\Downloads\test\MVCApp\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+C:\Users\HP\Downloads\test\MVCApp\Common\ELHelper\obj\Debug\ELHelper.dll
+C:\Users\HP\Downloads\test\MVCApp\Common\ELHelper\obj\Debug\ELHelper.pdb
+C:\Users\gbhatia\Downloads\MVCApp-9Jan2016\MVCApp\Common\ELHelper\bin\Debug\ELHelper.dll
+C:\Users\gbhatia\Downloads\MVCApp-9Jan2016\MVCApp\Common\ELHelper\bin\Debug\ELHelper.pdb
+C:\Users\gbhatia\Downloads\MVCApp-9Jan2016\MVCApp\Common\ELHelper\bin\Debug\ExceptionManager.dll
+C:\Users\gbhatia\Downloads\MVCApp-9Jan2016\MVCApp\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+C:\Users\gbhatia\Downloads\MVCApp-9Jan2016\MVCApp\Common\ELHelper\obj\Debug\ELHelper.csprojResolveAssemblyReference.cache
+C:\Users\gbhatia\Downloads\MVCApp-9Jan2016\MVCApp\Common\ELHelper\obj\Debug\ELHelper.dll
+C:\Users\gbhatia\Downloads\MVCApp-9Jan2016\MVCApp\Common\ELHelper\obj\Debug\ELHelper.pdb
+C:\Users\HP\Downloads\MVCApp (2)\MVCApp\Common\ELHelper\bin\Debug\ELHelper.dll
+C:\Users\HP\Downloads\MVCApp (2)\MVCApp\Common\ELHelper\bin\Debug\ELHelper.pdb
+C:\Users\HP\Downloads\MVCApp (2)\MVCApp\Common\ELHelper\bin\Debug\ExceptionManager.dll
+C:\Users\HP\Downloads\MVCApp (2)\MVCApp\Common\ELHelper\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\HP\Downloads\MVCApp (2)\MVCApp\Common\ELHelper\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\HP\Downloads\MVCApp (2)\MVCApp\Common\ELHelper\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\HP\Downloads\MVCApp (2)\MVCApp\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+C:\Users\HP\Downloads\MVCApp (2)\MVCApp\Common\ELHelper\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\HP\Downloads\MVCApp (2)\MVCApp\Common\ELHelper\obj\Debug\ELHelper.dll
+C:\Users\HP\Downloads\MVCApp (2)\MVCApp\Common\ELHelper\obj\Debug\ELHelper.pdb
+D:\workbench\MVCApp\Common\ELHelper\bin\Debug\ELHelper.dll
+D:\workbench\MVCApp\Common\ELHelper\bin\Debug\ELHelper.pdb
+D:\workbench\MVCApp\Common\ELHelper\bin\Debug\ExceptionManager.dll
+D:\workbench\MVCApp\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+D:\workbench\MVCApp\Common\ELHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\workbench\MVCApp\Common\ELHelper\obj\Debug\ELHelper.dll
+D:\workbench\MVCApp\Common\ELHelper\obj\Debug\ELHelper.pdb
+D:\workbench\InventoryManagement\InventoryManagementSystem\Common\ELHelper\bin\Debug\ELHelper.dll
+D:\workbench\InventoryManagement\InventoryManagementSystem\Common\ELHelper\bin\Debug\ELHelper.pdb
+D:\workbench\InventoryManagement\InventoryManagementSystem\Common\ELHelper\bin\Debug\ExceptionManager.dll
+D:\workbench\InventoryManagement\InventoryManagementSystem\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+D:\workbench\InventoryManagement\InventoryManagementSystem\Common\ELHelper\obj\Debug\ELHelper.csprojResolveAssemblyReference.cache
+D:\workbench\InventoryManagement\InventoryManagementSystem\Common\ELHelper\obj\Debug\ELHelper.dll
+D:\workbench\InventoryManagement\InventoryManagementSystem\Common\ELHelper\obj\Debug\ELHelper.pdb
+E:\SandeepData\InventoryManagement\InventoryManagementSystem\Common\ELHelper\bin\Debug\ELHelper.dll
+E:\SandeepData\InventoryManagement\InventoryManagementSystem\Common\ELHelper\bin\Debug\ELHelper.pdb
+E:\SandeepData\InventoryManagement\InventoryManagementSystem\Common\ELHelper\bin\Debug\ExceptionManager.dll
+E:\SandeepData\InventoryManagement\InventoryManagementSystem\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+E:\SandeepData\InventoryManagement\InventoryManagementSystem\Common\ELHelper\obj\Debug\ELHelper.csprojResolveAssemblyReference.cache
+E:\SandeepData\InventoryManagement\InventoryManagementSystem\Common\ELHelper\obj\Debug\ELHelper.dll
+E:\SandeepData\InventoryManagement\InventoryManagementSystem\Common\ELHelper\obj\Debug\ELHelper.pdb
+D:\workbench\AdminPanel\Common\ELHelper\obj\Debug\ELHelper.csprojResolveAssemblyReference.cache
+D:\workbench\AdminPanel\Common\ELHelper\obj\Debug\ELHelper.dll
+D:\workbench\AdminPanel\Common\ELHelper\obj\Debug\ELHelper.pdb
+D:\workbench\AdminPanel\Common\ELHelper\bin\Debug\ELHelper.dll
+D:\workbench\AdminPanel\Common\ELHelper\bin\Debug\ELHelper.pdb
+D:\workbench\AdminPanel\Common\ELHelper\bin\Debug\ExceptionManager.dll
+D:\workbench\AdminPanel\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+D:\workbench\Learning\ECommAdminPanel\ECommAdminPanel\Common\ELHelper\bin\Debug\ELHelper.dll
+D:\workbench\Learning\ECommAdminPanel\ECommAdminPanel\Common\ELHelper\bin\Debug\ELHelper.pdb
+D:\workbench\Learning\ECommAdminPanel\ECommAdminPanel\Common\ELHelper\bin\Debug\ExceptionManager.dll
+D:\workbench\Learning\ECommAdminPanel\ECommAdminPanel\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+D:\workbench\Learning\ECommAdminPanel\ECommAdminPanel\Common\ELHelper\obj\Debug\ELHelper.csprojResolveAssemblyReference.cache
+D:\workbench\Learning\ECommAdminPanel\ECommAdminPanel\Common\ELHelper\obj\Debug\ELHelper.dll
+D:\workbench\Learning\ECommAdminPanel\ECommAdminPanel\Common\ELHelper\obj\Debug\ELHelper.pdb
+D:\workbench\Learning\GST\WinGST\Common\ELHelper\bin\Debug\ELHelper.dll
+D:\workbench\Learning\GST\WinGST\Common\ELHelper\bin\Debug\ELHelper.pdb
+D:\workbench\Learning\GST\WinGST\Common\ELHelper\bin\Debug\ExceptionManager.dll
+D:\workbench\Learning\GST\WinGST\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+D:\workbench\Learning\GST\WinGST\Common\ELHelper\obj\Debug\ELHelper.csprojResolveAssemblyReference.cache
+D:\workbench\Learning\GST\WinGST\Common\ELHelper\obj\Debug\ELHelper.dll
+D:\workbench\Learning\GST\WinGST\Common\ELHelper\obj\Debug\ELHelper.pdb
+D:\WorkBench\GST\WinGST\Common\ELHelper\bin\Debug\ELHelper.dll
+D:\WorkBench\GST\WinGST\Common\ELHelper\bin\Debug\ELHelper.pdb
+D:\WorkBench\GST\WinGST\Common\ELHelper\bin\Debug\ExceptionManager.dll
+D:\WorkBench\GST\WinGST\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+D:\WorkBench\GST\WinGST\Common\ELHelper\obj\Debug\ELHelper.csprojResolveAssemblyReference.cache
+D:\WorkBench\GST\WinGST\Common\ELHelper\obj\Debug\ELHelper.dll
+D:\WorkBench\GST\WinGST\Common\ELHelper\obj\Debug\ELHelper.pdb
+D:\workbench\GSTSoftware\WinGST\Common\ELHelper\bin\Debug\ELHelper.dll
+D:\workbench\GSTSoftware\WinGST\Common\ELHelper\bin\Debug\ELHelper.pdb
+D:\workbench\GSTSoftware\WinGST\Common\ELHelper\bin\Debug\ExceptionManager.dll
+D:\workbench\GSTSoftware\WinGST\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+D:\workbench\GSTSoftware\WinGST\Common\ELHelper\obj\Debug\ELHelper.csprojResolveAssemblyReference.cache
+D:\workbench\GSTSoftware\WinGST\Common\ELHelper\obj\Debug\ELHelper.dll
+D:\workbench\GSTSoftware\WinGST\Common\ELHelper\obj\Debug\ELHelper.pdb
+D:\SVN Workbench\HotalManagment\HotalManagment\Common\ELHelper\bin\Debug\ELHelper.dll
+D:\SVN Workbench\HotalManagment\HotalManagment\Common\ELHelper\bin\Debug\ELHelper.pdb
+D:\SVN Workbench\HotalManagment\HotalManagment\Common\ELHelper\bin\Debug\ExceptionManager.dll
+D:\SVN Workbench\HotalManagment\HotalManagment\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+D:\SVN Workbench\HotalManagment\HotalManagment\Common\ELHelper\obj\Debug\ELHelper.csprojResolveAssemblyReference.cache
+D:\SVN Workbench\HotalManagment\HotalManagment\Common\ELHelper\obj\Debug\ELHelper.dll
+D:\SVN Workbench\HotalManagment\HotalManagment\Common\ELHelper\obj\Debug\ELHelper.pdb
+D:\SVNWorkSpace\HotalManagment\HotalManagment\Common\ELHelper\bin\Debug\ELHelper.dll
+D:\SVNWorkSpace\HotalManagment\HotalManagment\Common\ELHelper\bin\Debug\ELHelper.pdb
+D:\SVNWorkSpace\HotalManagment\HotalManagment\Common\ELHelper\bin\Debug\ExceptionManager.dll
+D:\SVNWorkSpace\HotalManagment\HotalManagment\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+D:\SVNWorkSpace\HotalManagment\HotalManagment\Common\ELHelper\obj\Debug\ELHelper.csprojResolveAssemblyReference.cache
+D:\SVNWorkSpace\HotalManagment\HotalManagment\Common\ELHelper\obj\Debug\ELHelper.dll
+D:\SVNWorkSpace\HotalManagment\HotalManagment\Common\ELHelper\obj\Debug\ELHelper.pdb
+E:\SVNWorkSpace\HotalManagment\HotalManagment\Common\ELHelper\bin\Debug\ELHelper.dll
+E:\SVNWorkSpace\HotalManagment\HotalManagment\Common\ELHelper\bin\Debug\ELHelper.pdb
+E:\SVNWorkSpace\HotalManagment\HotalManagment\Common\ELHelper\bin\Debug\ExceptionManager.dll
+E:\SVNWorkSpace\HotalManagment\HotalManagment\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+E:\SVNWorkSpace\HotalManagment\HotalManagment\Common\ELHelper\obj\Debug\ELHelper.csprojResolveAssemblyReference.cache
+E:\SVNWorkSpace\HotalManagment\HotalManagment\Common\ELHelper\obj\Debug\ELHelper.dll
+E:\SVNWorkSpace\HotalManagment\HotalManagment\Common\ELHelper\obj\Debug\ELHelper.pdb
+D:\SVN Repo\HotalManagment\HotalManagment\Common\ELHelper\bin\Debug\ELHelper.dll
+D:\SVN Repo\HotalManagment\HotalManagment\Common\ELHelper\bin\Debug\ELHelper.pdb
+D:\SVN Repo\HotalManagment\HotalManagment\Common\ELHelper\bin\Debug\ExceptionManager.dll
+D:\SVN Repo\HotalManagment\HotalManagment\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+D:\SVN Repo\HotalManagment\HotalManagment\Common\ELHelper\obj\Debug\ELHelper.csprojResolveAssemblyReference.cache
+D:\SVN Repo\HotalManagment\HotalManagment\Common\ELHelper\obj\Debug\ELHelper.dll
+D:\SVN Repo\HotalManagment\HotalManagment\Common\ELHelper\obj\Debug\ELHelper.pdb
+D:\RVSVNCode\HotalManagment\HotalManagment\Common\ELHelper\bin\Debug\ELHelper.dll
+D:\RVSVNCode\HotalManagment\HotalManagment\Common\ELHelper\bin\Debug\ELHelper.pdb
+D:\RVSVNCode\HotalManagment\HotalManagment\Common\ELHelper\bin\Debug\ExceptionManager.dll
+D:\RVSVNCode\HotalManagment\HotalManagment\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+D:\RVSVNCode\HotalManagment\HotalManagment\Common\ELHelper\obj\Debug\ELHelper.csprojResolveAssemblyReference.cache
+D:\RVSVNCode\HotalManagment\HotalManagment\Common\ELHelper\obj\Debug\ELHelper.dll
+D:\RVSVNCode\HotalManagment\HotalManagment\Common\ELHelper\obj\Debug\ELHelper.pdb
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Debug\ELHelper.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Debug\ELHelper.pdb
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Debug\ExceptionManager.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\obj\Debug\ELHelper.csprojResolveAssemblyReference.cache
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\obj\Debug\ELHelper.dll
+D:\RVSVNCode\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\obj\Debug\ELHelper.pdb
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Debug\ELHelper.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Debug\ELHelper.pdb
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Debug\ExceptionManager.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\obj\Debug\ELHelper.csprojResolveAssemblyReference.cache
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\obj\Debug\ELHelper.dll
+D:\SVNWorkSpace\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\obj\Debug\ELHelper.pdb
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Debug\ELHelper.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Debug\ELHelper.pdb
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Debug\ExceptionManager.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\obj\Debug\ELHelper.csprojResolveAssemblyReference.cache
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\obj\Debug\ELHelper.dll
+D:\SVN Repo\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\obj\Debug\ELHelper.pdb
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Debug\ELHelper.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Debug\ELHelper.pdb
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Debug\ExceptionManager.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\obj\Debug\ELHelper.csprojResolveAssemblyReference.cache
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\obj\Debug\ELHelper.dll
+D:\svnwork\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\obj\Debug\ELHelper.pdb
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Debug\ELHelper.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Debug\ELHelper.pdb
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Debug\ExceptionManager.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Debug\ExceptionManager.pdb
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\obj\Debug\ELHelper.csprojResolveAssemblyReference.cache
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\obj\Debug\ELHelper.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\obj\Debug\ELHelper.pdb

@@ -1,0 +1,97 @@
+﻿@model EntityLayer.Commission
+
+@{
+// Layout = null;
+}
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="top: 94px;">
+    <img src="/images/banner/Add Commissin.JPG" alt="">
+    <div class="title">
+        <h1>Commission</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">Add Commission</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+<!-- Contact Section Start Here -->
+<div class="contact-page-area spc-equal">
+    <div class="container">
+        <p>
+            @Html.ActionLink("Back to list", "Commission")
+        </p>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="contact-area">
+                    @using (Html.BeginForm("AddCommission", "Commission", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+                    {
+
+                        @Html.AntiForgeryToken()
+
+                       
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="RoleID">Role<span class="req-st"> *</span></label>
+                                        @Html.DropDownListFor(m => m.RoleID, ViewBag.UserRole as SelectList,"Select Role", new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.RoleID, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="UserID">User<span class="req-st"> *</span></label>
+                                        @Html.DropDownListFor(m => m.UserID, ViewBag.UserRestaurantUser as SelectList,"Select User", new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.UserID, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="Percentage">Percentage<span class="req-st"> *</span></label>
+                                        @Html.TextBoxFor(m => m.Percentage, new { @class = "form-control", id = "txtPercentage" })
+                                        @Html.ValidationMessageFor(m => m.Percentage, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="Desc">Description</label>
+                                        @Html.TextBoxFor(m => m.Desc, new { @class = "form-control", id = "txtDesc" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="RestaurantID">Restaurant<span class="req-st"> *</span></label>
+                                        @Html.DropDownListFor(m => m.RestaurantID, ViewBag.UserRestaurant as SelectList,"Select Restaurant", new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.RestaurantID, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group bottom-btn">
+                                        <input type="submit" class="btn-send" id="buttonsubmit" value="Submit">
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        @section Scripts {
+                            @Scripts.Render("~/bundles/jqueryval")
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        var message = '@TempData["NotifyMessage"]';
+        var type = '@TempData["NotifyType"]';
+        if (message != "")
+            ShowNotify("", message, type);
+    });
+</script>

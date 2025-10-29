@@ -1,0 +1,119 @@
+﻿@model IEnumerable<EntityLayer.TableNo>
+
+@{
+    ViewBag.Title = "Table No";
+    // Layout = null;
+}
+
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="top: 94px;">
+    <img src="/images/banner/Table No.JPG" alt="">
+    <div class="title">
+        <h1>Table No</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">Table No</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+<!-- Contact Section Start Here -->
+<div class="contact-page-area spc-equal">
+    <div class="container">
+        <p>
+            @Html.ActionLink("Create New", "AddTableNo")
+        </p>
+        @using (Html.BeginForm("AddTableNo", "TableNo", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+        {
+            <table class="table">
+                <tr>
+                    @*<th>
+                        @Html.DisplayNameFor(model => model.TableNumberID)
+                    </th>*@
+                    <th>
+                        @Html.DisplayNameFor(model => model.TableNumber)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.TableCapacity)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.IsActive)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.IsBusy)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.RestaurantName)
+                    </th>
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        @*<td>
+                            @Html.DisplayFor(modelItem => item.TableNumberID)
+                        </td>*@
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TableNumber)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TableCapacity)
+                        </td>
+                        <td>
+                            @if (item.IsActive)
+                            {
+                                <text>Active</text>
+                            }
+                            else
+                            {
+                                <text>InActive</text>
+                            }
+                        </td>
+                        <td>
+                            @if (item.IsBusy)
+                            {
+                                <text>Yes</text>
+                            }
+                            else
+                            {
+                                <text>No</text>
+                            }                     
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RestaurantName)
+                        </td>
+                       
+                        <td>
+                            <div>
+                                <div style="float:left" title="Edit">
+                                    <a href="@Url.Action("addTableNo", "TableNo", new { id = item.TableNumberID })" class="btn btn-xs btn-info">
+                                        <span class="glyphicon glyphicon-edit" aria-hidden="true">Edit</span>
+                                    </a>
+                                </div>
+                                <div title="Delete">
+                                    @using (Html.BeginForm("TableNo", "TableNo", new { id = item.TableNumberID }, FormMethod.Post))
+                                    {
+                                        @Html.HttpMethodOverride(HttpVerbs.Delete)
+                                        <button type="submit" id="buttonsubmit" value="Delete"
+                                                onclick="return confirm('Are you sure?');"
+                                                class="btn btn-xs btn-danger">
+                                            <span class="glyphicon glyphicon-trash">Delete</span>
+                                        </button>
+                                    }
+                                </div>
+                            </div>                          
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        }
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        var message = '@TempData["NotifyMessage"]';
+        var type = '@TempData["NotifyType"]';
+        if (message != "")
+            ShowNotify("", message, type);
+    });
+</script>

@@ -1,0 +1,436 @@
+﻿@using EntityLayer;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Restaurant Management System</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="images/fav.png">     
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>  
+    <script src="~/js/bootstrap.min.js" type="text/javascript"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-timepicker/0.5.2/css/bootstrap-timepicker.min.css" rel="Stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-timepicker/0.5.2/js/bootstrap-timepicker.min.js" type="text/javascript"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css" rel="Stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js" type="text/javascript"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="Stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.css" rel="Stylesheet" type="text/css" />
+    @*<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>*@
+    @*<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="Stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js" type="text/javascript"></script>*@
+    @*<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">*@
+    <!-- Place favicon.ico in the root directory -->
+    <!-- all css here -->
+    <!-- Core JavaScript/jQuery Plugins -->
+    <script src="~/js/jquery.min.js"></script>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        li.dropdown:hover > .dropdown-menu {
+            display: block;
+        }
+
+        .imgClass {
+            height: 60px;
+        }
+
+        .res-name {
+            margin: 0 0 5px;
+            padding: 9px;
+            color: #fff;
+            font-family: 'CookieRegular';
+            font-size: 42px;
+            font-weight: normal;
+            line-height: 53px;
+        }
+
+        .home2 .header-area {
+            padding-bottom: 0;
+            min-height: 94px;
+        }
+        .req-st{
+            color:red;
+        }
+    </style>
+
+</head>
+@*<body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+                <div class="navbar-collapse collapse">
+                    if(!Request.IsAuthenticated)
+                    {
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown">Users</a>
+                            <ul class="dropdown-menu">
+                                <li>@Html.ActionLink("Users", "RestaurantUser", "RestaurantUser")</li>
+                                <li>@Html.ActionLink("Roles", "Roles", "Roles")</li>
+                                <li>@Html.ActionLink("Access", "Access", "Access")</li>
+                                <li>@Html.ActionLink("Role Access", "RolesAccess", "RolesAccess")</li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown">Restaurants</a>
+                            <ul class="dropdown-menu">
+                                <li>@Html.ActionLink("Restaurant", "Restaurant", "Restaurant")</li>
+                                <li>@Html.ActionLink("Tables", "TableNo", "TableNo")</li>
+                                <li>@Html.ActionLink("Reservations", "Reservations", "Reservations")</li>
+                                <li>@Html.ActionLink("Orders", "Orders", "Orders")</li>
+                                <li>@Html.ActionLink("Track Orders", "OrderTrack", "OrderTrack")</li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown">Food Menu</a>
+                            <ul class="dropdown-menu">
+                                <li>@Html.ActionLink("Food Menu", "FoodDetail", "FoodDetail")</li>
+                                <li>@Html.ActionLink("Food Category", "FoodCategory", "FoodCategory")</li>
+                                <li>@Html.ActionLink("Special Food", "SpecialFood", "SpecialFood")</li>
+                            </ul>
+                        </li>
+                        <li>@Html.ActionLink("Customer", "Customer", "Customer")</li>
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown">Settings</a>
+                            <ul class="dropdown-menu">
+                                <li>@Html.ActionLink("Email Templates", "EmailTemplate", "EmailTemplate")</li>
+                                <li>@Html.ActionLink("Review Rating", "ReviewRating", "ReviewRating")</li>
+                                <li>@Html.ActionLink("CMS", "CMS", "CMS")</li>
+                                <li>@Html.ActionLink("City", "City", "City")</li>
+                                <li>@Html.ActionLink("Commission", "Commission", "Commission")</li>
+                                <li>@Html.ActionLink("Tax", "Tax", "Tax")</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    }
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year - Restaurant Management System</p>
+            </footer>
+        </div>
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+    </body>*@
+
+<body class="home2">
+    <!--Preload Start-->
+    <div id="loading" style="display:none;">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="object_one"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_three"></div>
+            </div>
+        </div>
+    </div>
+    <!--Preload Start-->
+    <!--Header area start here-->
+    <header>
+        <div id="inner">
+            <div class="header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="social-icon">
+                                <ul>
+                                    <li> <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+                                    <li> <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a> </li>
+                                    <li> <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+                                    @*<li> <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a> </li>
+                                        <li> <a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a> </li>
+                                        <li> <a href="#"><i class="fa fa-map" aria-hidden="true"></i></a> </li>*@
+                                    <li> Call for reservation: <a href="tel:+0885898745">(+088) 589-8745</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5 col-sm-5 col-xs-12">
+                            <ul class="top-hour">
+
+                                @if (Session["RSession"] != null)
+                                //@if (Request.IsAuthenticated)
+                                {
+                                    RSession rs = new RSession();
+                                    rs = (RSession)Session["RSession"];
+                                    if (rs != null && !string.IsNullOrEmpty(rs.TimeFrom) && !string.IsNullOrEmpty(rs.TimeTo))
+                                    {
+                                        <li class="open-time">Opening Hours : @rs.TimeFrom - @rs.TimeTo</li>
+                                    }
+                                }
+                                <li>
+                                    <a href="#">Eng <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    <ul>
+                                        <li> <a href="#">Japan</a> </li>
+                                    </ul>
+                                </li>
+                                <li> <a href="shop.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i> <sup>2</sup></a> </li>
+                            </ul>
+                        </div>
+                        @Html.Partial("_LoginPartial")
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-area header-area2 header-area3">
+            <div class="container">
+                <!-- Row -->
+                <div class="row">
+
+                    @*@if (!Request.IsAuthenticated)
+                        {*@
+                    @if (Session["RSession"] != null)
+                    {
+                        RSession rs = new RSession();
+                        rs = (RSession)Session["RSession"];
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <a href="/Home/Index"><img src="/LogoImages/@rs.Logo" alt="logo" class="imgClass"><span class="res-name">@rs.RestaurentName</span></a>
+                        </div>
+
+                        <div class="col-md-9 col-sm-9 col-xs-12">
+
+                            <div class="row margin">
+                                <a class="rs-menu-toggle"><i class="fa fa-bars"></i>Menu</a>
+                                <nav class="rs-menu">
+                                    <ul class="nav-menu">
+                                        @{
+                                            List<Access> lstMenus = new List<Access>();
+                                            lstMenus = (List<Access>)Session["lstMenus"];
+                                            lstMenus = lstMenus.Where(x => x.BaseAccessID == 0).ToList<Access>();
+                                        }
+                                        @foreach (Access item in lstMenus)
+                                        {
+                                            List<Access> lstSubMenus = new List<Access>();
+                                            lstSubMenus = (List<Access>)Session["lstMenus"];
+                                            lstSubMenus = lstSubMenus.Where(x => x.BaseAccessID == item.AccessID).ToList<Access>();
+                                            if (lstSubMenus.Count == 0)
+                                            {
+                                                <li class="menu-name">
+                                                    @*<a href="@item.PageURL" class="home">@item.AccessName</a>*@
+                                                    @{
+                                                        string actionName = "";
+                                                        string controllerName = "";
+                                                        if(item.PageURL.Contains("/"))
+                                                        {
+                                                            controllerName = item.PageURL.Split('/')[0];
+                                                            actionName = item.PageURL.Split('/')[1];
+                                                        }
+                                                      }
+                                                    @Html.ActionLink(item.AccessName, actionName, controllerName,null, new { @class = "home" })
+                                                </li>
+                                            }
+                                            else
+                                            {
+                                                <li class="menu-item-has-children">
+                                                    <a href="@item.PageURL" class="home">@item.AccessName</a>
+                                                    <ul class="sub-menu">
+
+                                                        @foreach (Access subItem in lstSubMenus)
+                                                        {
+                                                            string[] ctrl = subItem.PageURL.Split('/');
+                                                            if (ctrl.Count() > 1)
+                                                            {
+                                                                <li>@Html.ActionLink(subItem.AccessName, ctrl[0], ctrl[1])</li>
+                                                            }
+                                                        }
+
+                                                    </ul>
+                                                </li>
+                                            }
+                                            lstMenus = (List<Access>)Session["lstMenus"];
+                                            lstMenus = lstMenus.Where(x => x.BaseAccessID == 0).ToList<Access>();
+                                        }
+
+                                        @*@{
+                                                List<Access> lstMenus = new List<Access>();
+                                                lstMenus = (List<Access>)Session["lstMenus"];
+                                                lstMenus = lstMenus.Where(x => x.BaseAccessID == 0).ToList<Access>();
+                                                foreach (Access item in lstMenus)
+                                                {
+
+                                                    List<Access> lstSubMenus = new List<Access>();
+                                                    lstSubMenus = (List<Access>)Session["lstMenus"];
+                                                    lstSubMenus = lstSubMenus.Where(x => x.BaseAccessID == item.AccessID).ToList<Access>();
+                                                    foreach (Access subItem in lstSubMenus)
+                                                    {
+                                                        Html.ActionLink("Users", "RestaurantUser", "RestaurantUser");
+                                                    }
+                                                }
+
+                                            }*@
+
+
+
+
+                                        <!-- Home -->
+                                        @*<li class="current-menu-item current_page_item menu-item-has-children">
+                                                <a href="#" class="home">Users</a>
+                                                <ul class="sub-menu">
+                                                    <li>@Html.ActionLink("Users", "RestaurantUser", "RestaurantUser")</li>
+                                                    <li>@Html.ActionLink("Roles", "Roles", "Roles")</li>
+                                                    <li>@Html.ActionLink("Access", "Access", "Access")</li>
+                                                    <li>@Html.ActionLink("Role Access", "RoleAccess", "RoleAccess")</li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children">
+                                                <a href="#">Restaurants</a>
+                                                <ul class="sub-menu">
+                                                    <li>@Html.ActionLink("Restaurant", "Restaurant", "Restaurant")</li>
+                                                    <li>@Html.ActionLink("Tables", "TableNo", "TableNo")</li>
+                                                    <li>@Html.ActionLink("Reservations", "TableReservation", "TableReservation")</li>
+                                                    <li>@Html.ActionLink("Orders", "Order", "Order")</li>
+                                                    <li>@Html.ActionLink("Track Orders", "OrderTrack", "OrderTrack")</li>
+                                                </ul>
+                                            </li>*@
+                                        <!-- End Home -->
+                                        <!-- Drop Down -->
+                                        @*<li class="menu-item-has-children">
+                                                <a href="#">Food Menu</a>
+                                                <ul class="sub-menu">
+                                                    <li>@Html.ActionLink("Food Menu", "FoodDetail", "FoodDetail")</li>
+                                                    <li>@Html.ActionLink("Food Category", "FoodCategory", "FoodCategory")</li>
+                                                    <li>@Html.ActionLink("Special Food", "SpecialFood", "SpecialFood")</li>
+                                                </ul>
+                                            </li>
+                                            <!-- Drop Down -->
+                                            <li class="current-menu-item">@Html.ActionLink("Customer", "Customer", "Customer")</li>
+                                            <!-- Drop Down -->
+                                            <li class="menu-item-has-children">
+                                                <a href="#">Settings</a>
+                                                <ul class="sub-menu">
+                                                    <li>@Html.ActionLink("Email Templates", "EmailTemplate", "EmailTemplate")</li>
+                                                    <li>@Html.ActionLink("Review Rating", "ReviewRating", "ReviewRating")</li>
+                                                    <li>@Html.ActionLink("CMS", "CMS", "CMS")</li>
+                                                    <li>@Html.ActionLink("Country", "Country", "Country")</li>
+                                                    <li>@Html.ActionLink("City", "City", "City")</li>
+                                                    <li>@Html.ActionLink("State", "State", "State")</li>
+                                                    <li>@Html.ActionLink("Commission", "Commission", "Commission")</li>
+                                                    <li>@Html.ActionLink("Tax", "Tax", "Tax")</li>
+                                                </ul>
+                                            </li>*@
+
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        @*  *@
+                                            }
+                                            else
+                                            {
+                                                <div class="col-md-2 col-sm-2 col-xs-12">
+                                                    <a href="/Home/Index"><img src="/images/logo.png" alt="logo"></a>
+                                                </div>
+                                            }
+                </div>
+                <!-- End Row -->
+            </div>
+        </div>
+    </header>
+    <!--Header area end here-->
+    @RenderBody()
+
+    <footer class="spc-large">
+        <div class="container">
+            <!-- Footer Logo  -->
+            <div class="logo text-center">
+                <a href="/Home/Index"> <img src="/images/logo.png" alt="logo"></a>
+            </div>
+            <!-- Footer Social Icon  -->
+            <div class="social-icon text-center">
+                <ul class="text-center">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-md-offset-1">
+                    <div class="address">
+                        503  Old Buffalo Street
+                        Northwest #205, New York.
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="phone">
+                        <a href="tel:+3453-909-6565"> +3453-909-6565</a>
+                        <a href="tel:+2390-875-2235">+2390-875-2235</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="email">
+                        <a href="mailto:infoname@gmail.com">infoname@gmail.com</a>
+                        <a href="mailto:www.yourname.com">www.yourname.com</a>
+                    </div>
+                </div>
+                <div class="copyright text-center">&copy; @DateTime.Now.Year - Restaurant Management System | All Rights Reserved. </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area Section End Here -->
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/datetime")
+    @RenderSection("scripts", required: false)
+
+    <!-- Custom JavaScript/jQuery Plugins -->
+    <script src="~/js/bootstrap-notify.min.js"></script>   
+    @*<script src="~/Scripts/jquery-ui-1.12.1.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>*@
+    <script src="~/Scripts/bootstrap-datetimepicker.js"></script>
+    <script src="~/Scripts/bootstrap-datetimepicker.min.js"></script>
+    <script src="~/js/bootstrap-timepicker.min.js"></script>
+    @*<script src="~/js/bootstrap-datepicker.min.js"></script>*@
+    <script src="~/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        function ShowNotify(title,message,type)
+        {
+            $.notify({
+                title: title,
+                message: message
+            }, {
+                type: type,
+                placement: {
+                    from: "top",
+                    align: "center"
+                },
+                z_index: 99999,
+            });
+        }
+    </script>
+
+</body>
+
+
+</html>

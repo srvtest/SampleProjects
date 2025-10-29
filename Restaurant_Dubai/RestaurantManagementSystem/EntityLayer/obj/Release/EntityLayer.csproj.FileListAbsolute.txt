@@ -1,0 +1,7 @@
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\EntityLayer\bin\Release\EntityLayer.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\EntityLayer\bin\Release\EntityLayer.pdb
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\EntityLayer\bin\Release\System.Web.Mvc.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\EntityLayer\bin\Release\System.Web.Mvc.xml
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\EntityLayer\obj\Release\EntityLayer.csprojResolveAssemblyReference.cache
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\EntityLayer\obj\Release\EntityLayer.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\EntityLayer\obj\Release\EntityLayer.pdb

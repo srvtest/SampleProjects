@@ -1,0 +1,250 @@
+﻿@model EntityLayer.Order
+
+@{
+
+// Layout = null;
+}
+
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="top: 94px;">
+    <img src="/images/banner/Add Order.JPG" alt="">
+    <div class="title">
+        <h1>Order</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">Add Order</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+<!-- Contact Section Start Here -->
+<div class="contact-page-area spc-equal">
+    <div class="container">
+        <p>
+            @Html.ActionLink("Back to list", "Order")
+        </p>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="contact-area">
+                    @using (Html.BeginForm("AddOrder", "Order", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form", autocomplete = "off", @id = "form-submit" }))
+                    {
+
+                        @Html.AntiForgeryToken()
+                        @Html.HiddenFor(m => m.TransID)
+
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="OrderNumber">Order Number<span class="req-st"> *</span></label>
+                                        @Html.TextBoxFor(m => m.OrderNumber, new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.OrderNumber, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="CustomerID">Customer<span class="req-st"> *</span></label>
+                                        @Html.DropDownListFor(m => m.CustomerID, ViewBag.UserCustomer as SelectList, "Select Customer", new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.CustomerID, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="TableID">Table<span class="req-st"> *</span></label>
+                                        @Html.DropDownListFor(m => m.TableID, ViewBag.TableNo as SelectList, "Select Table", new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.TableID, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="NumOfPerson">Num Of Person<span class="req-st"> *</span></label>
+                                        @Html.TextBoxFor(m => m.NumOfPerson, new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.NumOfPerson, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="TimeOfArrival">Time Of Arrival<span class="req-st"> *</span></label>
+
+                                        @Html.TextBox("TimeOfArrival", "", new { @class = "form-control " })
+                                        @*@Html.TextBoxFor(m => m.TimeOfArrival, new { @class = "form-control", id = "txtTimeOfArrival" })*@
+                                        @Html.ValidationMessageFor(m => m.TimeOfArrival, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="OrderServeTime">Order ServeTime<span class="req-st"> *</span></label>
+                                        @Html.TextBox("OrderServeTime", "", new { @class = "form-control " })
+                                        @*@Html.TextBoxFor(m => m.OrderServeTime, new { @class = "form-control", id = "txtOrderServeTime" })*@
+                                        @Html.ValidationMessageFor(m => m.OrderServeTime, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="RestaurantID">Restaurant<span class="req-st"> *</span></label>
+                                        @Html.DropDownListFor(m => m.RestaurantID, ViewBag.UserRestaurant as SelectList, "Select Restaurant", new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(m => m.RestaurantID, "", new { @class = "text-danger" })
+                                    </div>
+                                    @if (Model.TransID > 0)
+                                    {
+                                        <div class="form-group">
+                                            <label for="IsActive" style="margin-right: 20px;">Status</label>
+                                            @Html.CheckBoxFor(m => m.IsActive)
+                                        </div>
+                                    }
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <div class="form-group">
+                                                <label for="FoodID">Food</label>
+                                                @Html.DropDownList("FoodItem", ViewBag.UserFoodDetail as SelectList, "Select Food", new { @class = "form-control" })
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 col-sm-5 col-xs-4">
+                                            <div class="form-group">
+                                                <label for="Quantity">Quantity</label>
+                                                @Html.TextBox("Qnty", "", new { @class = "form-control" })
+                                            </div>
+                                        </div>
+                                        <div class="col-md-1 col-sm-1 col-xs-2">
+                                            <label for=""></label>
+                                            <button type="button" class="btn-add btn btn-primary">+</button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div style="padding: 0 15px;">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr><th>Item</th><th>Quantity</th><th>Amount</th><th></th></tr>
+                                                </thead>
+                                                <tbody id="food-item"></tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group bottom-btn">
+                                        <input style="display:none" type="submit" class="btn-send" id="submit" value="Submit">
+                                        <button type="button" class="btn-send" id="buttonsubmit">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </fieldset>
+                        @section Scripts {
+                            @Scripts.Render("~/bundles/jqueryval")
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        var lstOrder = @Html.Raw(Json.Encode(Model.lstOrderDetails));
+        if(lstOrder != null)
+        {
+            for(i=0;i<lstOrder.length;i++)
+            {
+                $('#food-item').append("<tr id='"+ lstOrder[i].FoodID+"'><td>" + lstOrder[i].FoodName + "</td><td>" +  lstOrder[i].Quantity + "</td><td>" + lstOrder[i].Amount + "</td><td><button type='button' class='btn-del btn btn-danger pull-right' >-</button></td></tr>");
+            }
+        }
+
+        $('.btn-add').click(function () {
+            var itemPrice;
+            var regex = /^[0-9\s]*$/;
+            var id = $('#FoodItem option:selected').val();
+            if(id == '')
+            {
+                alert("Please select Food item");
+                return false;
+            }
+            else if ($('#Qnty').val() == '' || $('#Qnty').val() == 0)
+            {
+                alert("Please enter food quantity");
+                return false;
+            }
+            else if (!regex.test($('#Qnty').val()))
+            {
+                alert("Please enter valid quantity");
+                return false;
+            }
+            $.ajax({
+                type: "POST",
+                url: "/Order/GetPrice",
+                data: "{foodId:" + id+"}",
+                contentType: "application/json;charset=utf-8",
+                dataType: "json",
+                async:false,
+                success: function (result) {
+                    itemPrice = result;
+                },
+                error: function (err) {
+                    //
+                }
+            });
+            var item = $('#FoodItem option:selected').text();
+            $('#food-item').append("<tr id='"+id+"'><td>" + item + "</td><td>" + $('#Qnty').val() + "</td><td>" + itemPrice + "</td><td><button type='button' class='btn-del btn btn-danger pull-right' >-</button></td></tr>");
+        });
+        $(document).on('click', '.btn-del', function () {
+            $(this).parent().parent().remove();
+        });
+
+        $('#buttonsubmit').click(function () {
+            if ($('#OrderNumber').val().trim() == '' || $('#OrderNumber').val().trim() == 0)
+            {
+                alert("Please enter Order number");
+                return false;
+            }
+            var lstOrderDetails = [];
+            var objOrderModel = {};
+            $('#food-item').find("tr").each(function (i,v) {
+                var OrderDetails = {};
+                var foodid = $(this).attr('id');
+                //alert(foodid);
+                var count = 0;
+                $(this).find('td').each(function (a, b) {
+                    if (count == 0)
+                        OrderDetails.FoodID = foodid;
+                    else if (count == 1)
+                        OrderDetails.Quantity = $(b).text();
+                    else if (count == 2)
+                        OrderDetails.Amount = $(b).text();
+                    count = count + 1;
+                });
+                //alert(i);
+                lstOrderDetails.push(OrderDetails);
+                //alert(JSON.stringify(lstOrderDetails));
+
+                objOrderModel.lstOrderDetails = lstOrderDetails;
+            });
+            objOrderModel.OrderNumber = $('#OrderNumber').val();
+            objOrderModel.CustomerID = $('#CustomerID option:selected').val();
+            objOrderModel.TableID = $('#TableID option:selected').val();
+            objOrderModel.NumOfPerson = $('#NumOfPerson').val();
+            objOrderModel.TimeOfArrival = $('#TimeOfArrival').val();
+            objOrderModel.OrderServeTime = $('#OrderServeTime').val();
+            objOrderModel.RestaurantID = $('#RestaurantID option:selected').val();
+            objOrderModel.TransID = $('#TransID').val();
+            if ($('#IsActive').is(":checked")) {
+                objOrderModel.IsActive = true;
+            }
+            else
+                objOrderModel.IsActive = false;
+            //alert(objOrderModel.TransID);
+            $.post("/Order/CreateOrder", objOrderModel)
+               .done(function(response, status, jqxhr){
+                   if(response == "1")
+                       window.location.href = "/Order/Order";
+               })
+               .fail(function(jqxhr, status, error){
+                   alert("Order not created.");
+               })
+        });
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#TimeOfArrival").timepicker();
+        $("#OrderServeTime").timepicker();
+    });
+</script>
+
+<script type="text/javascript">
+    $(function () {
+        var message = '@TempData["NotifyMessage"]';
+        var type = '@TempData["NotifyType"]';
+        if (message != "")
+            ShowNotify("", message, type);
+    });
+</script>

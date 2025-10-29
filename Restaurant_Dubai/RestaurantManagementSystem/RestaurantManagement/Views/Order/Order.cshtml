@@ -1,0 +1,124 @@
+﻿@model IEnumerable<EntityLayer.Order>
+
+@{
+    ViewBag.Title = "Order";
+    //Layout = null;
+}
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="top: 94px;">
+    <img src="/images/banner/Order.JPG" alt="">
+    <div class="title">
+        <h1>Order</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">Order</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+<!-- Contact Section Start Here -->
+<div class="contact-page-area spc-equal">
+    <div class="container">
+      <p>
+            @Html.ActionLink("Create New", "AddOrder")
+        </p>
+        @using (Html.BeginForm("AddOrder", "Order", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+        {
+            <table class="table">
+                <tr>
+                    <th>
+                        OrderNumber
+                    </th>
+                    <th>
+                        CustomerEmail
+                    </th>
+                    <th>
+                        TableID
+                    </th>
+                    <th>
+                        Persons
+                    </th>
+                    <th>
+                        Arrival Time
+                    </th>
+                    <th>
+                        Serve Time
+                    </th>
+                    <th>
+                        Restaurant Name
+                    </th>
+                    <th>
+                        Status
+                    </th>
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.OrderNumber)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CustomerEmail)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TableID)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NumOfPerson)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TimeOfArrival)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.OrderServeTime)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RestaurantName)
+                        </td>
+                        <td style="padding-left: 0;">
+                            @if (item.IsActive)
+                            {
+                                <text>Active</text>
+                            }
+                            else
+                            {
+                                <text>Inactive</text>
+}
+                        </td>
+                        <td>
+                            <div>
+                                <div style="float:left" title="Edit">
+                                    <a href="@Url.Action("AddOrder", "Order", new { id = item.TransID })" class="btn btn-xs btn-info">
+                                        <span class="glyphicon glyphicon-edit" aria-hidden="true">Edit</span>
+                                    </a>
+                                </div>
+                                <div style="float:left;margin-left:5px" title="Delete">
+                                    @using (Html.BeginForm("Order", "Order", new { id = item.TransID }, FormMethod.Post))
+                                    {
+                                        @Html.HttpMethodOverride(HttpVerbs.Delete)
+                                        <button type="submit" id="buttonsubmit" value="Delete"
+                                                onclick="return confirm('Are you sure?');"
+                                                class="btn btn-xs btn-danger">
+                                            <span class="glyphicon glyphicon-trash">Delete</span>
+                                        </button>
+                                    }
+                                </div>
+                            </div>
+                            @*@Html.ActionLink("Edit", "Edit", new { id=item.OrderID }) |
+                                @Html.ActionLink("Details", "Details", new { id=item.OrderID }) |
+                                @Html.ActionLink("Delete", "Delete", new { id=item.OrderID })*@
+                        </td>
+                    </tr>
+                }
+            </table>
+        }
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        var message = '@TempData["NotifyMessage"]';
+        var type = '@TempData["NotifyType"]';
+        if (message != "")
+            ShowNotify("", message, type);
+    });
+</script>

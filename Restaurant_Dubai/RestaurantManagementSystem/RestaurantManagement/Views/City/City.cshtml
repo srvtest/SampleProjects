@@ -1,0 +1,133 @@
+﻿@model IEnumerable<EntityLayer.City>
+@{
+    ViewBag.Title = "City";
+    //Layout = null;
+}
+
+<!-- Banner Section Start Here -->
+<div class="inner-banner" style="top: 94px;">
+    <img src="/images/banner/City.JPG" alt="">
+    <div class="title">
+        <h1>City</h1>
+        <span><a href="#">Home</a> <i class="fa fa-bolt" aria-hidden="true"></i> <span class="last">City</span></span>
+    </div>
+</div>
+<!-- Banner Section end Here -->
+<!-- Contact Section Start Here -->
+<div class="contact-page-area spc-equal">
+    <div class="container">
+        <p>
+            @Html.ActionLink("Create New", "AddCity")
+        </p>
+        @using (Html.BeginForm("AddCity", "City", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+        {
+
+            <table class="table">
+                <tr>
+                    <th>
+                        City
+                    </th>
+                    <th>
+                        State
+                    </th>
+                    <th>
+                        Country
+                    </th>
+                    <th>Status</th>                    
+                </tr>
+                @if (Model != null)
+                {
+                    foreach (var item in Model)
+                    {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CityName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.StateName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CountryName)
+                        </td>
+                        <td>
+                            @if (item.IsActive)
+                            {
+                                <text>Active</text>
+                            }
+                            else
+                            {
+                                <text>InActive</text>
+                            }
+                        </td>
+                        <td>
+                            <div>
+                                <div style="float:left" title="Edit">
+                                    <a href="@Url.Action("AddCity", "City", new { id = item.CityID })" class="btn btn-xs btn-info">
+                                        <span class="glyphicon glyphicon-edit" aria-hidden="true">Edit</span>
+                                    </a>
+                                </div>
+                                <div style="float:left;margin-left:5px" title="Delete">
+                                    @using (Html.BeginForm("City", "City", new { id = item.CityID }, FormMethod.Post))
+                                    {
+                                        @Html.HttpMethodOverride(HttpVerbs.Delete)
+                                        <button type="submit" id="buttonsubmit" value="Delete"
+                                                onclick="return confirm('Are you sure?');"
+                                                class="btn btn-xs btn-danger">
+                                            <span class="glyphicon glyphicon-trash">Delete</span>
+                                        </button>
+                                    }
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    }
+                }
+            </table>
+        }
+
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+    function test() {
+        debugger;
+        //try {
+        //    var xmlhttp = new XMLHttpRequest();   // new HttpRequest instance
+        //    xmlhttp.open("POST", "/json-handler");
+        //    xmlhttp.setRequestHeader("Content-Type", "application/json");
+        //    xmlhttp.send(JSON.stringify({
+        //        "cityID": "0",
+        //        "cityName": " mycity23",
+        //        "isActive": "true"
+        //    }));
+        //}
+        //catch (err) {
+        //    alert(err.message);
+        //}
+        var Data = JSON.stringify({
+            "cityID": "0",
+            "cityName": " mycity23",
+            "isActive": "true"
+        })
+
+        $.ajax({
+            type: 'POST',
+            url: 'http://localhost:3125/api/city/AddCity',
+            data: Data, // or JSON.stringify ({name: 'jonas'}),
+            success: function (data) { alert('data: ' + data); },
+            contentType: "application/json",
+            dataType: 'json'
+        });
+    }
+    test();
+
+</script>
+<script type="text/javascript">
+    $(function () {
+        var message = '@TempData["NotifyMessage"]';
+        var type = '@TempData["NotifyType"]';
+        if (message != "")
+            ShowNotify("", message, type);
+    });
+</script>

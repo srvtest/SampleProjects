@@ -1,0 +1,11 @@
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Release\ELHelper.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Release\ELHelper.pdb
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Release\ExceptionManager.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\bin\Release\ExceptionManager.pdb
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\obj\Release\ELHelper.csprojResolveAssemblyReference.cache
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\obj\Release\ELHelper.dll
+D:\SVN Workbench\Restaurant_Dubai\RestaurantManagementSystem\Common\ELHelper\obj\Release\ELHelper.pdb
