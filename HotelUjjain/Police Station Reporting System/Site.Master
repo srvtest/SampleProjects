@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Police_Station_Reporting_System.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%--AdminLTE 3 | Log in (v2)--%>Police Station</title>
+    <link href="newpanel/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="newpanel/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="newpanel/bower_components/ionicons/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+    <link href="newpanel/dist/css/AdminLTE.css" rel="stylesheet" type="text/css" />
+    <link href="newpanel/custom/customcolor.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="newpanel/Plugins/iCheck/square/blue.css" />
+    <link href="newpanel/dist/css/skins/skin-blue.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic" />
+    <%-- <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+    <!-- icheck bootstrap -->
+    <link rel="stylesheet" href="../../plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../../dist/css/adminlte.min.css">--%>
+    <style type="text/css">
+        .vbnpage {
+            background: #d2d6de;
+            background: url(newpanel/images/bg.jpg) no-repeat;
+            background-size: cover;
+        }
+
+        @media only screen and (min-width: 600px) {
+            .login-box-body {
+                width: 410px;
+            }
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="hold-transition login-page" style="height: 100px;">
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+ </asp:ContentPlaceHolder>
+   
+    <!-- jQuery -->
+    <script src="../../plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../../dist/js/adminlte.min.js"></script>
+    <script src="JS/AdScripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+name*,gender*,dob*,mobileno*,email,address*,username*,password*,role*,login*,attendance*
+Staff Teacher2,Male,25-Jan-1990,9009000944,sheet1@gmail.com,Staff3 Address,teach3,123456,Teacher,YES,YES
+Staff Teacher4,Male,25-Feb-1990,9009000955,sheet1@gmail.com,Staff3 Address,teach4,123456,Teacher,YES,YES

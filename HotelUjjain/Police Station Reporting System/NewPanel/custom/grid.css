@@ -1,0 +1,131 @@
+.copycolor {
+color:gray;
+}
+.excelcolor {
+color:green;
+}
+.csvcolor {
+color:blue;
+}
+.pdfcolor {
+color:red;
+}
+.printcolor {
+color:black;
+}
+table.dataTable tbody tr.selected {
+    background-color: #B0BED9;
+}
+.table > tbody > tr > td {
+    padding: 4px 6px;
+}
+.table > thead > tr > th, .table > tbody > tr > th {
+    padding: 4px 6px;
+    font-weight: normal;
+    color: white;
+    background: #267fb3;
+}
+.gridradio{
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.gridradio li {
+    display:inline;
+}
+@media only screen and (max-width: 800px) {
+    .gridcontrolbtn {
+        font-size: 20px;
+    }
+    .dataTables_wrapper .dataTables_filter {
+    text-align: center;
+    float:none;
+}
+    .gridradio li {
+    display:block;
+}  
+    div.dt-buttons {
+    position: inherit;
+    float: none;
+    text-align: center;
+    padding-bottom: 10px;
+}
+    #hide-table th {
+    display:none;
+    }
+    #hide-table table,
+
+    #hide-table thead,
+
+    #hide-table tbody,
+    #hide-table tfoot,
+    #hide-table td,
+
+    #hide-table tr {
+
+        display: block;
+        clear: both;
+    }
+
+
+
+    #hide-table tbody tr> th {
+
+        position: absolute;
+
+        top: -9999px;
+
+        left: -9999px;
+
+    }
+
+
+
+    #hide-table tr { border: 1px solid #ccc; }
+
+
+
+    #hide-table td {
+
+        border: none;
+
+        border-bottom: 1px solid #eee;
+
+        position: relative;
+
+        padding-left: 50%;
+
+        white-space: normal;
+        width: auto !important;
+        text-align:left;
+
+    }
+
+
+
+    #hide-table td:before {
+
+        position: absolute;
+
+        top: 6px;
+
+        left: 6px;
+
+        width: 45%;
+
+        padding-right: 10px;
+
+        white-space: nowrap;
+
+        text-align:left;
+
+        font-weight: 500;
+
+        color: #1a2229;
+
+    }
+
+
+
+    #hide-table td:before { content: attr(data-title); }
+}

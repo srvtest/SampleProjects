@@ -1,0 +1,86 @@
+body {
+font-family:'Roboto','Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.sidebar-menu>li>a {
+    padding: 4px 5px 4px 15px;
+    display: block;
+}
+table.dataTable thead th, table.dataTable thead td {
+    padding: 5px 5px;
+    border-bottom: 1px solid #fff;
+}
+.gridcontrolbtn{
+    border: 1px solid #c1c1c1;
+    background-color: white;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #dcdcdc));
+    background: -webkit-linear-gradient(top, white 0%, #dcdcdc 100%);
+    background: -moz-linear-gradient(top, white 0%, #dcdcdc 100%);
+    background: -ms-linear-gradient(top, white 0%, #dcdcdc 100%);
+    background: -o-linear-gradient(top, white 0%, #dcdcdc 100%);
+    background: linear-gradient(to bottom, white 0%, #dcdcdc 100%);
+    padding: 2px 3px;
+    border-radius: 3px;
+}
+.gridcontrolbtnnopad {
+    padding: 0px 3px !important;
+}
+.gridcontrolbtn:hover {
+   border: 1px solid #267fb3;
+}
+.textalignright {
+text-align:right !important;
+}
+.textalignleft {
+text-align:left !important;
+}
+.textaligncenter {
+text-align:center !important;
+}
+.Partial {
+    background:#ff9801 !important;
+}
+.Paid {
+    background:#66aa18 !important;
+}
+.Unpaid {
+    background:#e91e63 !important;
+}
+.tdwth50per td {
+width:50%
+}
+.fontsize12 {
+font-size: 12px !important;
+}
+.fontsize13 {
+font-size: 13px !important;
+}
+.fontsize14 {
+font-size: 14px !important;
+}
+.fontsize15 {
+font-size: 15px !important;
+}
+.datepicker, .datepicker-orient-left, .datepicker-orient-top {
+z-index:9999999 !important;
+}
+.alert {
+    margin: 10px !important;
+}
+.colorgreen {
+    color:#66aa18 !important;
+}
+.colorred {
+    color:red !important;
+}
+.coloryellow {
+    color:yellow !important;
+}
+.colorwhitea {
+    color:white !important;
+}
+.colorwhite {
+    color:white !important;
+}
+.alert .fa {
+margin-right:10px;
+}

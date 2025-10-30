@@ -1,0 +1,159 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Hotel_Guest_Reporting_System.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Admin</title>
+    <link rel="icon" type="image/png" href="../assets/images/favicon.svg" />
+    <!-- HTML5 Shim and Respond.js IE9 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="codedthemes">
+    <meta name="keywords"
+        content=", Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+    <meta name="author" content="codedthemes">
+
+    <!-- Favicon icon -->
+    <%-- <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon">--%>
+    <%--<link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">--%>
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
+
+    <!-- iconfont -->
+    <link rel="stylesheet" type="text/css" href="../assets/icon/icofont/css/icofont.css">
+
+    <!-- Required Fremwork -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/bootstrap/css/bootstrap.min.css">
+
+    <!-- waves css -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/Waves/waves.min.css">
+
+    <!-- Style.css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/main.css">
+
+    <!-- Responsive.css-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/responsive.css">
+    <!--color css-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/color/color-1.min.css" id="color" />
+    <link rel="stylesheet" href="../assets/plugins/jquery.toast.min.css" />
+    <style>
+        body {
+            top: 0px !important;
+        }
+
+        .goog-logo-link {
+            display: none !important;
+        }
+
+        .trans-section {
+            margin: 100px;
+        }
+
+        .skiptranslate iframe {
+            display: none !important;
+        }
+
+        .goog-te-gadget {
+            color: transparent !important;
+        }
+
+        .GuestBG {
+            background-image: url('../../../assets/images/authentication-bg.jpg');
+            background-repeat: no-repeat;
+            background-position: bottom;
+        }
+
+        .btn-guestsuccess, .btn-success:focus, .btn-success:hover, .btn-success:active {
+            background-color: #ff820f !important;
+            color: white !important;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <%--  <header class="main-header-top hidden-print common-img-bg">
+            <nav class="navbar navbar-static-top common-img-bg">
+                <ul class="top-nav lft-nav">
+                    <li style="margin-left: 1098px;"> <div id="google_translate_element"></div></li>
+                </ul>
+            </nav>
+        </header>--%>
+        <section class="login p-fixed d-flex text-center bg-primary GuestBG">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="login-card card-block">
+                            <form class="md-float-material">
+                                <div class="text-center">
+                                    <img src="../assets/images/guest-report-logo.svg" alt="logo">
+                                </div>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </form>
+                            <!-- end of form -->
+                        </div>
+                        <!-- end of login-card -->
+                    </div>
+                    <!-- end of col-sm-12 -->
+                </div>
+                <!-- end of row -->
+            </div>
+            <!-- end of container-fluid -->
+            <div class="modal fade modal-flex" id="basic-form-Modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h5 class="modal-title">Message</h5>
+                        </div>
+                        <div class="modal-body">
+                            <%-- <asp:Label ID="lblMessage" runat="server" Text="Label"></asp:Label>--%>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="../assets/plugins/jquery/dist/jquery.min.js"></script>
+        <script src="../assets/plugins/jquery-ui/jquery-ui.min.js"></script>
+        <script src="../assets/plugins/tether/dist/js/tether.min.js"></script>
+
+        <!-- Required Fremwork -->
+        <script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- waves effects.js -->
+        <script src="../assets/plugins/Waves/waves.min.js"></script>
+
+        <script src="../assets/plugins/jquery.toast.min.js"></script>
+        <script src="../assets/plugins/toast.js"></script>
+        <script src="../JS/AdminScripts.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+        <!-- Custom js -->
+        <script type="text/javascript" src="../assets/pages/elements.js"></script>
+        <script type="text/javascript">
+            function ShowPopup(body) {
+                $("#basic-form-Modal .modal-body").html(body);
+                $("#basic-form-Modal").modal("show");
+            }
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'hi,en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+            }
+        </script>
+    </form>
+</body>
+</html>

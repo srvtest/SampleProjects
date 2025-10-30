@@ -1,0 +1,6 @@
+@AdminHotel_PoliceApi_HostAddress = http://localhost:5246
+
+GET {{AdminHotel_PoliceApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,425 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Police_Station_Reporting_System.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title id="titName"><%--AdminLTE 3 | Log in (v2)--%><%--Police Station--%></title>
+    <link rel="icon" type="image/png" href="New/favicon-32x32.png" />
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+    <!-- Bootstrap 3.3.7 -->
+    <link rel="stylesheet" href="../newpanel/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../newpanel/bower_components/font-awesome/css/font-awesome.min.css" />
+    <!-- Ionicons -->
+    <meta http-equiv="refresh" content="900;url=PoliceStationLogout.aspx" />
+
+
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../newpanel/dist/css/AdminLTE.min.css" />
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+     folder instead of downloading all of them to reduce the load. -->
+    <link rel="stylesheet" href="../newpanel/dist/css/skins/_all-skins.min.css" />
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic" />
+    <link href="../newpanel/custom/customcolor.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../newpanel/custom/grid.css" />
+    <style>
+        .small-box .icon {
+            top: 0px !important;
+        }
+
+        .small-box h3 {
+            font-size: 16px !important;
+        }
+
+        .admindashwidget .icon i {
+            font-size: 80px;
+            padding-top: 5px;
+        }
+
+        .dashwidget .icon i {
+            font-size: 50px;
+            padding-top: 5px;
+        }
+
+        .vbnpage {
+            background: #ffffff;
+            /* background: url(../NewPanel/dist/schoolbg.jpg) no-repeat;
+            background-size: cover;*/
+        }
+
+        .floatbtn {
+            float: none;
+        }
+
+        @media only screen and (min-width: 600px) {
+            .login-box-body {
+                width: 410px;
+            }
+
+            .floatbtn {
+                float: right;
+            }
+
+            .table {
+                width: 100% !important;
+            }
+        }
+    </style>
+    <!-- Morris charts -->
+    <link rel="stylesheet" href='../newpanel/bower_components/morris.js/morris.css'>
+    <!-- DataTables -->
+    <link href="../newpanel/DataTable/DataTables-1.10.16/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+    <link href="../newpanel/DataTable/datatables-responsive/css/responsive.bootstrap4.min.css" rel="stylesheet" />
+    <link href="../newpanel/DataTable/Buttons-1.5.1/css/buttons.bootstrap4.min.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+    <form id="form1" runat="server">
+        <div class="wrapper">
+
+            <header class="main-header">
+                <!-- Logo -->
+                <a href="#" class="logo">
+                    <!-- mini logo for sidebar mini 50x50 pixels -->
+                    <span id="lblHotelNameMini" runat="server" class="logo-mini">Vidya Bhavan</span>
+                    <!-- logo for regular state and mobile devices -->
+                    <span id="lblHotelName" runat="server" class="logo-lg">Vidya Bhavan</span>
+                </a>
+                <!-- Header Navbar: style can be found in header.less -->
+                <nav class="navbar navbar-static-top">
+                    <!-- Sidebar toggle button-->
+                    <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+                        <span class="sr-only">Toggle navigation</span>
+                    </a>
+
+                    <div class="navbar-custom-menu">
+                        <ul class="nav navbar-nav">
+                            <%--   <li id="divsearch">
+                                <input type="text" name="q" id="txtautostd" style="margin-top: 8px;" class="form-control" placeholder="Search...">
+                            </li>
+                            <li id="licalander" class="dropdown messages-menu">
+                                <a href="/calendar">
+                                    <i style="font-size: 20px;" class="fa fa-calendar"></i>
+                                </a>
+                            </li>--%>
+
+                            <!-- User Account: style can be found in dropdown.less -->
+                            <li class="dropdown user user-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <img src="newpanel/images/avatar.png" id="img_user" class="user-image" alt="User Image" />
+                                    <span id="txt_username" runat="server" class="hidden-xs">Police</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <!-- User image -->
+                                    <li class="user-header">
+                                        <img src="newpanel/images/avatar.png" id="img_user1" class="img-circle" alt="User Image" />
+
+                                        <p id="user_name1">
+                                            Welcome,<br />
+                                            <span id="Span1" runat="server">Hotel</span>
+                                        </p>
+                                    </li>
+                                    <!-- Menu Footer-->
+                                    <li class="user-footer">
+                                        <div class="pull-left">
+                                            <a href="setting.aspx" class="btn btn-default btn-flat">Profile</a>
+                                        </div>
+                                        <div class="pull-right">
+                                            <a id="hot" class="btn btn-default btn-flat" href="PoliceStationLogout.aspx">Sign out</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <!-- Left side column. contains the logo and sidebar -->
+            <aside class="main-sidebar">
+                <!-- sidebar: style can be found in sidebar.less -->
+                <section class="sidebar">
+                    <!-- Sidebar user panel -->
+                    <%--   <div class="user-panel">
+                        <div class="pull-left image">
+                            <img src="newpanel/images/avatar.png" id="img_user2" class="img-circle" alt="User Image" />
+                        </div>
+                        <div class="pull-left info">
+                            <p id="user_name">VB Admin</p>
+                            <a href="#" id="sessionname"><i class='fa fa-circle text-success'></i></a>
+                        </div>
+                    </div>--%>
+
+
+
+                    <!-- sidebar menu: : style can be found in sidebar.less -->
+                    <ul id="schoolmenu" class="sidebar-menu" data-widget="tree">
+                        <li>
+                            <a href="index.aspx">
+                                <i class="fa fa-dashboard"></i><span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="PendingGuestDetails.aspx">
+                                <i class="fa fa-eye"></i><span>गेस्ट की जानकारी देखे</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="GuestDetails.aspx">
+                                <i class="fa fa-download"></i><span>चेक इन रिपोर्ट देखें</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="SearchGuests.aspx">
+                                <i class="fa fa-search"></i><span>सर्च गेस्ट</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="frmsurveillance.aspx">
+                                <i class="fa fa-camera-retro"></i><span>आईडी को निगरानी के लिए जोड़ें
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="GuestList.aspx">
+                                <i class="fa fa-warning"></i><span>चेक इन रिपोर्ट न भेजने वाली </br>होटलो की सूची </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ContactUs.aspx">
+                                <i class="fa fa-phone"></i><span>हमसे संपर्क करें </span>
+                            </a>
+                        </li>
+                        <%-- <li>
+                            <a href="TermsConditions.aspx">
+                                <i class="fa fa-user-plus"></i><span>महत्वपूर्ण नियम एवं शर्तें </span>
+                            </a>
+                        </li>--%>
+                    </ul>
+                </section>
+                <!-- /.sidebar -->
+            </aside>
+
+            <!-- Content Wrapper. Contains page content -->
+            <div class="content-wrapper vbnpage">
+
+                <!-- Content Header (Page header) -->
+                <%--<section class="content-header">
+                    <h1>Dashboard
+        <small>Control panel</small>
+                    </h1>
+                    <ol class="breadcrumb">
+                        <li><a href="#"><i class="fa fa-dashboard"></i>Home</a></li>
+                        <li class="active">Dashboard</li>
+                    </ol>
+                </section>--%>
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                <!-- Main content -->
+
+
+
+                <input type="hidden" name="ctl00$cp_body$hddonut" id="hddonut" value="20200###0###10060800" />
+                <input type="hidden" name="ctl00$cp_body$hdbar" id="hdbar" value="February(21)-5500###March(21)-5000###July(21)-9700" />
+                <input type="hidden" name="ctl00$cp_body$hdtechatt1" id="hdtechatt1" />
+                <input type="hidden" name="ctl00$cp_body$hdtechatt2" id="hdtechatt2" />
+                <input type="hidden" name="ctl00$cp_body$hdadminatt1" id="hdadminatt1" />
+                <input type="hidden" name="ctl00$cp_body$hdadminatt2" id="hdadminatt2" />
+
+            </div>
+            <!-- /.content-wrapper -->
+            <%-- <footer class="main-footer">
+                <div class="pull-right hidden-xs">
+                    <b>Version</b> 1.0
+   
+                </div>
+                <strong>Copyright &copy;
+                        <script>document.write(new Date().getFullYear())</script>
+                    <a href="#">Fanatical Technologies</a>.</strong> All rights reserved.
+ 
+            </footer>--%>
+        </div>
+        <!-- ./wrapper -->
+
+        <!-- jQuery 3 -->
+        <script src='../newpanel/bower_components/jquery/dist/jquery.min.js' type="text/javascript"></script>
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <!-- jQuery UI 1.11.4 -->
+        <script src='../newpanel/bower_components/jquery-ui/jquery-ui.min.js' type="text/javascript"></script>
+
+        <!-- Bootstrap 3.3.7 -->
+        <script src='../newpanel/bower_components/bootstrap/dist/js/bootstrap.min.js' type="text/javascript"></script>
+        <!-- Bootstrap WYSIHTML5 -->
+        <script src='../newpanel/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js' type="text/javascript"></script>
+        <!-- Slimscroll -->
+        <script src='../newpanel/bower_components/jquery-slimscroll/jquery.slimscroll.min.js' type="text/javascript"></script>
+        <!-- FastClick -->
+        <script src='../newpanel/bower_components/fastclick/lib/fastclick.js' type="text/javascript"></script>
+        <%-- <script src="../newpanel/bootstrap/js/bootstrap.bundle.min.js"></script>--%>
+        <!-- AdminLTE App -->
+        <script src='../newpanel/dist/js/adminlte.min.js' type="text/javascript"></script>
+        <script src='../newpanel/comman/js/validation.js' type="text/javascript"></script>
+        <script src='../newpanel/comman/js/comman.js' type="text/javascript"></script>
+        <script src='../newpanel/customjs/login.js' type="text/javascript"></script>
+
+        <script src='../newpanel/bower_components/raphael/raphael.min.js' type="text/javascript"></script>
+        <script src='../newpanel/bower_components/morris.js/morris.min.js' type="text/javascript"></script>
+        <!-- DataTables  & Plugins -->
+        <script src="../newpanel/DataTable/DataTables-1.10.16/js/jquery.dataTables.min.js"></script>
+        <script src="../newpanel/DataTable/DataTables-1.10.16/js/dataTables.bootstrap4.min.js"></script>
+        <script src="../newpanel/DataTable/datatables-responsive/js/dataTables.responsive.min.js"></script>
+        <script src="../newpanel/DataTable/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+        <script src="../newpanel/DataTable/Buttons-1.5.1/js/dataTables.buttons.min.js"></script>
+        <script src="../newpanel/DataTable/Buttons-1.5.1/js/buttons.bootstrap4.min.js"></script>
+        <script src="../newpanel/DataTable/JSZip-2.5.0/jszip.min.js"></script>
+        <script src="../newpanel/DataTable/pdfmake-0.1.32/pdfmake.min.js"></script>
+        <script src="../newpanel/DataTable/pdfmake-0.1.32/vfs_fonts.js"></script>
+        <script src="../newpanel/DataTable/Buttons-1.5.1/js/buttons.html5.min.js"></script>
+        <script src="../newpanel/DataTable/Buttons-1.5.1/js/buttons.print.min.js"></script>
+        <script src="../newpanel/DataTable/Buttons-1.5.1/js/buttons.colVis.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            $(function () {
+                $('#example4').DataTable({
+                    "paging": true,
+                    "lengthChange": false,
+                    "searching": false,
+                    "ordering": false,
+                    "info": false,
+                    "autoWidth": false,
+                    "responsive": false,
+                });
+                $('#example1').DataTable({
+                    "paging": false,
+                    "lengthChange": false,
+                    "searching": false,
+                    "ordering": false,
+                    "info": false,
+                    "autoWidth": false,
+                    "responsive": true,
+                });
+                $("#example").DataTable(
+                    {
+                        "responsive": true
+                        , "lengthChange": false
+                        , "autoWidth": false
+                        , "buttons": ["print"]
+                    }).buttons().container().appendTo('#example_wrapper .col-md-6:eq(0)');
+                "use strict";
+                if ($("#sales-chart").length > 0 && $("#hddonut").val() != "") {
+                    var dataString = $("#hddonut").val().split('###');
+                    //DONUT CHART
+                    var donut = new Morris.Donut({
+                        element: 'sales-chart',
+                        resize: true,
+                        colors: ["#f56954", "#3c8dbc", "#00a65a"],
+                        data: [
+                            { label: "Due Fee", value: dataString[2].split('-')[0] },
+                            { label: "Discount", value: dataString[1].split('-')[0] },
+                            { label: "Paid Fee", value: dataString[0].split('-')[0] }
+                        ],
+                        hideHover: 'auto'
+                    });
+                }
+                if ($("#bar-chart").length > 0 && $("#hdbar").val() != "") {
+                    var dataString = $("#hdbar").val().split('###');
+                    var ssp = new Array();
+                    for (var i = 0; i < dataString.length; i++) {
+                        ssp.push({
+                            y: dataString[i].split('-')[0], a: dataString[i].split('-')[1]
+                        });
+                    }
+
+                    //BAR CHART
+                    var bar = new Morris.Bar({
+                        element: 'bar-chart',
+                        resize: true,
+                        data: ssp,
+                        barColors: ['#00a65a'],
+                        xkey: 'y',
+                        ykeys: ['a'],
+                        labels: ['Fee'],
+                        hideHover: 'auto'
+                    });
+                }
+                if ($("#attendancebar-chart").length > 0 && $("#hdtechatt1").val() != "") {
+                    var dataString = $("#hdtechatt1").val().split('###');
+                    var xkeysString = [];
+                    var coltotString = $("#hdtechatt2").val().split('###');
+                    var ssp = new Array();
+                    for (var i = 0; i < dataString.length; i++) {
+                        var sp = dataString[i].split('#');
+                        ssp.push({
+                            y: sp[0]
+                        });
+                        for (var j = 1; j < sp.length; j++) {
+                            ssp[(ssp.length - 1)]['a' + j] = sp[j];
+                            if (i == 0) {
+                                xkeysString.push('a' + j);
+                            }
+                        }
+                    }
+                    //BAR CHART
+                    var bar = new Morris.Bar({
+                        element: 'attendancebar-chart',
+                        resize: true,
+                        data: ssp,
+                        barColors: ['#00a65a'],
+                        xkey: 'y',
+                        ykeys: xkeysString,
+                        labels: coltotString,
+                        hideHover: 'auto'
+                    });
+                }
+                if ($("#adminattendancebar-chart").length > 0 && $("#hdadminatt1").val() != "") {
+                    var dataString = $("#hdadminatt1").val().split('###');
+                    var ssp = new Array();
+                    for (var i = 0; i < dataString.length; i++) {
+                        ssp.push({
+                            y: dataString[i].split('#')[0], a: dataString[i].split('#')[1], b: dataString[i].split('#')[2]
+                        });
+                    }
+
+                    //BAR CHART
+                    var bar = new Morris.Bar({
+                        element: 'adminattendancebar-chart',
+                        resize: true,
+                        data: ssp,
+                        barColors: ['#00a65a', '#f56954'],
+                        xkey: 'y',
+                        ykeys: ['a', 'b'],
+                        labels: ['Present', 'Absent'],
+                        hideHover: 'auto'
+                    });
+                }
+            });
+        </script>
+        <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+        <script type="text/javascript">
+            $(function () {
+                var url = window.location.pathname;
+                var myPageName = url.substring(url.lastIndexOf('/') + 1);
+                if (myPageName != "") {
+                    var s = myPageName;
+                    $(".sidebar-menu li.active").removeClass("active");
+                    $("a[href*='" + s + "']").parent().addClass("active");
+                    if ($("a[href*='" + s + "']").parent().parent().hasClass("treeview-menu")) {
+                        $("a[href*='" + s + "']").parent().parent().parent().addClass("active menu-open");
+                        $("a[href*='" + s + "']").parent().parent().show();
+                    }
+                }
+            });
+        </script>
+    </form>
+</body>
+</html>
+

@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action" xml:space="preserve">
+    <value>कार्रवाई</value>
+  </data>
+  <data name="ACTIVE" xml:space="preserve">
+    <value>सक्रिय</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>पता</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
+    <value>व्यवस्थापक</value>
+  </data>
+  <data name="ANDAMAN AND NICOBAR ISLANDS" xml:space="preserve">
+    <value>ANDAMAN AND NICOBAR ISLANDS</value>
+  </data>
+  <data name="Anuppur" xml:space="preserve">
+    <value>अनुपपुर</value>
+  </data>
+  <data name="Ashoknagar" xml:space="preserve">
+    <value>अशोकनगर</value>
+  </data>
+  <data name="Balaghat" xml:space="preserve">
+    <value>बालाघाट</value>
+  </data>
+  <data name="Barwani" xml:space="preserve">
+    <value>बड़वानी</value>
+  </data>
+  <data name="Betul" xml:space="preserve">
+    <value>बेतुल</value>
+  </data>
+  <data name="Bhind" xml:space="preserve">
+    <value>भिंड</value>
+  </data>
+  <data name="Bhopal" xml:space="preserve">
+    <value>भोपाल</value>
+  </data>
+  <data name="Burhanpur" xml:space="preserve">
+    <value>बुरहानपुर</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>रद्द करना</value>
+  </data>
+  <data name="Check In Date" xml:space="preserve">
+    <value>आने की तिथि</value>
+  </data>
+  <data name="Check Out Date" xml:space="preserve">
+    <value>जाने की तिथि</value>
+  </data>
+  <data name="Chhatarpur" xml:space="preserve">
+    <value>छतरपुर</value>
+  </data>
+  <data name="Chhindwara" xml:space="preserve">
+    <value>छिंदवाड़ा</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>शहर</value>
+  </data>
+  <data name="City Details" xml:space="preserve">
+    <value>शहर का विवरण</value>
+  </data>
+  <data name="City Name" xml:space="preserve">
+    <value>शहर का नाम</value>
+  </data>
+  <data name="CityId" xml:space="preserve">
+    <value>सिटी आई.डी</value>
+  </data>
+  <data name="Contact No" xml:space="preserve">
+    <value>संपर्क नंबर</value>
+  </data>
+  <data name="Country Name" xml:space="preserve">
+    <value>देश नाम</value>
+  </data>
+  <data name="CountryId" xml:space="preserve">
+    <value>देश आईडी</value>
+  </data>
+  <data name="Damoh" xml:space="preserve">
+    <value>दमोह</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>डैशबोर्ड</value>
+  </data>
+  <data name="Datia" xml:space="preserve">
+    <value>दतिया</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>मिटाना</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>विवरण</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>विवरण</value>
+  </data>
+  <data name="Dewas" xml:space="preserve">
+    <value>देवास</value>
+  </data>
+  <data name="Dhar" xml:space="preserve">
+    <value>धार</value>
+  </data>
+  <data name="Dindori" xml:space="preserve">
+    <value>डिंडोरी</value>
+  </data>
+  <data name="Don't have an account?" xml:space="preserve">
+    <value>कोई खाता नहीं है?</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>संपादन करना</value>
+  </data>
+  <data name="Edit City" xml:space="preserve">
+    <value>शहर संपादित करें</value>
+  </data>
+  <data name="Edit State" xml:space="preserve">
+    <value>राज्य संपादित करें</value>
+  </data>
+  <data name="Edit Zone" xml:space="preserve">
+    <value>जोन संपादित करें</value>
+  </data>
+  <data name="Enter" xml:space="preserve">
+    <value>दर्ज करें</value>
+  </data>
+  <data name="Enter Date" xml:space="preserve">
+    <value>दिनांक दर्ज करें</value>
+  </data>
+  <data name="Enter Username..." xml:space="preserve">
+    <value>उपयोगकर्ता नाम दर्ज करें...</value>
+  </data>
+  <data name="Entries Per Page" xml:space="preserve">
+    <value>प्रति पृष्ठ प्रविष्टियाँ</value>
+  </data>
+  <data name="Forget Password?" xml:space="preserve">
+    <value>पासवर्ड भूल गए?</value>
+  </data>
+  <data name="Guest" xml:space="preserve">
+    <value>अतिथि</value>
+  </data>
+  <data name="Guest Name" xml:space="preserve">
+    <value>अतिथि का नाम</value>
+  </data>
+  <data name="Guna" xml:space="preserve">
+    <value>गुना</value>
+  </data>
+  <data name="Gwalior" xml:space="preserve">
+    <value>ग्वालियर</value>
+  </data>
+  <data name="Harda" xml:space="preserve">
+    <value>हरदा</value>
+  </data>
+  <data name="Hotel" xml:space="preserve">
+    <value>होटल</value>
+  </data>
+  <data name="HotelID" xml:space="preserve">
+    <value>होटल आईडी</value>
+  </data>
+  <data name="Icon" xml:space="preserve">
+    <value>आइकन</value>
+  </data>
+  <data name="Identification No" xml:space="preserve">
+    <value>पहचान क्रमांक</value>
+  </data>
+  <data name="Identification Type" xml:space="preserve">
+    <value>पहचान प्रकार</value>
+  </data>
+  <data name="IdHotel" xml:space="preserve">
+    <value>आईडी होटल</value>
+  </data>
+  <data name="IdUser" xml:space="preserve">
+    <value>आईडी उपयोगकर्ता</value>
+  </data>
+  <data name="INACTIVE" xml:space="preserve">
+    <value>निष्क्रिय</value>
+  </data>
+  <data name="India" xml:space="preserve">
+    <value>भारत</value>
+  </data>
+  <data name="Indore" xml:space="preserve">
+    <value>इंदौर</value>
+  </data>
+  <data name="Jabalpur" xml:space="preserve">
+    <value>जबलपुर</value>
+  </data>
+  <data name="Jagdalpur" xml:space="preserve">
+    <value>जगदलपुर</value>
+  </data>
+  <data name="Jhabua" xml:space="preserve">
+    <value>झाबुआ</value>
+  </data>
+  <data name="Katni" xml:space="preserve">
+    <value>कटनी</value>
+  </data>
+  <data name="Khandwa" xml:space="preserve">
+    <value>खंडवा</value>
+  </data>
+  <data name="Khargone" xml:space="preserve">
+    <value>खरगोन</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>लेबल</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>लॉग इन करें</value>
+  </data>
+  <data name="MADHYA PRADESH" xml:space="preserve">
+    <value>मध्य प्रदेश</value>
+  </data>
+  <data name="Mandla" xml:space="preserve">
+    <value>मंडला</value>
+  </data>
+  <data name="Mandsaur" xml:space="preserve">
+    <value>मन्दसौर</value>
+  </data>
+  <data name="Master" xml:space="preserve">
+    <value>मालिक</value>
+  </data>
+  <data name="Menu Level" xml:space="preserve">
+    <value>मेनू स्तर</value>
+  </data>
+  <data name="Mobile Number" xml:space="preserve">
+    <value>मोबाइल नंबर</value>
+  </data>
+  <data name="Morena" xml:space="preserve">
+    <value>मुरैना</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="Narmadapuram" xml:space="preserve">
+    <value>नर्मदापुरम</value>
+  </data>
+  <data name="Narsinghpur" xml:space="preserve">
+    <value>नरसिंहपुर</value>
+  </data>
+  <data name="Navigation" xml:space="preserve">
+    <value>मार्गदर्शन</value>
+  </data>
+  <data name="Neemuch" xml:space="preserve">
+    <value>नीमच</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>नया</value>
+  </data>
+  <data name="Niwari" xml:space="preserve">
+    <value>निवाड़ी</value>
+  </data>
+  <data name="No Of Additional Guest" xml:space="preserve">
+    <value>अतिरिक्त अतिथि की संख्या</value>
+  </data>
+  <data name="OTP" xml:space="preserve">
+    <value>ओ.टी.पी</value>
+  </data>
+  <data name="Panna" xml:space="preserve">
+    <value>पन्ना</value>
+  </data>
+  <data name="Parentid" xml:space="preserve">
+    <value>Parentid</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>पासवर्ड</value>
+  </data>
+  <data name="Police Station" xml:space="preserve">
+    <value>पुलिस स्टेशन</value>
+  </data>
+  <data name="PoliceStationId" xml:space="preserve">
+    <value>पुलिस स्टेशन आईडी</value>
+  </data>
+  <data name="Raisen" xml:space="preserve">
+    <value>रायसेन</value>
+  </data>
+  <data name="Rajgarh" xml:space="preserve">
+    <value>राजगढ़</value>
+  </data>
+  <data name="Ratlam" xml:space="preserve">
+    <value>रतलाम</value>
+  </data>
+  <data name="Recover your password" xml:space="preserve">
+    <value>पासवर्ड पुनः प्राप्त करना</value>
+  </data>
+  <data name="Remember Me" xml:space="preserve">
+    <value>मुझे याद करो</value>
+  </data>
+  <data name="Repeat Password" xml:space="preserve">
+    <value>पासवर्ड दोहराएं</value>
+  </data>
+  <data name="Reset Password" xml:space="preserve">
+    <value>पासवर्ड रीसेट</value>
+  </data>
+  <data name="Rewa" xml:space="preserve">
+    <value>रीवा</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>भूमिका</value>
+  </data>
+  <data name="Role Police Station" xml:space="preserve">
+    <value>भूमिका पुलिस स्टेशन</value>
+  </data>
+  <data name="RoleId" xml:space="preserve">
+    <value>भूमिका-आईडी</value>
+  </data>
+  <data name="Route" xml:space="preserve">
+    <value>मार्ग</value>
+  </data>
+  <data name="Sagar" xml:space="preserve">
+    <value>सागर</value>
+  </data>
+  <data name="Satna" xml:space="preserve">
+    <value>सतना</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>सहेजें</value>
+  </data>
+  <data name="Sayaji1" xml:space="preserve">
+    <value>सयाजी1</value>
+  </data>
+  <data name="Search:" xml:space="preserve">
+    <value>खोज:</value>
+  </data>
+  <data name="Sehore" xml:space="preserve">
+    <value>सीहोर</value>
+  </data>
+  <data name="SEND RESET LINK" xml:space="preserve">
+    <value>रीसेट लिंक भेजें</value>
+  </data>
+  <data name="Seoni" xml:space="preserve">
+    <value>सिवनी</value>
+  </data>
+  <data name="Shahdol" xml:space="preserve">
+    <value>शाहडोल</value>
+  </data>
+  <data name="Shajapur" xml:space="preserve">
+    <value>शाजापुर</value>
+  </data>
+  <data name="Sheopur" xml:space="preserve">
+    <value>श्योपुर</value>
+  </data>
+  <data name="Shivpuri" xml:space="preserve">
+    <value>शिवपुरी</value>
+  </data>
+  <data name="Showing 1 to 1 of 1 entry" xml:space="preserve">
+    <value>1 में से 1 प्रविष्टि दिखा रहा हूँ</value>
+  </data>
+  <data name="Sidhi" xml:space="preserve">
+    <value>सीधी</value>
+  </data>
+  <data name="Sign In Here" xml:space="preserve">
+    <value>यहां साइन इन करो</value>
+  </data>
+  <data name="Sign In to your account" xml:space="preserve">
+    <value>अपने अकाउंट में साइन इन करें</value>
+  </data>
+  <data name="Sign up Now" xml:space="preserve">
+    <value>अभी साइनअप करें</value>
+  </data>
+  <data name="Sortorder" xml:space="preserve">
+    <value>क्रमबद्ध करेन का आदेश</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>राज्य</value>
+  </data>
+  <data name="State Details" xml:space="preserve">
+    <value>राज्य विवरण</value>
+  </data>
+  <data name="State Name" xml:space="preserve">
+    <value>राज्य का नाम</value>
+  </data>
+  <data name="StateId" xml:space="preserve">
+    <value>राज्य आईडी</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>स्थिति</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>जमा करना</value>
+  </data>
+  <data name="Tikamgarh" xml:space="preserve">
+    <value>टीकमगढ़</value>
+  </data>
+  <data name="Ujjain" xml:space="preserve">
+    <value>उज्जैन</value>
+  </data>
+  <data name="Umaria" xml:space="preserve">
+    <value>उमरिया</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>उपयोगकर्ता</value>
+  </data>
+  <data name="User Hotel" xml:space="preserve">
+    <value>उपयोगकर्ता होटल</value>
+  </data>
+  <data name="UserID" xml:space="preserve">
+    <value>उपयोगकर्ता पहचान</value>
+  </data>
+  <data name="Vidisha" xml:space="preserve">
+    <value>विदिशा</value>
+  </data>
+  <data name="vijay nagar" xml:space="preserve">
+    <value>विजय नगर</value>
+  </data>
+  <data name="Zone" xml:space="preserve">
+    <value>क्षेत्र</value>
+  </data>
+  <data name="Zone Details" xml:space="preserve">
+    <value>जोन विवरण</value>
+  </data>
+  <data name="Zone Name" xml:space="preserve">
+    <value>जोन का नाम</value>
+  </data>
+  <data name="ZoneId" xml:space="preserve">
+    <value>ज़ोन आई.डी</value>
+  </data>
+</root>
