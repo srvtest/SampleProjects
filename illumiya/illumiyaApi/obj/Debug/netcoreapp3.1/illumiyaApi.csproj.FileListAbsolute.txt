@@ -1,0 +1,190 @@
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaApi.exe
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaApi.deps.json
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaApi.runtimeconfig.json
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaApi.runtimeconfig.dev.json
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaApi.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaApi.pdb
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\obj\Debug\netcoreapp3.1\illumiyaApi.csprojAssemblyReference.cache
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\obj\Debug\netcoreapp3.1\illumiyaApi.AssemblyInfoInputs.cache
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\obj\Debug\netcoreapp3.1\illumiyaApi.AssemblyInfo.cs
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\obj\Debug\netcoreapp3.1\illumiyaApi.RazorTargetAssemblyInfo.cache
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\obj\Debug\netcoreapp3.1\staticwebassets\illumiyaApi.StaticWebAssets.Manifest.cache
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\obj\Debug\netcoreapp3.1\staticwebassets\illumiyaApi.StaticWebAssets.xml
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\obj\Debug\netcoreapp3.1\illumiyaApi.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\obj\Debug\netcoreapp3.1\illumiyaApi.pdb
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\obj\Debug\netcoreapp3.1\illumiyaApi.genruntimeconfig.cache
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\obj\Debug\netcoreapp3.1\illumiyaApi.csproj.CopyComplete
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\Namotion.Reflection.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\NJsonSchema.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\NSwag.Annotations.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\NSwag.AspNetCore.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\NSwag.Core.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\NSwag.Generation.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\NSwag.Generation.AspNetCore.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\SshNet.Security.Cryptography.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaAuthenticationConnector.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaConnectorEntities.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaEntities.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaFramework.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaModels.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaWorkflows.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaWorkflows.pdb
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaAuthenticationConnector.pdb
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.pdb
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaConnectorEntities.pdb
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaEntities.pdb
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaFramework.pdb
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaModels.pdb
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\obj\Debug\netcoreapp3.1\illumiyaApi.csproj.CoreCompileInputs.cache
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaApi\obj\Debug\netcoreapp3.1\illumiyaApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\obj\Debug\netcoreapp3.1\illumiyaApi.csprojAssemblyReference.cache
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\obj\Debug\netcoreapp3.1\illumiyaApi.AssemblyInfoInputs.cache
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\obj\Debug\netcoreapp3.1\illumiyaApi.AssemblyInfo.cs
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\obj\Debug\netcoreapp3.1\illumiyaApi.csproj.CoreCompileInputs.cache
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\obj\Debug\netcoreapp3.1\illumiyaApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\obj\Debug\netcoreapp3.1\illumiyaApi.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\obj\Debug\netcoreapp3.1\illumiyaApi.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaApi.exe
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaApi.deps.json
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaApi.runtimeconfig.json
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaApi.runtimeconfig.dev.json
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaApi.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaApi.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\Namotion.Reflection.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\NJsonSchema.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\NSwag.Annotations.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\NSwag.AspNetCore.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\NSwag.Core.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\NSwag.Generation.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\NSwag.Generation.AspNetCore.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\SshNet.Security.Cryptography.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaConnectorEntities.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaCountriesRepository.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaCountryConnector.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaEntities.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaFramework.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaModels.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaWorkflows.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaWorkflows.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaConnectorEntities.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaCountriesRepository.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaCountryConnector.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaEntities.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaFramework.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaModels.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\obj\Debug\netcoreapp3.1\illumiyaApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\obj\Debug\netcoreapp3.1\illumiyaApi.RazorTargetAssemblyInfo.cache
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\obj\Debug\netcoreapp3.1\illumiyaApi.csproj.CopyComplete
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\obj\Debug\netcoreapp3.1\staticwebassets\illumiyaApi.StaticWebAssets.Manifest.cache
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\obj\Debug\netcoreapp3.1\staticwebassets\illumiyaApi.StaticWebAssets.xml
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\obj\Debug\netcoreapp3.1\illumiyaApi.genruntimeconfig.cache
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaSubjectConnector.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaSubjectsRepository.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaSubjectConnector.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaSubjectsRepository.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaAuthenticationConnector.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaAuthenticationConnector.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaApi\bin\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.pdb

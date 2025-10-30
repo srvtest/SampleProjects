@@ -1,0 +1,32 @@
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaAuthenticationRepository\bin\Debug\netcoreapp3.1\illumiyaConnectorEntities.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaAuthenticationRepository\bin\Debug\netcoreapp3.1\illumiyaFramework.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaAuthenticationRepository\bin\Debug\netcoreapp3.1\illumiyaModels.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaAuthenticationRepository\bin\Debug\netcoreapp3.1\illumiyaFramework.pdb
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaAuthenticationRepository\bin\Debug\netcoreapp3.1\illumiyaModels.pdb
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaAuthenticationRepository\obj\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.csprojAssemblyReference.cache
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaAuthenticationRepository\obj\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.AssemblyInfoInputs.cache
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaAuthenticationRepository\obj\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.AssemblyInfo.cs
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaAuthenticationRepository\bin\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.deps.json
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaAuthenticationRepository\bin\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaAuthenticationRepository\bin\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.pdb
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaAuthenticationRepository\bin\Debug\netcoreapp3.1\illumiyaConnectorEntities.pdb
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaAuthenticationRepository\obj\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.csproj.CoreCompileInputs.cache
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaAuthenticationRepository\obj\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.csproj.CopyComplete
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaAuthenticationRepository\obj\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaAuthenticationRepository\obj\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaAuthenticationRepository\bin\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.deps.json
+C:\Projects\core\Namit\illumiya Api\illumiyaAuthenticationRepository\bin\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaAuthenticationRepository\bin\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaAuthenticationRepository\bin\Debug\netcoreapp3.1\illumiyaConnectorEntities.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaAuthenticationRepository\bin\Debug\netcoreapp3.1\illumiyaFramework.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaAuthenticationRepository\bin\Debug\netcoreapp3.1\illumiyaModels.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaAuthenticationRepository\bin\Debug\netcoreapp3.1\illumiyaConnectorEntities.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaAuthenticationRepository\bin\Debug\netcoreapp3.1\illumiyaFramework.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaAuthenticationRepository\bin\Debug\netcoreapp3.1\illumiyaModels.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaAuthenticationRepository\obj\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.csprojAssemblyReference.cache
+C:\Projects\core\Namit\illumiya Api\illumiyaAuthenticationRepository\obj\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.AssemblyInfoInputs.cache
+C:\Projects\core\Namit\illumiya Api\illumiyaAuthenticationRepository\obj\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.AssemblyInfo.cs
+C:\Projects\core\Namit\illumiya Api\illumiyaAuthenticationRepository\obj\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.csproj.CoreCompileInputs.cache
+C:\Projects\core\Namit\illumiya Api\illumiyaAuthenticationRepository\obj\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.csproj.CopyComplete
+C:\Projects\core\Namit\illumiya Api\illumiyaAuthenticationRepository\obj\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaAuthenticationRepository\obj\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.pdb

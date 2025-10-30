@@ -1,0 +1,16 @@
+C:\Projects\core\Namit\illumiya Api\illumiyaSubjectsRepository\bin\Debug\netcoreapp3.1\illumiyaSubjectsRepository.deps.json
+C:\Projects\core\Namit\illumiya Api\illumiyaSubjectsRepository\bin\Debug\netcoreapp3.1\illumiyaSubjectsRepository.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaSubjectsRepository\bin\Debug\netcoreapp3.1\illumiyaConnectorEntities.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaSubjectsRepository\bin\Debug\netcoreapp3.1\illumiyaFramework.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaSubjectsRepository\bin\Debug\netcoreapp3.1\illumiyaModels.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaSubjectsRepository\bin\Debug\netcoreapp3.1\illumiyaConnectorEntities.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaSubjectsRepository\bin\Debug\netcoreapp3.1\illumiyaFramework.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaSubjectsRepository\bin\Debug\netcoreapp3.1\illumiyaModels.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaSubjectsRepository\obj\Debug\netcoreapp3.1\illumiyaSubjectsRepository.csprojAssemblyReference.cache
+C:\Projects\core\Namit\illumiya Api\illumiyaSubjectsRepository\obj\Debug\netcoreapp3.1\illumiyaSubjectsRepository.AssemblyInfoInputs.cache
+C:\Projects\core\Namit\illumiya Api\illumiyaSubjectsRepository\obj\Debug\netcoreapp3.1\illumiyaSubjectsRepository.AssemblyInfo.cs
+C:\Projects\core\Namit\illumiya Api\illumiyaSubjectsRepository\obj\Debug\netcoreapp3.1\illumiyaSubjectsRepository.csproj.CopyComplete
+C:\Projects\core\Namit\illumiya Api\illumiyaSubjectsRepository\bin\Debug\netcoreapp3.1\illumiyaSubjectsRepository.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaSubjectsRepository\obj\Debug\netcoreapp3.1\illumiyaSubjectsRepository.csproj.CoreCompileInputs.cache
+C:\Projects\core\Namit\illumiya Api\illumiyaSubjectsRepository\obj\Debug\netcoreapp3.1\illumiyaSubjectsRepository.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaSubjectsRepository\obj\Debug\netcoreapp3.1\illumiyaSubjectsRepository.pdb

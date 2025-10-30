@@ -1,0 +1,17 @@
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaFramework\bin\Debug\netcoreapp3.1\illumiyaFramework.deps.json
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaFramework\bin\Debug\netcoreapp3.1\illumiyaFramework.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaFramework\obj\Debug\netcoreapp3.1\illumiyaFramework.AssemblyInfoInputs.cache
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaFramework\obj\Debug\netcoreapp3.1\illumiyaFramework.AssemblyInfo.cs
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaFramework\bin\Debug\netcoreapp3.1\illumiyaFramework.pdb
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaFramework\obj\Debug\netcoreapp3.1\illumiyaFramework.csproj.CoreCompileInputs.cache
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaFramework\obj\Debug\netcoreapp3.1\illumiyaFramework.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaFramework\obj\Debug\netcoreapp3.1\illumiyaFramework.pdb
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaFramework\obj\Debug\netcoreapp3.1\illumiyaFramework.csprojAssemblyReference.cache
+C:\Projects\core\Namit\illumiya Api\illumiyaFramework\bin\Debug\netcoreapp3.1\illumiyaFramework.deps.json
+C:\Projects\core\Namit\illumiya Api\illumiyaFramework\bin\Debug\netcoreapp3.1\illumiyaFramework.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaFramework\bin\Debug\netcoreapp3.1\illumiyaFramework.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaFramework\obj\Debug\netcoreapp3.1\illumiyaFramework.AssemblyInfoInputs.cache
+C:\Projects\core\Namit\illumiya Api\illumiyaFramework\obj\Debug\netcoreapp3.1\illumiyaFramework.AssemblyInfo.cs
+C:\Projects\core\Namit\illumiya Api\illumiyaFramework\obj\Debug\netcoreapp3.1\illumiyaFramework.csproj.CoreCompileInputs.cache
+C:\Projects\core\Namit\illumiya Api\illumiyaFramework\obj\Debug\netcoreapp3.1\illumiyaFramework.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaFramework\obj\Debug\netcoreapp3.1\illumiyaFramework.pdb

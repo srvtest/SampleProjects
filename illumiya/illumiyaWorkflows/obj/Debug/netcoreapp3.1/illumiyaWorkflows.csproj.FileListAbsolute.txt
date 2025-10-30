@@ -1,0 +1,52 @@
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaWorkflows.deps.json
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaWorkflows.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaWorkflows.pdb
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaAuthenticationConnector.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaConnectorEntities.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaEntities.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaFramework.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaModels.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaAuthenticationConnector.pdb
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.pdb
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaConnectorEntities.pdb
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaEntities.pdb
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaFramework.pdb
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaModels.pdb
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaWorkflows\obj\Debug\netcoreapp3.1\illumiyaWorkflows.csprojAssemblyReference.cache
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaWorkflows\obj\Debug\netcoreapp3.1\illumiyaWorkflows.AssemblyInfoInputs.cache
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaWorkflows\obj\Debug\netcoreapp3.1\illumiyaWorkflows.AssemblyInfo.cs
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaWorkflows\obj\Debug\netcoreapp3.1\illumiyaWorkflows.csproj.CoreCompileInputs.cache
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaWorkflows\obj\Debug\netcoreapp3.1\illumiyaWorkflows.csproj.CopyComplete
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaWorkflows\obj\Debug\netcoreapp3.1\illumiyaWorkflows.dll
+C:\Projects\core\Namit\Services\illumiyaApi\illumiyaApi\illumiyaWorkflows\obj\Debug\netcoreapp3.1\illumiyaWorkflows.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\obj\Debug\netcoreapp3.1\illumiyaWorkflows.csprojAssemblyReference.cache
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\obj\Debug\netcoreapp3.1\illumiyaWorkflows.AssemblyInfoInputs.cache
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\obj\Debug\netcoreapp3.1\illumiyaWorkflows.AssemblyInfo.cs
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\obj\Debug\netcoreapp3.1\illumiyaWorkflows.csproj.CoreCompileInputs.cache
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\obj\Debug\netcoreapp3.1\illumiyaWorkflows.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\obj\Debug\netcoreapp3.1\illumiyaWorkflows.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaWorkflows.deps.json
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaWorkflows.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaWorkflows.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaConnectorEntities.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaCountriesRepository.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaCountryConnector.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaEntities.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaFramework.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaModels.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaCountryConnector.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaConnectorEntities.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaCountriesRepository.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaEntities.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaFramework.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaModels.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\obj\Debug\netcoreapp3.1\illumiyaWorkflows.csproj.CopyComplete
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaSubjectConnector.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaSubjectsRepository.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaSubjectConnector.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaSubjectsRepository.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaAuthenticationConnector.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.dll
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaAuthenticationConnector.pdb
+C:\Projects\core\Namit\illumiya Api\illumiyaWorkflows\bin\Debug\netcoreapp3.1\illumiyaAuthenticationRepository.pdb
